@@ -15,7 +15,7 @@ async def handle_kakao(request: Request):
     
     # [수정 포인트] 카카오 i 오픈빌더 설정값과 동일하게 't'를 넣었습니다.
     params = data.get('action', {}).get('params', {})
-    name = params.get('poketmon_name', '') 
+    name = params.get('pokemon_name', '') 
 
     if name in POKEMON_INFO:
         info = POKEMON_INFO[name]
