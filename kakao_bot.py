@@ -17,92 +17,137 @@ def load_data():
 
 data = load_data()
 
-def search_pokemon(query):
+def search_pokemon_raw(query):
+    """
+    Returns a dictionary with parsed results instead of a single formatted string,
+    so the bot can format it into a BasicCard.
+    """
     if not data:
-        return "데이터를 불러올 수 없습니다."
+        return {"error": "데이터를 불러올 수 없습니다."}
         
-    results = []
+    result_data = {
+        "tier_matches": [],
+        "beginner_matches": [],
+        "pokedex_matches": []
+    }
     
     # 1. 티어 데이터 검색
     for type_group in data.get('tier_data', []):
         if query in type_group['Type']:
-             results.append(f"[{type_group['Type']} 타입 티어]")
-             for p in type_group['Pokémon']:
-                 results.append(f"{p['Grade']} | {p['Name']} | {p['DPS']} | {p['TDO']} | {p['Moves']}")
+            results = []
+            for p in type_group['Pokémon']:
+                 results.append(f"{p['Grade']} | {p['Name']} | DPS: {p['DPS']} | TDO: {p['TDO']} | {p['Moves']}")
+            result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
         else:
             matching = [p for p in type_group['Pokémon'] if query in p['Name']]
             if matching:
-                 results.append(f"[{type_group['Type']} 타입 검색 결과]")
+                 results = []
                  for p in matching:
-                     results.append(f"{p['Grade']} | {p['Name']} | {p['DPS']} | {p['TDO']} | {p['Moves']}")
+                     results.append(f"{p['Grade']} | {p['Name']} | DPS: {p['DPS']} | TDO: {p['TDO']} | {p['Moves']}")
+                 result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
 
     # 2. 초보자 추천 검색
-    beginner_matches = []
     for p in data.get('beginner_list', []):
         if query in p['name'] or query in p['from']:
-            beginner_matches.append(p)
-            
-    if beginner_matches:
-        results.append("\n[초보자 추천]")
-        for p in beginner_matches:
-            results.append(f"- {p['name']} (진화전: {p['from']})\n  기술: {p['moves']}")
+            result_data["beginner_matches"].append(
+                f"- {p['name']} (진화전: {p['from']})\n기술: {p['moves']}"
+            )
 
     # 3. 도감 정보 검색
-    pokedex_matches = []
     for p in data.get('all_pokemon', []):
         if query in str(p.get('name', '')):
-            pokedex_matches.append(p)
-            
-    if pokedex_matches:
-        results.append("\n[도감 정보]")
-        for p in pokedex_matches:
             types_str = ", ".join(p.get('types', []))
             weak4 = p.get('weaknesses', {}).get('4배', '-') if p.get('weaknesses', {}).get('4배') else '-'
             weak2 = p.get('weaknesses', {}).get('2배', '-') if p.get('weaknesses', {}).get('2배') else '-'
-            results.append(f"No.{p['no']} {p['name']}\n타입: {types_str}\n4배 약점: {weak4}\n2배 약점: {weak2}\n---")
-
-    if not results:
-        return f"'{query}'에 대한 검색 결과가 없습니다."
+            result_data["pokedex_matches"].append({
+                "no": p['no'],
+                "name": p['name'],
+                "desc": f"타입: {types_str}\n4배 약점: {weak4}\n2배 약점: {weak2}"
+            })
+            
+    is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"]
+    if is_empty:
+        return {"error": f"'{query}'에 대한 검색 결과가 없습니다."}
         
-    return "\n".join(results)
+    return result_data
 
 @app.route('/api/pokemon', methods=['POST'])
 def kakao_pokemon_bot():
     try:
-        # force=True와 silent=True를 통해 Content-Type 제약이나 파싱 에러 방지
         req = request.get_json(force=True, silent=True) or {}
-        
-        # 카카오톡 챗봇에서 사용자가 입력한 발화(utterance) 추출
         user_utterance = req.get('userRequest', {}).get('utterance', '').strip()
         
-        # 발화문이 없는 경우 처리
         if not user_utterance:
-            search_result = "포켓몬 이름이나 타입을 검색해주세요."
-        else:
-            search_result = search_pokemon(user_utterance)
+            return return_simple_text("포켓몬 이름이나 타입을 검색해주세요.")
+            
+        result_data = search_pokemon_raw(user_utterance)
+        
+        if "error" in result_data:
+            return return_simple_text(result_data["error"])
+            
+        # BasicCard 생성을 위해 텍스트 조립
+        title = f"🔍 '{user_utterance}' 검색 결과"
+        desc_lines = []
+        
+        if result_data["pokedex_matches"]:
+            for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만 도감 정보 축약
+                desc_lines.append(f"No.{p['no']} {p['name']}\n{p['desc']}")
+            desc_lines.append("────────────────")
+            
+        if result_data["tier_matches"]:
+            for match in result_data["tier_matches"][:2]: # 티어 결과 최대 2개 타입분만
+                desc_lines.append(f"[{match['type']} 타입 티어/검색]")
+                desc_lines.extend(match["results"][:3]) # 첫 3마리만
+                if len(match["results"]) > 3:
+                    desc_lines.append("...등")
+                desc_lines.append("")
+                
+        if result_data["beginner_matches"]:
+            desc_lines.append(f"[초보자 추천]")
+            desc_lines.extend(result_data["beginner_matches"][:2])
+
+        description = "\n".join(desc_lines).strip()
+        
+        # description 문자열 76자 이상일때 처리해야 하지만 넉넉히 잘라줌
+        # Kakao BasicCard 제약상 description의 최대 글자수가 정해져있을 수 있음
+        if len(description) > 500:
+            description = description[:495] + "\n..."
+
+        response = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "basicCard": {
+                            "title": title,
+                            "description": description,
+                            "thumbnail": {
+                                # 포켓몬 공식 일러스트 대신 포켓몬스터 범용 공 썸네일 혹은 투명 이미지 사용
+                                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1024px-Pok%C3%A9_Ball_icon.svg.png"
+                            },
+                        }
+                    }
+                ]
+            }
+        }
+        return jsonify(response)
             
     except Exception as e:
-        search_result = f"서버 처리 중 에러가 발생했습니다: {str(e)}"
-    
-    # 최대 텍스트 길이(1000자) 제한 확인 (카카오톡 simpleText 정책)
-    if len(search_result) > 1000:
-        search_result = search_result[:995] + "\n..."
-    
-    # 카카오톡 응답 포맷 (Skill Response)
-    response = {
+        return return_simple_text(f"서버 처리 중 에러가 발생했습니다: {str(e)}")
+
+def return_simple_text(text):
+    return jsonify({
         "version": "2.0",
         "template": {
             "outputs": [
                 {
                     "simpleText": {
-                        "text": search_result
+                        "text": text[:995] + "..." if len(text) > 1000 else text
                     }
                 }
             ]
         }
-    }
-    
-    return jsonify(response)
+    })
 
 if __name__ == '__main__':
     # Render 등 클라우드 환경에서는 PORT 환경변수를 사용합니다
