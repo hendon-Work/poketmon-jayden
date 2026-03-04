@@ -7,7 +7,10 @@ app = Flask(__name__)
 # 데이터 로드
 def load_data():
     try:
-        with open('pokemon_data.json', 'r', encoding='utf-8') as f:
+        # 현재 스크립트 파일의 디렉토리를 기준으로 절대 경로 생성
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        file_path = os.path.join(base_dir, 'pokemon_data.json')
+        with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
         return None
@@ -65,13 +68,21 @@ def search_pokemon(query):
 
 @app.route('/api/pokemon', methods=['POST'])
 def kakao_pokemon_bot():
-    req = request.get_json()
-    
-    # 카카오톡 챗봇에서 사용자가 입력한 발화(utterance) 추출
-    user_utterance = req.get('userRequest', {}).get('utterance', '').strip()
-    
-    # 검색 수행
-    search_result = search_pokemon(user_utterance)
+    try:
+        # force=True와 silent=True를 통해 Content-Type 제약이나 파싱 에러 방지
+        req = request.get_json(force=True, silent=True) or {}
+        
+        # 카카오톡 챗봇에서 사용자가 입력한 발화(utterance) 추출
+        user_utterance = req.get('userRequest', {}).get('utterance', '').strip()
+        
+        # 발화문이 없는 경우 처리
+        if not user_utterance:
+            search_result = "포켓몬 이름이나 타입을 검색해주세요."
+        else:
+            search_result = search_pokemon(user_utterance)
+            
+    except Exception as e:
+        search_result = f"서버 처리 중 에러가 발생했습니다: {str(e)}"
     
     # 최대 텍스트 길이(1000자) 제한 확인 (카카오톡 simpleText 정책)
     if len(search_result) > 1000:
