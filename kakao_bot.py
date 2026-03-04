@@ -85,7 +85,7 @@ def kakao_pokemon_bot():
         if "error" in result_data:
             return return_simple_text(result_data["error"])
             
-        cards = []
+        outputs = []
         
         # 대표 포켓몬 번호 찾기 (썸네일용)
         query_pokemon_no = None
@@ -104,58 +104,49 @@ def kakao_pokemon_bot():
                     pass
             return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
-        # 1. 도감 카드 생성 (썸네일 제외하여 텍스트 잘림 현상 원천 차단)
-        for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만
-            cards.append({
-                "title": f"📖 No.{p['no']} {p['name']}",
-                "description": p['desc']
-            })
-            
-        # 2. 티어 카드 생성
-        for match in result_data["tier_matches"][:3]: # 최대 3개 타입 결과만
-            desc_lines = match["results"][:3] # 한 카드당 상위 3마리만
-            if len(match["results"]) > 3:
-                desc_lines.append("...등 더 많은 정보가 있습니다.")
-                
-            cards.append({
-                "title": f"🏆 {match['type']} 타입 티어/검색",
-                "description": "\n\n".join(desc_lines)
-            })
-                
-        # 3. 초보자 추천 카드 생성
-        if result_data["beginner_matches"]:
-            cards.append({
-                "title": f"🔰 초보자 추천 포켓몬",
-                "description": "\n\n".join(result_data["beginner_matches"][:3])
-            })
-
-        # 혹시 모를 배열 초과 방지 (Carousel은 최대 10개까지 지원)
-        cards = cards[:10]
-
-        outputs = []
-        
-        # 도감 정보를 매칭한 경우 가장 먼저 온전한 이미지 전용 카드를 출력합니다.
-        # 모바일 실 카카오톡 앱 환경에서 잘림을 완벽 방지하기 위해 SimpleImage 대신
-        # fixedRatio가 적용된 빈 BasicCard를 사용합니다.
+        # 도감 정보를 매칭한 경우 1. 이미지 원본 비율 보존을 위한 BasicCard 출력
         if query_pokemon_no:
             outputs.append({
                 "basicCard": {
-                    "title": "",
-                    "description": "",
+                    "title": f"📖 No.{query_pokemon_no} {query_pokemon_name}",
+                    "description": "", 
                     "thumbnail": {
                         "imageUrl": get_thumbnail_url(),
                         "fixedRatio": True,
-                        "width": 800,
-                        "height": 800
+                        "width": 500,
+                        "height": 500
                     }
                 }
             })
 
-        # 그 다음으로 텍스트들이 잘리지 않은 데이터 카드 말풍선을 출력합니다.
-        if len(cards) == 1:
-            outputs.append({"basicCard": cards[0]})
-        elif len(cards) > 1:
-            outputs.append({"carousel": {"type": "basicCard", "items": cards}})
+        # 2. 텍스트 내용 잘림(Truncation)을 막기 위한 TextCard 출력 (최대 400자 지원)
+        text_lines = []
+        if result_data["pokedex_matches"]:
+            p = result_data["pokedex_matches"][0]
+            text_lines.append(p['desc'])
+            text_lines.append("────────────────")
+            
+        for match in result_data["tier_matches"][:2]:
+            text_lines.append(f"🏆 [{match['type']} 타입 티어]")
+            text_lines.extend(match["results"][:3])
+            text_lines.append("")
+            
+        if result_data["beginner_matches"]:
+            text_lines.append(f"🔰 [초보자 추천]")
+            text_lines.extend(result_data["beginner_matches"][:2])
+            
+        final_description = "\n".join(text_lines).strip()
+        
+        # 카카오톡 TextCard 글자 제한 대비
+        if len(final_description) > 400:
+            final_description = final_description[:395] + "..."
+            
+        outputs.append({
+            "textCard": {
+                "title": f"🔍 '{user_utterance}' 상세 정보",
+                "description": final_description
+            }
+        })
 
         response = {
             "version": "2.0",
