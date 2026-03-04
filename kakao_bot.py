@@ -67,7 +67,8 @@ def search_pokemon_raw(query):
             
     is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"]
     if is_empty:
-        return {"error": f"'{query}'에 대한 검색 결과가 없습니다."}
+        # 검색 결과가 없을 때의 응답 메시지를 자유롭게 변경할 수 있습니다.
+        return {"error": f"앗! '{query}'(이)라는 포켓몬은 아직 도감에 없거나, 이름을 잘못 입력하신 것 같아요. 🥲 다시 한번 정확히 입력해 주세요!"}
         
     return result_data
 
