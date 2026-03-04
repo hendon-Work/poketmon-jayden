@@ -89,8 +89,10 @@ def kakao_pokemon_bot():
         
         # 대표 포켓몬 번호 찾기 (썸네일용)
         query_pokemon_no = None
+        query_pokemon_name = user_utterance
         if result_data["pokedex_matches"]:
             query_pokemon_no = result_data["pokedex_matches"][0].get("no")
+            query_pokemon_name = result_data["pokedex_matches"][0].get("name")
 
         def get_thumbnail_url(no=None):
             target_no = no or query_pokemon_no
@@ -102,17 +104,11 @@ def kakao_pokemon_bot():
                     pass
             return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
-        # 1. 도감 카드 생성
+        # 1. 도감 카드 생성 (썸네일 제외하여 텍스트 잘림 현상 원천 차단)
         for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만
             cards.append({
                 "title": f"📖 No.{p['no']} {p['name']}",
-                "description": p['desc'],
-                "thumbnail": {
-                    "imageUrl": get_thumbnail_url(p['no']),
-                    "fixedRatio": True, # 이미지 잘림 방지 (원본 비율 유지)
-                    "width": 500,
-                    "height": 500
-                }
+                "description": p['desc']
             })
             
         # 2. 티어 카드 생성
@@ -123,44 +119,49 @@ def kakao_pokemon_bot():
                 
             cards.append({
                 "title": f"🏆 {match['type']} 타입 티어/검색",
-                "description": "\n\n".join(desc_lines),
-                "thumbnail": {
-                    "imageUrl": get_thumbnail_url(),
-                    "fixedRatio": True,
-                    "width": 500,
-                    "height": 500
-                }
+                "description": "\n\n".join(desc_lines)
             })
                 
         # 3. 초보자 추천 카드 생성
         if result_data["beginner_matches"]:
             cards.append({
                 "title": f"🔰 초보자 추천 포켓몬",
-                "description": "\n\n".join(result_data["beginner_matches"][:3]),
-                "thumbnail": {
-                    "imageUrl": get_thumbnail_url(),
-                    "fixedRatio": True,
-                    "width": 500,
-                    "height": 500
-                }
+                "description": "\n\n".join(result_data["beginner_matches"][:3])
             })
 
         # 혹시 모를 배열 초과 방지 (Carousel은 최대 10개까지 지원)
         cards = cards[:10]
 
-        # 단일 카드인지, 캐러셀(여러 장 카드 슬라이드)인지에 따라 형태 분기
+        outputs = []
+        
+        # 도감 정보를 매칭한 경우 가장 먼저 온전한 이미지 전용 카드를 출력합니다.
+        # 모바일 실 카카오톡 앱 환경에서 잘림을 완벽 방지하기 위해 SimpleImage 대신
+        # fixedRatio가 적용된 빈 BasicCard를 사용합니다.
+        if query_pokemon_no:
+            outputs.append({
+                "basicCard": {
+                    "title": "",
+                    "description": "",
+                    "thumbnail": {
+                        "imageUrl": get_thumbnail_url(),
+                        "fixedRatio": True,
+                        "width": 800,
+                        "height": 800
+                    }
+                }
+            })
+
+        # 그 다음으로 텍스트들이 잘리지 않은 데이터 카드 말풍선을 출력합니다.
         if len(cards) == 1:
-            template = {
-                "outputs": [{"basicCard": cards[0]}]
-            }
-        else:
-            template = {
-                "outputs": [{"carousel": {"type": "basicCard", "items": cards}}]
-            }
+            outputs.append({"basicCard": cards[0]})
+        elif len(cards) > 1:
+            outputs.append({"carousel": {"type": "basicCard", "items": cards}})
 
         response = {
             "version": "2.0",
-            "template": template
+            "template": {
+                "outputs": outputs
+            }
         }
         return jsonify(response)
             
