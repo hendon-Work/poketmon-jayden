@@ -86,7 +86,8 @@ def kakao_pokemon_bot():
             return return_simple_text(result_data["error"])
             
         cards = []
-        thumbnail_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1024px-Pok%C3%A9_Ball_icon.svg.png"
+        # 위키미디어 이미지는 핫링킹 방지로 안나올 수 있어, 안정적인 다른 무료 호스팅 이미지로 교체
+        thumbnail_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
         # 1. 도감 카드 생성
         for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만
