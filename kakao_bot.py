@@ -26,34 +26,12 @@ def search_pokemon_raw(query):
         return {"error": "데이터를 불러올 수 없습니다."}
         
     result_data = {
+        "pokedex_matches": [],
         "tier_matches": [],
-        "beginner_matches": [],
-        "pokedex_matches": []
+        "beginner_matches": []
     }
     
-    # 1. 티어 데이터 검색
-    for type_group in data.get('tier_data', []):
-        if query in type_group['Type']:
-            results = []
-            for p in type_group['Pokémon']:
-                 results.append(f"{p['Grade']} | {p['Name']} | DPS: {p['DPS']} | TDO: {p['TDO']} | {p['Moves']}")
-            result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
-        else:
-            matching = [p for p in type_group['Pokémon'] if query in p['Name']]
-            if matching:
-                 results = []
-                 for p in matching:
-                     results.append(f"{p['Grade']} | {p['Name']} | DPS: {p['DPS']} | TDO: {p['TDO']} | {p['Moves']}")
-                 result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
-
-    # 2. 초보자 추천 검색
-    for p in data.get('beginner_list', []):
-        if query in p['name'] or query in p['from']:
-            result_data["beginner_matches"].append(
-                f"- {p['name']} (진화전: {p['from']})\n기술: {p['moves']}"
-            )
-
-    # 3. 도감 정보 검색
+    # 1. 도감 검색
     for p in data.get('all_pokemon', []):
         if query in str(p.get('name', '')):
             types_str = ", ".join(p.get('types', []))
@@ -62,8 +40,30 @@ def search_pokemon_raw(query):
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
-                "desc": f"타입: {types_str}\n4배 약점: {weak4}\n2배 약점: {weak2}"
+                "desc": f"🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}"
             })
+
+    # 2. 티어 검색
+    for type_group in data.get('tier_data', []):
+        if query in type_group['Type']:
+            results = []
+            for p in type_group['Pokémon']:
+                 results.append(f"[{p['Grade']} 티어] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+            result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
+        else:
+            matching = [p for p in type_group['Pokémon'] if query in p['Name']]
+            if matching:
+                 results = []
+                 for p in matching:
+                     results.append(f"[{p['Grade']} 티어] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+                 result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
+
+    # 3. 초보자 추천 검색
+    for p in data.get('beginner_list', []):
+        if query in p['name'] or query in p['from']:
+            result_data["beginner_matches"].append(
+                f"🌱 {p['name']} (진화전: {p['from']})\n✨ 추천 기술: {p['moves']}"
+            )
             
     is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"]
     if is_empty:
@@ -85,50 +85,53 @@ def kakao_pokemon_bot():
         if "error" in result_data:
             return return_simple_text(result_data["error"])
             
-        # BasicCard 생성을 위해 텍스트 조립
-        title = f"🔍 '{user_utterance}' 검색 결과"
-        desc_lines = []
-        
-        if result_data["pokedex_matches"]:
-            for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만 도감 정보 축약
-                desc_lines.append(f"No.{p['no']} {p['name']}\n{p['desc']}")
-            desc_lines.append("────────────────")
-            
-        if result_data["tier_matches"]:
-            for match in result_data["tier_matches"][:2]: # 티어 결과 최대 2개 타입분만
-                desc_lines.append(f"[{match['type']} 타입 티어/검색]")
-                desc_lines.extend(match["results"][:3]) # 첫 3마리만
-                if len(match["results"]) > 3:
-                    desc_lines.append("...등")
-                desc_lines.append("")
-                
-        if result_data["beginner_matches"]:
-            desc_lines.append(f"[초보자 추천]")
-            desc_lines.extend(result_data["beginner_matches"][:2])
+        cards = []
+        thumbnail_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1024px-Pok%C3%A9_Ball_icon.svg.png"
 
-        description = "\n".join(desc_lines).strip()
-        
-        # description 문자열 76자 이상일때 처리해야 하지만 넉넉히 잘라줌
-        # Kakao BasicCard 제약상 description의 최대 글자수가 정해져있을 수 있음
-        if len(description) > 500:
-            description = description[:495] + "\n..."
+        # 1. 도감 카드 생성
+        for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만
+            cards.append({
+                "title": f"📖 No.{p['no']} {p['name']}",
+                "description": p['desc'],
+                "thumbnail": {"imageUrl": thumbnail_url}
+            })
+            
+        # 2. 티어 카드 생성
+        for match in result_data["tier_matches"][:3]: # 최대 3개 타입 결과만
+            desc_lines = match["results"][:3] # 한 카드당 상위 3마리만
+            if len(match["results"]) > 3:
+                desc_lines.append("...등 더 많은 정보가 있습니다.")
+                
+            cards.append({
+                "title": f"🏆 {match['type']} 타입 티어/검색",
+                "description": "\n\n".join(desc_lines),
+                "thumbnail": {"imageUrl": thumbnail_url}
+            })
+                
+        # 3. 초보자 추천 카드 생성
+        if result_data["beginner_matches"]:
+            cards.append({
+                "title": f"🔰 초보자 추천 포켓몬",
+                "description": "\n\n".join(result_data["beginner_matches"][:3]),
+                "thumbnail": {"imageUrl": thumbnail_url}
+            })
+
+        # 혹시 모를 배열 초과 방지 (Carousel은 최대 10개까지 지원)
+        cards = cards[:10]
+
+        # 단일 카드인지, 캐러셀(여러 장 카드 슬라이드)인지에 따라 형태 분기
+        if len(cards) == 1:
+            template = {
+                "outputs": [{"basicCard": cards[0]}]
+            }
+        else:
+            template = {
+                "outputs": [{"carousel": {"type": "basicCard", "items": cards}}]
+            }
 
         response = {
             "version": "2.0",
-            "template": {
-                "outputs": [
-                    {
-                        "basicCard": {
-                            "title": title,
-                            "description": description,
-                            "thumbnail": {
-                                # 포켓몬 공식 일러스트 대신 포켓몬스터 범용 공 썸네일 혹은 투명 이미지 사용
-                                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1024px-Pok%C3%A9_Ball_icon.svg.png"
-                            },
-                        }
-                    }
-                ]
-            }
+            "template": template
         }
         return jsonify(response)
             
