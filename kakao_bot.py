@@ -86,15 +86,28 @@ def kakao_pokemon_bot():
             return return_simple_text(result_data["error"])
             
         cards = []
-        # 위키미디어 이미지는 핫링킹 방지로 안나올 수 있어, 안정적인 다른 무료 호스팅 이미지로 교체
-        thumbnail_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+        
+        # 대표 포켓몬 번호 찾기 (썸네일용)
+        query_pokemon_no = None
+        if result_data["pokedex_matches"]:
+            query_pokemon_no = result_data["pokedex_matches"][0].get("no")
+
+        def get_thumbnail_url(no=None):
+            target_no = no or query_pokemon_no
+            if target_no:
+                try:
+                    num = int(str(target_no).split('-')[0].strip()) # 773-1 같은 폼 대응은 기본 773번 이미지로
+                    return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
+                except Exception:
+                    pass
+            return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
         # 1. 도감 카드 생성
         for p in result_data["pokedex_matches"][:3]: # 카드는 길이 제한이 있어 최대 3개까지만
             cards.append({
                 "title": f"📖 No.{p['no']} {p['name']}",
                 "description": p['desc'],
-                "thumbnail": {"imageUrl": thumbnail_url}
+                "thumbnail": {"imageUrl": get_thumbnail_url(p['no'])}
             })
             
         # 2. 티어 카드 생성
@@ -106,7 +119,7 @@ def kakao_pokemon_bot():
             cards.append({
                 "title": f"🏆 {match['type']} 타입 티어/검색",
                 "description": "\n\n".join(desc_lines),
-                "thumbnail": {"imageUrl": thumbnail_url}
+                "thumbnail": {"imageUrl": get_thumbnail_url()}
             })
                 
         # 3. 초보자 추천 카드 생성
@@ -114,7 +127,7 @@ def kakao_pokemon_bot():
             cards.append({
                 "title": f"🔰 초보자 추천 포켓몬",
                 "description": "\n\n".join(result_data["beginner_matches"][:3]),
-                "thumbnail": {"imageUrl": thumbnail_url}
+                "thumbnail": {"imageUrl": get_thumbnail_url()}
             })
 
         # 혹시 모를 배열 초과 방지 (Carousel은 최대 10개까지 지원)
