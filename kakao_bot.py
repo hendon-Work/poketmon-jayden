@@ -107,7 +107,12 @@ def kakao_pokemon_bot():
             cards.append({
                 "title": f"📖 No.{p['no']} {p['name']}",
                 "description": p['desc'],
-                "thumbnail": {"imageUrl": get_thumbnail_url(p['no'])}
+                "thumbnail": {
+                    "imageUrl": get_thumbnail_url(p['no']),
+                    "fixedRatio": True, # 이미지 잘림 방지 (원본 비율 유지)
+                    "width": 500,
+                    "height": 500
+                }
             })
             
         # 2. 티어 카드 생성
@@ -119,7 +124,12 @@ def kakao_pokemon_bot():
             cards.append({
                 "title": f"🏆 {match['type']} 타입 티어/검색",
                 "description": "\n\n".join(desc_lines),
-                "thumbnail": {"imageUrl": get_thumbnail_url()}
+                "thumbnail": {
+                    "imageUrl": get_thumbnail_url(),
+                    "fixedRatio": True,
+                    "width": 500,
+                    "height": 500
+                }
             })
                 
         # 3. 초보자 추천 카드 생성
@@ -127,7 +137,12 @@ def kakao_pokemon_bot():
             cards.append({
                 "title": f"🔰 초보자 추천 포켓몬",
                 "description": "\n\n".join(result_data["beginner_matches"][:3]),
-                "thumbnail": {"imageUrl": get_thumbnail_url()}
+                "thumbnail": {
+                    "imageUrl": get_thumbnail_url(),
+                    "fixedRatio": True,
+                    "width": 500,
+                    "height": 500
+                }
             })
 
         # 혹시 모를 배열 초과 방지 (Carousel은 최대 10개까지 지원)
