@@ -155,14 +155,6 @@ def kakao_pokemon_bot():
         if result_data["beginner_matches"]:
             text_lines.append(f"🔰 [초보자 추천]")
             text_lines.extend(result_data["beginner_matches"][:2])
-            text_lines.append("")
-            
-        for match in result_data["raid_matches"]:
-            text_lines.append(f"⚔️ [{match['boss']} 레이드 카운터]")
-            for i, counter in enumerate(match['counters'][:5]):
-                text_lines.append(f"{i+1}. {counter['pokemon']} ({counter['fast_move']} / {counter['charge_move']})")
-            text_lines.append("")
-            
         final_description = "\n".join(text_lines).strip()
         
         if final_description:
@@ -176,6 +168,33 @@ def kakao_pokemon_bot():
                     "description": final_description
                 }
             })
+
+        # 3. 레이드 카운터는 별도의 텍스트 카드 슬라이드(또는 단일 카드)로 출력
+        if result_data["raid_matches"]:
+            raid_items = []
+            for match in result_data["raid_matches"][:10]:
+                lines = []
+                for i, counter in enumerate(match['counters'][:5]):
+                    lines.append(f"{i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
+                
+                desc = "\n".join(lines).strip()
+                if len(desc) > 400: 
+                    desc = desc[:395] + "..."
+                
+                raid_items.append({
+                    "title": f"⚔️ [{match['boss']}] 레이드 카운터",
+                    "description": desc
+                })
+            
+            if len(raid_items) == 1:
+                outputs.append({"textCard": raid_items[0]})
+            else:
+                outputs.append({
+                    "carousel": {
+                        "type": "textCard",
+                        "items": raid_items
+                    }
+                })
 
         response = {
             "version": "2.0",
