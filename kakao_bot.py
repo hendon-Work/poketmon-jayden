@@ -155,6 +155,7 @@ def kakao_pokemon_bot():
         if result_data["beginner_matches"]:
             text_lines.append(f"🔰 [초보자 추천]")
             text_lines.extend(result_data["beginner_matches"][:2])
+        text_cards = []
         final_description = "\n".join(text_lines).strip()
         
         if final_description:
@@ -162,16 +163,13 @@ def kakao_pokemon_bot():
             if len(final_description) > 400:
                 final_description = final_description[:395] + "..."
                 
-            outputs.append({
-                "textCard": {
-                    "title": f"🔍 '{user_utterance}' 레이드 & 팁",
-                    "description": final_description
-                }
+            text_cards.append({
+                "title": f"🔍 '{user_utterance}' 레이드 & 팁",
+                "description": final_description
             })
 
-        # 3. 레이드 카운터는 별도의 텍스트 카드 슬라이드(또는 단일 카드)로 출력
+        # 3. 레이드 카운터도 같은 텍스트 카드 슬라이드로 병합
         if result_data["raid_matches"]:
-            raid_items = []
             for match in result_data["raid_matches"][:10]:
                 lines = []
                 for i, counter in enumerate(match['counters'][:5]):
@@ -181,18 +179,19 @@ def kakao_pokemon_bot():
                 if len(desc) > 400: 
                     desc = desc[:395] + "..."
                 
-                raid_items.append({
-                    "title": f"⚔️ [{match['boss']}] 레이드 카운터",
+                text_cards.append({
+                    "title": f"⚔️ [{match['boss']}] 카운터",
                     "description": desc
                 })
             
-            if len(raid_items) == 1:
-                outputs.append({"textCard": raid_items[0]})
+        if text_cards:
+            if len(text_cards) == 1:
+                outputs.append({"textCard": text_cards[0]})
             else:
                 outputs.append({
                     "carousel": {
                         "type": "textCard",
-                        "items": raid_items
+                        "items": text_cards[:10] # 카카오톡 carousel 아이템 개수 제한(10개) 대비
                     }
                 })
 
