@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포켓몬 분석/티어 검색기</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pokemon Tier Search</h1>
+            <p>포켓몬/타입 이름을 입력하여 평가 정보를 확인하세요.</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="예: 맘모꾸리, 얼음, 괴력몬...">
+            <button id="search-btn">검색</button>
+        </div>
+
+        <div id="results-area" class="results-area">
+            <div class="empty-state">
+                <p>검색어를 입력하고 버튼을 누르세요.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Data First -->
+    <script src="pokemon_data.js"></script>
+    <!-- Load App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
