@@ -37,13 +37,13 @@ def search_pokemon_raw(query):
             types_str = ", ".join(p.get('types', []))
             weak4 = p.get('weaknesses', {}).get('4배', '-') if p.get('weaknesses', {}).get('4배') else '-'
             weak2 = p.get('weaknesses', {}).get('2배', '-') if p.get('weaknesses', {}).get('2배') else '-'
-            evo_info = f"\n🧬 진화: {p['evolution']}" if 'evolution' in p else ""
+            evo_info = f"🧬 진화: {p['evolution']}" if 'evolution' in p else ""
             
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
                 "short_desc": f"🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}",
-                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}{evo_info}"
+                "full_desc": f"[{p['name']}] {evo_info}" if evo_info else ""
             })
 
     # 2. 티어 검색
@@ -129,9 +129,13 @@ def kakao_pokemon_bot():
         # 2. 텍스트 내용 잘림(Truncation)을 막기 위한 TextCard 출력 (최대 400자 지원)
         text_lines = []
         if result_data["pokedex_matches"]:
+            has_evo = False
             for p in result_data["pokedex_matches"][:5]:
-                text_lines.append(p['full_desc'])
-            text_lines.append("────────────────")
+                if p.get('full_desc'):
+                    text_lines.append(p['full_desc'])
+                    has_evo = True
+            if has_evo:
+                text_lines.append("────────────────")
             
         for match in result_data["tier_matches"][:2]:
             text_lines.append(f"🏆 [{match['type']} 타입 티어]")
