@@ -21354,6 +21354,72 @@ const pokemonData = {
         "fast_move": "돌떨구기",
         "charge_move": "메테오빔"
       }
+    ],
+    "썬더": [
+      {
+        "pokemon": "그림자 거대코뿌리",
+        "fast_move": "떨어뜨리기",
+        "charge_move": "암석포*"
+      },
+      {
+        "pokemon": "메가 디안시",
+        "fast_move": "돌떨구기",
+        "charge_move": "스톤샤워"
+      },
+      {
+        "pokemon": "그림자 맘모꾸리",
+        "fast_move": "눈싸라기",
+        "charge_move": "눈사태"
+      }
+    ],
+    "파이어": [
+      {
+        "pokemon": "그림자 램펄드",
+        "fast_move": "떨어뜨리기",
+        "charge_move": "스톤샤워"
+      },
+      {
+        "pokemon": "메가 디안시",
+        "fast_move": "돌떨구기",
+        "charge_move": "스톤샤워"
+      },
+      {
+        "pokemon": "그림자 거대코뿌리",
+        "fast_move": "떨어뜨리기",
+        "charge_move": "암석포*"
+      },
+      {
+        "pokemon": "메가 마기라스",
+        "fast_move": "떨어뜨리기*",
+        "charge_move": "스톤에지"
+      },
+      {
+        "pokemon": "그림자 마기라스",
+        "fast_move": "떨어뜨리기*",
+        "charge_move": "스톤엥지"
+      }
+    ],
+    "그림자 라티아스": [
+      {
+        "pokemon": "무한다이노",
+        "fast_move": "드래곤테일",
+        "charge_move": "다이맥스포**"
+      },
+      {
+        "pokemon": "메가 레쿠쟈",
+        "fast_move": "드래곤테일",
+        "charge_move": "와이드브레이커*"
+      },
+      {
+        "pokemon": "메가 한카리아스",
+        "fast_move": "드래곤테일",
+        "charge_move": "와이드브레이커"
+      },
+      {
+        "pokemon": "블랙 큐레무",
+        "fast_move": "드래곤테일",
+        "charge_move": "프리즈볼트**"
+      }
     ]
   }
 };
