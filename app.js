@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <th>도감번호</th>
                                 <th>이름</th>
                                 <th>타입</th>
+                                <th>진화 트리</th>
                                 <th>약점 (4배)</th>
                                 <th>약점 (2배)</th>
                             </tr>
@@ -147,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <td>No.${row.no}</td>
                                     <td>${row.name}</td>
                                     <td>${row.types.join(', ')}</td>
+                                    <td>${row.evolution || '-'}</td>
                                     <td class="weakness-4x">${row.weaknesses['4배'] || '-'}</td>
                                     <td class="weakness-2x">${row.weaknesses['2배'] || '-'}</td>
                                 </tr>

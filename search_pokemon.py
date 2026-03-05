@@ -94,13 +94,14 @@ def main():
                 for p in res['data']:
                     print(f"- {p['name']} (진화전: {p['from']}) / {p['moves']}")
             elif res['type'] == 'pokedex':
-                print(f"{'도감번호':<10} | {'이름':<15} | {'타입':<15} | {'4배 약점':<10} | {'2배 약점'}")
-                print("-" * 75)
+                print(f"{'도감번호':<10} | {'이름':<15} | {'타입':<15} | {'진화 정보':<20} | {'4배 약점':<10} | {'2배 약점'}")
+                print("-" * 100)
                 for p in res['data']:
                     types_str = ", ".join(p.get('types', []))
                     weak4 = p.get('weaknesses', {}).get('4배', '-') if p.get('weaknesses', {}).get('4배') else '-'
                     weak2 = p.get('weaknesses', {}).get('2배', '-') if p.get('weaknesses', {}).get('2배') else '-'
-                    print(f"No.{p['no']:<7} | {p['name']:<15} | {types_str:<15} | {weak4:<10} | {weak2}")
+                    evo = p.get('evolution', '-')
+                    print(f"No.{p['no']:<7} | {p['name']:<15} | {types_str:<15} | {evo:<20} | {weak4:<10} | {weak2}")
             print("\n")
     else:
         print(f"'{query}'에 대한 상세 데이터(Tier 등)를 찾을 수 없습니다.")

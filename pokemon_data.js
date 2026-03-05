@@ -6996,7 +6996,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이상해씨 ➔ 이상해풀 ➔ 이상해꽃"
     },
     {
       "no": "2",
@@ -7008,7 +7009,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이상해씨 ➔ 이상해풀 ➔ 이상해꽃"
     },
     {
       "no": "3",
@@ -7020,7 +7022,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이상해씨 ➔ 이상해풀 ➔ 이상해꽃"
     },
     {
       "no": "4",
@@ -7031,7 +7034,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파이리 ➔ 리자드 ➔ 리자몽"
     },
     {
       "no": "5",
@@ -7042,7 +7046,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파이리 ➔ 리자드 ➔ 리자몽"
     },
     {
       "no": "6",
@@ -7055,7 +7060,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "물, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파이리 ➔ 리자드 ➔ 리자몽"
     },
     {
       "no": "7",
@@ -7066,7 +7072,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬부기 ➔ 어니부기 ➔ 거북왕"
     },
     {
       "no": "8",
@@ -7077,7 +7084,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬부기 ➔ 어니부기 ➔ 거북왕"
     },
     {
       "no": "9",
@@ -7088,7 +7096,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬부기 ➔ 어니부기 ➔ 거북왕"
     },
     {
       "no": "10",
@@ -7099,7 +7108,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐터피 ➔ 단데기 ➔ 버터플"
     },
     {
       "no": "11",
@@ -7110,7 +7120,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐터피 ➔ 단데기 ➔ 버터플"
     },
     {
       "no": "12",
@@ -7123,7 +7134,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐터피 ➔ 단데기 ➔ 버터플"
     },
     {
       "no": "13",
@@ -7135,7 +7147,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뿔충이 ➔ 딱충이 ➔ 독침붕"
     },
     {
       "no": "14",
@@ -7147,7 +7160,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뿔충이 ➔ 딱충이 ➔ 독침붕"
     },
     {
       "no": "15",
@@ -7159,7 +7173,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뿔충이 ➔ 딱충이 ➔ 독침붕"
     },
     {
       "no": "16",
@@ -7171,7 +7186,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "구구 ➔ 피죤 ➔ 피죤투"
     },
     {
       "no": "17",
@@ -7183,7 +7199,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "구구 ➔ 피죤 ➔ 피죤투"
     },
     {
       "no": "18",
@@ -7195,7 +7212,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "구구 ➔ 피죤 ➔ 피죤투"
     },
     {
       "no": "19",
@@ -7206,7 +7224,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬렛 ➔ 레트라"
     },
     {
       "no": "20",
@@ -7217,7 +7236,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬렛 ➔ 레트라"
     },
     {
       "no": "21",
@@ -7229,7 +7249,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "깨비참 ➔ 깨비드릴조"
     },
     {
       "no": "22",
@@ -7241,7 +7262,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "깨비참 ➔ 깨비드릴조"
     },
     {
       "no": "23",
@@ -7252,7 +7274,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "아보 ➔ 아보크"
     },
     {
       "no": "24",
@@ -7263,7 +7286,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "아보 ➔ 아보크"
     },
     {
       "no": "25",
@@ -7274,7 +7298,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "피츄 ➔ 피카츄 ➔ 라이츄"
     },
     {
       "no": "26",
@@ -7285,7 +7310,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "피츄 ➔ 피카츄 ➔ 라이츄"
     },
     {
       "no": "27",
@@ -7296,7 +7322,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "모래두지 ➔ 고지"
     },
     {
       "no": "28",
@@ -7307,7 +7334,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "모래두지 ➔ 고지"
     },
     {
       "no": "29",
@@ -7318,7 +7346,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♀ ➔ 니드리나 ➔ 니드퀸"
     },
     {
       "no": "30",
@@ -7329,7 +7358,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♀ ➔ 니드리나 ➔ 니드퀸"
     },
     {
       "no": "31",
@@ -7341,7 +7371,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♀ ➔ 니드리나 ➔ 니드퀸"
     },
     {
       "no": "32",
@@ -7352,7 +7383,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♂ ➔ 니드리노 ➔ 니드킹"
     },
     {
       "no": "33",
@@ -7363,7 +7395,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♂ ➔ 니드리노 ➔ 니드킹"
     },
     {
       "no": "34",
@@ -7375,7 +7408,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "니드런♂ ➔ 니드리노 ➔ 니드킹"
     },
     {
       "no": "35",
@@ -7386,7 +7420,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "삐 ➔ 삐삐 ➔ 픽시"
     },
     {
       "no": "36",
@@ -7397,7 +7432,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "삐 ➔ 삐삐 ➔ 픽시"
     },
     {
       "no": "37",
@@ -7408,7 +7444,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "식스테일 ➔ 나인테일"
     },
     {
       "no": "38",
@@ -7419,7 +7456,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "식스테일 ➔ 나인테일"
     },
     {
       "no": "39",
@@ -7431,7 +7469,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "푸푸린 ➔ 푸린 ➔ 푸크린"
     },
     {
       "no": "40",
@@ -7443,7 +7482,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "푸푸린 ➔ 푸린 ➔ 푸크린"
     },
     {
       "no": "41",
@@ -7455,7 +7495,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "주뱃 ➔ 골뱃 ➔ 크로뱃"
     },
     {
       "no": "42",
@@ -7467,7 +7508,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "주뱃 ➔ 골뱃 ➔ 크로뱃"
     },
     {
       "no": "43",
@@ -7479,7 +7521,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 라플레시아"
     },
     {
       "no": "44",
@@ -7491,7 +7534,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 라플레시아"
     },
     {
       "no": "45",
@@ -7503,7 +7547,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 라플레시아"
     },
     {
       "no": "46",
@@ -7516,7 +7561,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "얼음, 독, 벌레, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파라스 ➔ 파라섹트"
     },
     {
       "no": "47",
@@ -7529,7 +7575,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "얼음, 독, 벌레, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파라스 ➔ 파라섹트"
     },
     {
       "no": "48",
@@ -7541,7 +7588,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "콘팡 ➔ 도나리"
     },
     {
       "no": "49",
@@ -7553,7 +7601,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "콘팡 ➔ 도나리"
     },
     {
       "no": "50",
@@ -7564,7 +7613,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "디그다 ➔ 닥트리오"
     },
     {
       "no": "51",
@@ -7575,7 +7625,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "디그다 ➔ 닥트리오"
     },
     {
       "no": "52",
@@ -7586,7 +7637,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "나옹 ➔ 페르시온"
     },
     {
       "no": "53",
@@ -7597,7 +7649,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "나옹 ➔ 페르시온"
     },
     {
       "no": "54",
@@ -7608,7 +7661,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "고라파덕 ➔ 골덕"
     },
     {
       "no": "55",
@@ -7619,7 +7673,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "고라파덕 ➔ 골덕"
     },
     {
       "no": "56",
@@ -7630,7 +7685,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "망키 ➔ 성원숭 ➔ 저승갓숭"
     },
     {
       "no": "57",
@@ -7641,7 +7697,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "망키 ➔ 성원숭 ➔ 저승갓숭"
     },
     {
       "no": "58",
@@ -7652,7 +7709,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "가디 ➔ 윈디"
     },
     {
       "no": "59",
@@ -7663,7 +7721,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "가디 ➔ 윈디"
     },
     {
       "no": "60",
@@ -7674,7 +7733,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "발챙이 ➔ 슈륙챙이 ➔ 강챙이"
     },
     {
       "no": "61",
@@ -7685,7 +7745,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "발챙이 ➔ 슈륙챙이 ➔ 강챙이"
     },
     {
       "no": "62",
@@ -7697,7 +7758,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "발챙이 ➔ 슈륙챙이 ➔ 강챙이"
     },
     {
       "no": "63",
@@ -7708,7 +7770,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐이시 ➔ 윤겔라 ➔ 후딘"
     },
     {
       "no": "64",
@@ -7719,7 +7782,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐이시 ➔ 윤겔라 ➔ 후딘"
     },
     {
       "no": "65",
@@ -7730,7 +7794,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "캐이시 ➔ 윤겔라 ➔ 후딘"
     },
     {
       "no": "66",
@@ -7741,7 +7806,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "알통몬 ➔ 근육몬 ➔ 괴력몬"
     },
     {
       "no": "67",
@@ -7752,7 +7818,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "알통몬 ➔ 근육몬 ➔ 괴력몬"
     },
     {
       "no": "68",
@@ -7763,7 +7830,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "알통몬 ➔ 근육몬 ➔ 괴력몬"
     },
     {
       "no": "69",
@@ -7775,7 +7843,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "모다피 ➔ 우츠동 ➔ 우츠보트"
     },
     {
       "no": "70",
@@ -7787,7 +7856,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "모다피 ➔ 우츠동 ➔ 우츠보트"
     },
     {
       "no": "71",
@@ -7799,7 +7869,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 얼음, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "모다피 ➔ 우츠동 ➔ 우츠보트"
     },
     {
       "no": "72",
@@ -7811,7 +7882,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "왕눈해 ➔ 독파리"
     },
     {
       "no": "73",
@@ -7823,7 +7895,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "왕눈해 ➔ 독파리"
     },
     {
       "no": "74",
@@ -7836,7 +7909,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": "75",
@@ -7849,7 +7923,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": "76",
@@ -7862,7 +7937,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": "77",
@@ -7873,7 +7949,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "포니타 ➔ 날쌩마"
     },
     {
       "no": "78",
@@ -7884,7 +7961,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "포니타 ➔ 날쌩마"
     },
     {
       "no": "79",
@@ -7896,7 +7974,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "야돈 ➔ 야도란"
     },
     {
       "no": "80",
@@ -7908,7 +7987,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "야돈 ➔ 야도란"
     },
     {
       "no": "81",
@@ -7921,7 +8001,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "불꽃, 격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "코일 ➔ 레어코일 ➔ 자포코일"
     },
     {
       "no": "82",
@@ -7934,7 +8015,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "불꽃, 격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "코일 ➔ 레어코일 ➔ 자포코일"
     },
     {
       "no": "83",
@@ -7946,7 +8028,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "파오리 ➔ 창파나이트"
     },
     {
       "no": "84",
@@ -7958,7 +8041,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "두두 ➔ 두트리오"
     },
     {
       "no": "85",
@@ -7970,7 +8054,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "두두 ➔ 두트리오"
     },
     {
       "no": "86",
@@ -7981,7 +8066,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "쥬쥬 ➔ 쥬레곤"
     },
     {
       "no": "87",
@@ -7993,7 +8079,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 격투, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "쥬쥬 ➔ 쥬레곤"
     },
     {
       "no": "88",
@@ -8004,7 +8091,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "질퍽이 ➔ 질뻐기"
     },
     {
       "no": "89",
@@ -8015,7 +8103,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "질퍽이 ➔ 질뻐기"
     },
     {
       "no": "90",
@@ -8026,7 +8115,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "셀러 ➔ 파르셀"
     },
     {
       "no": "91",
@@ -8038,7 +8128,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 격투, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "셀러 ➔ 파르셀"
     },
     {
       "no": "92",
@@ -8062,7 +8153,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 고스트, 에스퍼, 악"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "고오스 ➔ 고우스트 ➔ 팬텀"
     },
     {
       "no": "94",
@@ -8074,7 +8166,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 고스트, 에스퍼, 악"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "고오스 ➔ 고우스트 ➔ 팬텀"
     },
     {
       "no": "95",
@@ -8087,7 +8180,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "롱스톤 ➔ 강철톤"
     },
     {
       "no": "96",
@@ -8098,7 +8192,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "슬리프 ➔ 슬리퍼"
     },
     {
       "no": "97",
@@ -8109,7 +8204,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "슬리프 ➔ 슬리퍼"
     },
     {
       "no": "98",
@@ -8120,7 +8216,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "크랩 ➔ 킹크랩"
     },
     {
       "no": "99",
@@ -8131,7 +8228,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "크랩 ➔ 킹크랩"
     },
     {
       "no": "100",
@@ -8142,7 +8240,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "찌리리공 ➔ 붐볼"
     },
     {
       "no": "101",
@@ -8153,7 +8252,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "찌리리공 ➔ 붐볼"
     },
     {
       "no": "102",
@@ -8165,7 +8265,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "아라리 ➔ 나시"
     },
     {
       "no": "103",
@@ -8177,7 +8278,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "아라리 ➔ 나시"
     },
     {
       "no": "104",
@@ -8188,7 +8290,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "탕구리 ➔ 텅구리"
     },
     {
       "no": "105",
@@ -8199,7 +8302,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "탕구리 ➔ 텅구리"
     },
     {
       "no": "106",
@@ -8210,7 +8314,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "배루키 ➔ 시라소몬"
     },
     {
       "no": "107",
@@ -8221,7 +8326,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "배루키 ➔ 홍수몬"
     },
     {
       "no": "108",
@@ -8232,7 +8338,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "내루미 ➔ 내룸벨트"
     },
     {
       "no": "109",
@@ -8243,7 +8350,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "또가스 ➔ 또도가스"
     },
     {
       "no": "110",
@@ -8254,7 +8362,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "또가스 ➔ 또도가스"
     },
     {
       "no": "111",
@@ -8267,7 +8376,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뿔카노 ➔ 코뿌리 ➔ 거대코뿌리"
     },
     {
       "no": "112",
@@ -8280,7 +8390,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뿔카노 ➔ 코뿌리 ➔ 거대코뿌리"
     },
     {
       "no": "113",
@@ -8291,7 +8402,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "핑복 ➔ 럭키 ➔ 해피너스"
     },
     {
       "no": "114",
@@ -8302,7 +8414,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "덩쿠리 ➔ 덩쿠림보"
     },
     {
       "no": "115",
@@ -8324,7 +8437,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "쏘드라 ➔ 시드라 ➔ 킹드라"
     },
     {
       "no": "117",
@@ -8335,7 +8449,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "쏘드라 ➔ 시드라 ➔ 킹드라"
     },
     {
       "no": "118",
@@ -8346,7 +8461,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "콘치 ➔ 왕콘치"
     },
     {
       "no": "119",
@@ -8357,7 +8473,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "콘치 ➔ 왕콘치"
     },
     {
       "no": "120",
@@ -8368,7 +8485,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "별가사리 ➔ 아쿠스타"
     },
     {
       "no": "121",
@@ -8380,7 +8498,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "별가사리 ➔ 아쿠스타"
     },
     {
       "no": "122",
@@ -8392,7 +8511,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "흉내내 ➔ 마임맨 ➔ 마임꽁꽁"
     },
     {
       "no": "123",
@@ -8405,7 +8525,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "스라크 ➔ 핫삼"
     },
     {
       "no": "124",
@@ -8417,7 +8538,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위, 벌레, 악, 고스트"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "뽀뽀라 ➔ 루주라"
     },
     {
       "no": "125",
@@ -8428,7 +8550,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "에레키드 ➔ 에레브 ➔ 에레키블"
     },
     {
       "no": "126",
@@ -8439,7 +8562,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "마그비 ➔ 마그마 ➔ 마그마번"
     },
     {
       "no": "127",
@@ -8472,7 +8596,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "잉어킹 ➔ 갸라도스"
     },
     {
       "no": "130",
@@ -8485,7 +8610,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "잉어킹 ➔ 갸라도스"
     },
     {
       "no": "131",
@@ -8519,7 +8645,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이브이 ➔ 샤미드"
     },
     {
       "no": "134",
@@ -8530,7 +8657,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이브이 ➔ 샤미드"
     },
     {
       "no": "135",
@@ -8541,7 +8669,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이브이 ➔ 쥬피썬더"
     },
     {
       "no": "136",
@@ -8552,7 +8681,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "이브이 ➔ 부스터"
     },
     {
       "no": "137",
@@ -8563,7 +8693,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "폴리곤 ➔ 폴리곤2 ➔ 폴리곤Z"
     },
     {
       "no": "138",
@@ -8576,7 +8707,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "암나이트 ➔ 암스타"
     },
     {
       "no": "139",
@@ -8589,7 +8721,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "암나이트 ➔ 암스타"
     },
     {
       "no": "140",
@@ -8602,7 +8735,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "투구 ➔ 투구푸스"
     },
     {
       "no": "141",
@@ -8615,7 +8749,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "투구 ➔ 투구푸스"
     },
     {
       "no": "142",
@@ -8638,7 +8773,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "먹고자 ➔ 잠만보"
     },
     {
       "no": "144",
@@ -8687,7 +8823,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "미뇽 ➔ 신뇽 ➔ 망나뇽"
     },
     {
       "no": "148",
@@ -8698,7 +8835,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "미뇽 ➔ 신뇽 ➔ 망나뇽"
     },
     {
       "no": "149",
@@ -8711,7 +8849,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "바위, 드래곤, 페어리"
       },
-      "generation": "1세대 포켓몬"
+      "generation": "1세대 포켓몬",
+      "evolution": "미뇽 ➔ 신뇽 ➔ 망나뇽"
     },
     {
       "no": "150",
@@ -8744,7 +8883,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "치코리타 ➔ 베이리프 ➔ 메가니움"
     },
     {
       "no": "153",
@@ -8755,7 +8895,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "치코리타 ➔ 베이리프 ➔ 메가니움"
     },
     {
       "no": "154",
@@ -8766,7 +8907,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "치코리타 ➔ 베이리프 ➔ 메가니움"
     },
     {
       "no": "155",
@@ -8777,7 +8919,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "브케인 ➔ 마그케인 ➔ 블레이범"
     },
     {
       "no": "156",
@@ -8788,7 +8931,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "브케인 ➔ 마그케인 ➔ 블레이범"
     },
     {
       "no": "157",
@@ -8799,7 +8943,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "브케인 ➔ 마그케인 ➔ 블레이범"
     },
     {
       "no": "158",
@@ -8810,7 +8955,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "리아코 ➔ 엘리게이 ➔ 장크로다일"
     },
     {
       "no": "159",
@@ -8821,7 +8967,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "리아코 ➔ 엘리게이 ➔ 장크로다일"
     },
     {
       "no": "160",
@@ -8832,7 +8979,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "리아코 ➔ 엘리게이 ➔ 장크로다일"
     },
     {
       "no": "161",
@@ -8843,7 +8991,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "꼬리선 ➔ 다꼬리"
     },
     {
       "no": "162",
@@ -8854,7 +9003,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "꼬리선 ➔ 다꼬리"
     },
     {
       "no": "163",
@@ -8866,7 +9016,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "부우부 ➔ 야부엉"
     },
     {
       "no": "164",
@@ -8878,7 +9029,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "부우부 ➔ 야부엉"
     },
     {
       "no": "165",
@@ -8891,7 +9043,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "레디바 ➔ 레디안"
     },
     {
       "no": "166",
@@ -8904,7 +9057,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "레디바 ➔ 레디안"
     },
     {
       "no": "167",
@@ -8916,7 +9070,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "페이검 ➔ 아리아도스"
     },
     {
       "no": "168",
@@ -8928,7 +9083,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "페이검 ➔ 아리아도스"
     },
     {
       "no": "169",
@@ -8940,7 +9096,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 에스퍼"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "주뱃 ➔ 골뱃 ➔ 크로뱃"
     },
     {
       "no": "170",
@@ -8952,7 +9109,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "초라기 ➔ 랜턴"
     },
     {
       "no": "171",
@@ -8964,7 +9122,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "초라기 ➔ 랜턴"
     },
     {
       "no": "172",
@@ -8975,7 +9134,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "피츄 ➔ 피카츄 ➔ 라이츄"
     },
     {
       "no": "173",
@@ -8986,7 +9146,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "삐 ➔ 삐삐 ➔ 픽시"
     },
     {
       "no": "174",
@@ -8998,7 +9159,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "푸푸린 ➔ 푸린 ➔ 푸크린"
     },
     {
       "no": "175",
@@ -9009,7 +9171,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "토게피 ➔ 토게틱 ➔ 토게키스"
     },
     {
       "no": "176",
@@ -9021,7 +9184,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 바위, 강철, 전기, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "토게피 ➔ 토게틱 ➔ 토게키스"
     },
     {
       "no": "177",
@@ -9033,7 +9197,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 고스트, 악"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "네이티 ➔ 네이티오"
     },
     {
       "no": "178",
@@ -9045,7 +9210,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 고스트, 악"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "네이티 ➔ 네이티오"
     },
     {
       "no": "179",
@@ -9056,7 +9222,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "메리프 ➔ 보송송 ➔ 전룡"
     },
     {
       "no": "180",
@@ -9067,7 +9234,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "메리프 ➔ 보송송 ➔ 전룡"
     },
     {
       "no": "181",
@@ -9078,7 +9246,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "메리프 ➔ 보송송 ➔ 전룡"
     },
     {
       "no": "182",
@@ -9089,7 +9258,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 아르코"
     },
     {
       "no": "183",
@@ -9101,7 +9271,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 독"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "루리리 ➔ 마릴 ➔ 마릴리"
     },
     {
       "no": "184",
@@ -9113,7 +9284,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 독"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "루리리 ➔ 마릴 ➔ 마릴리"
     },
     {
       "no": "185",
@@ -9124,7 +9296,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "꼬지지 ➔ 꼬지모"
     },
     {
       "no": "186",
@@ -9135,7 +9308,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "발챙이 ➔ 슈륙챙이 ➔ 왕구리"
     },
     {
       "no": "187",
@@ -9147,7 +9321,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "통통코 ➔ 두코 ➔ 솜솜코"
     },
     {
       "no": "188",
@@ -9159,7 +9334,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "통통코 ➔ 두코 ➔ 솜솜코"
     },
     {
       "no": "189",
@@ -9171,7 +9347,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "통통코 ➔ 두코 ➔ 솜솜코"
     },
     {
       "no": "190",
@@ -9182,7 +9359,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "에이팜 ➔ 겟핸보숭"
     },
     {
       "no": "191",
@@ -9193,7 +9371,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "해너츠 ➔ 해루미"
     },
     {
       "no": "192",
@@ -9204,7 +9383,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "해너츠 ➔ 해루미"
     },
     {
       "no": "193",
@@ -9217,7 +9397,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "왕자리 ➔ 메가자리"
     },
     {
       "no": "194",
@@ -9229,7 +9410,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "우파 ➔ 누오"
     },
     {
       "no": "195",
@@ -9241,7 +9423,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "우파 ➔ 누오"
     },
     {
       "no": "196",
@@ -9252,7 +9435,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "이브이 ➔ 에브이"
     },
     {
       "no": "197",
@@ -9263,7 +9447,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "이브이 ➔ 블래키"
     },
     {
       "no": "198",
@@ -9275,7 +9460,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "바위, 전기, 얼음, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "니로우 ➔ 돈크로우"
     },
     {
       "no": "199",
@@ -9287,7 +9473,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 벌레, 악, 고스트"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "야돈 ➔ 야도킹"
     },
     {
       "no": "200",
@@ -9298,7 +9485,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "무우마 ➔ 무우마직"
     },
     {
       "no": "201",
@@ -9321,7 +9509,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트, 격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "키링키 ➔ 키키링"
     },
     {
       "no": "203",
@@ -9332,7 +9521,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "노고치 ➔ 노고고치"
     },
     {
       "no": "204",
@@ -9343,7 +9533,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "피콘 ➔ 쏘콘"
     },
     {
       "no": "205",
@@ -9356,7 +9547,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "피콘 ➔ 쏘콘"
     },
     {
       "no": "206",
@@ -9367,7 +9559,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "노고치 ➔ 노고고치"
     },
     {
       "no": "207",
@@ -9380,7 +9573,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "물"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "글라이거 ➔ 글라이온"
     },
     {
       "no": "208",
@@ -9392,7 +9586,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 물, 격투, 땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "롱스톤 ➔ 강철톤"
     },
     {
       "no": "209",
@@ -9403,7 +9598,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "블루 ➔ 그랑블루"
     },
     {
       "no": "210",
@@ -9414,7 +9610,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "블루 ➔ 그랑블루"
     },
     {
       "no": "211",
@@ -9426,7 +9623,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 땅, 에스퍼"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "침바루 ➔ 장침바루"
     },
     {
       "no": "212",
@@ -9438,7 +9636,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "스라크 ➔ 핫삼"
     },
     {
       "no": "213",
@@ -9476,7 +9675,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "바위, 벌레, 불꽃, 강철, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "포푸니 ➔ 포푸니라"
     },
     {
       "no": "216",
@@ -9487,7 +9687,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "깜지곰 ➔ 링곰 ➔ 다투곰"
     },
     {
       "no": "217",
@@ -9498,7 +9699,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "깜지곰 ➔ 링곰 ➔ 다투곰"
     },
     {
       "no": "218",
@@ -9511,7 +9713,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "마그마그 ➔ 마그카르고"
     },
     {
       "no": "219",
@@ -9524,7 +9727,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "마그마그 ➔ 마그카르고"
     },
     {
       "no": "220",
@@ -9536,7 +9740,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 물, 풀, 격투, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "꾸꾸리 ➔ 메꾸리 ➔ 맘모꾸리"
     },
     {
       "no": "221",
@@ -9548,7 +9753,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 물, 풀, 격투, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "꾸꾸리 ➔ 메꾸리 ➔ 맘모꾸리"
     },
     {
       "no": "222",
@@ -9560,7 +9766,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 격투, 땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "코산호 ➔ 산호르곤"
     },
     {
       "no": "223",
@@ -9571,7 +9778,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "총어 ➔ 대포무노"
     },
     {
       "no": "224",
@@ -9582,7 +9790,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "총어 ➔ 대포무노"
     },
     {
       "no": "225",
@@ -9608,7 +9817,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "타만타 ➔ 만타인"
     },
     {
       "no": "227",
@@ -9632,7 +9842,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 격투, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "델빌 ➔ 헬가"
     },
     {
       "no": "229",
@@ -9644,7 +9855,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 격투, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "델빌 ➔ 헬가"
     },
     {
       "no": "230",
@@ -9657,7 +9869,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "드래곤"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "쏘드라 ➔ 시드라 ➔ 킹드라"
     },
     {
       "no": "231",
@@ -9668,7 +9881,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "코코리 ➔ 코리갑"
     },
     {
       "no": "232",
@@ -9679,7 +9893,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "코코리 ➔ 코리갑"
     },
     {
       "no": "233",
@@ -9690,7 +9905,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "폴리곤 ➔ 폴리곤2 ➔ 폴리곤Z"
     },
     {
       "no": "234",
@@ -9701,7 +9917,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "노라키 ➔ 신비록"
     },
     {
       "no": "235",
@@ -9723,7 +9940,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "배루키 ➔ 시라소몬"
     },
     {
       "no": "237",
@@ -9734,7 +9952,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "배루키 ➔ 카포에라"
     },
     {
       "no": "238",
@@ -9745,7 +9964,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "뽀뽀라 ➔ 루주라"
     },
     {
       "no": "239",
@@ -9756,7 +9976,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "에레키드 ➔ 에레브 ➔ 에레키블"
     },
     {
       "no": "240",
@@ -9767,7 +9988,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "마그비 ➔ 마그마 ➔ 마그마번"
     },
     {
       "no": "241",
@@ -9789,7 +10011,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "핑복 ➔ 럭키 ➔ 해피너스"
     },
     {
       "no": "243",
@@ -9835,7 +10058,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "애버라스 ➔ 데기라스 ➔ 마기라스"
     },
     {
       "no": "247",
@@ -9848,7 +10072,8 @@ const pokemonData = {
         "4배": "풀, 물",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "애버라스 ➔ 데기라스 ➔ 마기라스"
     },
     {
       "no": "248",
@@ -9860,7 +10085,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "격투, 땅, 벌레, 강철, 물, 풀, 페어리"
       },
-      "generation": "2세대 포켓몬"
+      "generation": "2세대 포켓몬",
+      "evolution": "애버라스 ➔ 데기라스 ➔ 마기라스"
     },
     {
       "no": "249",
@@ -9908,7 +10134,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "나무지기 ➔ 나무돌이 ➔ 나무킹"
     },
     {
       "no": "253",
@@ -9919,7 +10146,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "나무지기 ➔ 나무돌이 ➔ 나무킹"
     },
     {
       "no": "254",
@@ -9930,7 +10158,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "나무지기 ➔ 나무돌이 ➔ 나무킹"
     },
     {
       "no": "255",
@@ -9941,7 +10170,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아차모 ➔ 영치코 ➔ 번치코"
     },
     {
       "no": "256",
@@ -9954,7 +10184,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "물, 땅, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아차모 ➔ 영치코 ➔ 번치코"
     },
     {
       "no": "257",
@@ -9967,7 +10198,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "물, 땅, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아차모 ➔ 영치코 ➔ 번치코"
     },
     {
       "no": "258",
@@ -9978,7 +10210,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "물짱이 ➔ 늪짱이 ➔ 대짱이"
     },
     {
       "no": "259",
@@ -9990,7 +10223,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "물짱이 ➔ 늪짱이 ➔ 대짱이"
     },
     {
       "no": "260",
@@ -10002,7 +10236,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "물짱이 ➔ 늪짱이 ➔ 대짱이"
     },
     {
       "no": "261",
@@ -10013,7 +10248,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "포챠나 ➔ 그라에나"
     },
     {
       "no": "262",
@@ -10024,7 +10260,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "포챠나 ➔ 그라에나"
     },
     {
       "no": "263",
@@ -10035,7 +10272,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "지그제구리 ➔ 직구리 ➔ 가로막구리"
     },
     {
       "no": "264",
@@ -10046,7 +10284,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "지그제구리 ➔ 직구리 ➔ 가로막구리"
     },
     {
       "no": "265",
@@ -10057,7 +10296,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "개무소 ➔ 실쿤 ➔ 뷰티플라이"
     },
     {
       "no": "266",
@@ -10068,7 +10308,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "개무소 ➔ 실쿤 ➔ 뷰티플라이"
     },
     {
       "no": "267",
@@ -10081,7 +10322,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "개무소 ➔ 실쿤 ➔ 뷰티플라이"
     },
     {
       "no": "268",
@@ -10092,7 +10334,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "개무소 ➔ 카스쿤 ➔ 독케일"
     },
     {
       "no": "269",
@@ -10104,7 +10347,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "개무소 ➔ 카스쿤 ➔ 독케일"
     },
     {
       "no": "270",
@@ -10116,7 +10360,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 벌레, 독"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "연꽃몬 ➔ 로토스 ➔ 로파파"
     },
     {
       "no": "271",
@@ -10128,7 +10373,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 벌레, 독"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "연꽃몬 ➔ 로토스 ➔ 로파파"
     },
     {
       "no": "272",
@@ -10140,7 +10386,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 벌레, 독"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "연꽃몬 ➔ 로토스 ➔ 로파파"
     },
     {
       "no": "273",
@@ -10151,7 +10398,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "도토링 ➔ 잎새코 ➔ 다탱구"
     },
     {
       "no": "274",
@@ -10164,7 +10412,8 @@ const pokemonData = {
         "4배": "벌레",
         "2배": "불꽃, 얼음, 격투, 독, 비행, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "도토링 ➔ 잎새코 ➔ 다탱구"
     },
     {
       "no": "275",
@@ -10177,7 +10426,8 @@ const pokemonData = {
         "4배": "벌레",
         "2배": "불꽃, 얼음, 격투, 독, 비행, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "도토링 ➔ 잎새코 ➔ 다탱구"
     },
     {
       "no": "276",
@@ -10189,7 +10439,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "테일로 ➔ 스왈로"
     },
     {
       "no": "277",
@@ -10201,7 +10452,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "테일로 ➔ 스왈로"
     },
     {
       "no": "278",
@@ -10213,7 +10465,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "갈모매 ➔ 패리퍼"
     },
     {
       "no": "279",
@@ -10225,7 +10478,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "갈모매 ➔ 패리퍼"
     },
     {
       "no": "280",
@@ -10237,7 +10491,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 가디안"
     },
     {
       "no": "281",
@@ -10249,7 +10504,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 가디안"
     },
     {
       "no": "282",
@@ -10261,7 +10517,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 가디안"
     },
     {
       "no": "283",
@@ -10273,7 +10530,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 바위, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "비구술 ➔ 비나방"
     },
     {
       "no": "284",
@@ -10286,7 +10544,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "비구술 ➔ 비나방"
     },
     {
       "no": "285",
@@ -10297,7 +10556,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "버섯꼬 ➔ 버섯모"
     },
     {
       "no": "286",
@@ -10310,7 +10570,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "불꽃, 얼음, 독, 에스퍼, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "버섯꼬 ➔ 버섯모"
     },
     {
       "no": "287",
@@ -10321,7 +10582,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "게을로 ➔ 발바로 ➔ 게을킹"
     },
     {
       "no": "288",
@@ -10332,7 +10594,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "게을로 ➔ 발바로 ➔ 게을킹"
     },
     {
       "no": "289",
@@ -10343,7 +10606,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "게을로 ➔ 발바로 ➔ 게을킹"
     },
     {
       "no": "290",
@@ -10355,7 +10619,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 물, 얼음"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "토중몬 ➔ 아이스크"
     },
     {
       "no": "291",
@@ -10368,7 +10633,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "토중몬 ➔ 아이스크"
     },
     {
       "no": "292",
@@ -10380,7 +10646,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "토중몬 ➔ 껍질몬"
     },
     {
       "no": "293",
@@ -10391,7 +10658,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "소곤룡 ➔ 노공룡 ➔ 폭음룡"
     },
     {
       "no": "294",
@@ -10402,7 +10670,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "소곤룡 ➔ 노공룡 ➔ 폭음룡"
     },
     {
       "no": "295",
@@ -10413,7 +10682,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "소곤룡 ➔ 노공룡 ➔ 폭음룡"
     },
     {
       "no": "296",
@@ -10424,7 +10694,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "마크탕 ➔ 하리뭉"
     },
     {
       "no": "297",
@@ -10435,7 +10706,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "마크탕 ➔ 하리뭉"
     },
     {
       "no": "298",
@@ -10447,7 +10719,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "루리리 ➔ 마릴 ➔ 마릴리"
     },
     {
       "no": "299",
@@ -10458,7 +10731,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "코코파스 ➔ 대코파스"
     },
     {
       "no": "300",
@@ -10469,7 +10743,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "에나비 ➔ 델케티"
     },
     {
       "no": "301",
@@ -10480,7 +10755,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "에나비 ➔ 델케티"
     },
     {
       "no": "302",
@@ -10517,7 +10793,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "가보리 ➔ 갱도라 ➔ 보스로라"
     },
     {
       "no": "305",
@@ -10530,7 +10807,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "가보리 ➔ 갱도라 ➔ 보스로라"
     },
     {
       "no": "306",
@@ -10543,7 +10821,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "가보리 ➔ 갱도라 ➔ 보스로라"
     },
     {
       "no": "307",
@@ -10555,7 +10834,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 고스트, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "요가랑 ➔ 요가램"
     },
     {
       "no": "308",
@@ -10567,7 +10847,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 고스트, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "요가랑 ➔ 요가램"
     },
     {
       "no": "309",
@@ -10578,7 +10859,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "썬더라이 ➔ 썬더볼트"
     },
     {
       "no": "310",
@@ -10589,7 +10871,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "썬더라이 ➔ 썬더볼트"
     },
     {
       "no": "311",
@@ -10645,7 +10928,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "꼬몽울 ➔ 로젤리아 ➔ 로즈레이드"
     },
     {
       "no": "316",
@@ -10656,7 +10940,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "꼴깍몬 ➔ 꿀꺽몬"
     },
     {
       "no": "317",
@@ -10667,7 +10952,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "꼴깍몬 ➔ 꿀꺽몬"
     },
     {
       "no": "318",
@@ -10680,7 +10966,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "격투, 벌레, 전기, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "샤프니아 ➔ 샤크니아"
     },
     {
       "no": "319",
@@ -10693,7 +10980,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "격투, 벌레, 전기, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "샤프니아 ➔ 샤크니아"
     },
     {
       "no": "320",
@@ -10704,7 +10992,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "고래왕자 ➔ 고래왕"
     },
     {
       "no": "321",
@@ -10715,7 +11004,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "고래왕자 ➔ 고래왕"
     },
     {
       "no": "322",
@@ -10728,7 +11018,8 @@ const pokemonData = {
         "4배": "물",
         "2배": "땅"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "둔타 ➔ 폭타"
     },
     {
       "no": "323",
@@ -10741,7 +11032,8 @@ const pokemonData = {
         "4배": "물",
         "2배": "땅"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "둔타 ➔ 폭타"
     },
     {
       "no": "324",
@@ -10763,7 +11055,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "피그점프 ➔ 피그킹"
     },
     {
       "no": "326",
@@ -10774,7 +11067,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "피그점프 ➔ 피그킹"
     },
     {
       "no": "327",
@@ -10796,7 +11090,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "톱치 ➔ 비브라바 ➔ 플라이곤"
     },
     {
       "no": "329",
@@ -10809,7 +11104,8 @@ const pokemonData = {
         "4배": "얼음, 페어리",
         "2배": "드래곤"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "톱치 ➔ 비브라바 ➔ 플라이곤"
     },
     {
       "no": "330",
@@ -10822,7 +11118,8 @@ const pokemonData = {
         "4배": "얼음, 페어리",
         "2배": "드래곤"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "톱치 ➔ 비브라바 ➔ 플라이곤"
     },
     {
       "no": "331",
@@ -10833,7 +11130,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "선인왕 ➔ 밤선인"
     },
     {
       "no": "332",
@@ -10846,7 +11144,8 @@ const pokemonData = {
         "4배": "벌레",
         "2배": "불꽃, 얼음, 격투, 독, 비행, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "선인왕 ➔ 밤선인"
     },
     {
       "no": "333",
@@ -10859,7 +11158,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "바위, 드래곤, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "파비코 ➔ 파비코리"
     },
     {
       "no": "334",
@@ -10872,7 +11172,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "바위, 드래곤, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "파비코 ➔ 파비코리"
     },
     {
       "no": "335",
@@ -10930,7 +11231,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "미꾸리 ➔ 메깅"
     },
     {
       "no": "340",
@@ -10942,7 +11244,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "미꾸리 ➔ 메깅"
     },
     {
       "no": "341",
@@ -10953,7 +11256,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "가재군 ➔ 가재장군"
     },
     {
       "no": "342",
@@ -10965,7 +11269,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀, 격투, 벌레, 전기, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "가재군 ➔ 가재장군"
     },
     {
       "no": "343",
@@ -10977,7 +11282,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "오뚝군 ➔ 점토도리"
     },
     {
       "no": "344",
@@ -10989,7 +11295,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "물, 풀, 얼음, 벌레, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "오뚝군 ➔ 점토도리"
     },
     {
       "no": "345",
@@ -11002,7 +11309,8 @@ const pokemonData = {
         "4배": "강철, 벌레",
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "릴링 ➔ 릴리요"
     },
     {
       "no": "346",
@@ -11015,7 +11323,8 @@ const pokemonData = {
         "4배": "강철, 벌레",
         "2배": "격투"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아노딥스 ➔ 아말도"
     },
     {
       "no": "347",
@@ -11027,7 +11336,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "물, 바위, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아노딥스 ➔ 아말도"
     },
     {
       "no": "348",
@@ -11050,7 +11360,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "빈티나 ➔ 밀로틱"
     },
     {
       "no": "350",
@@ -11061,7 +11372,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "빈티나 ➔ 밀로틱"
     },
     {
       "no": "351",
@@ -11094,7 +11406,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "어둠대신 ➔ 다크펫"
     },
     {
       "no": "354",
@@ -11105,7 +11418,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "어둠대신 ➔ 다크펫"
     },
     {
       "no": "355",
@@ -11116,7 +11430,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "해골몽 ➔ 미라몽 ➔ 야느와르몽"
     },
     {
       "no": "356",
@@ -11127,7 +11442,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "해골몽 ➔ 미라몽 ➔ 야느와르몽"
     },
     {
       "no": "357",
@@ -11151,7 +11467,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "랑딸랑 ➔ 치렁"
     },
     {
       "no": "359",
@@ -11173,7 +11490,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "마자 ➔ 마자용"
     },
     {
       "no": "361",
@@ -11184,7 +11502,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "눈꼬마 ➔ 얼음귀신"
     },
     {
       "no": "362",
@@ -11195,7 +11514,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "눈꼬마 ➔ 얼음귀신"
     },
     {
       "no": "363",
@@ -11207,7 +11527,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 격투, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "대굴레오 ➔ 씨레오 ➔ 씨카이저"
     },
     {
       "no": "364",
@@ -11219,7 +11540,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 격투, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "대굴레오 ➔ 씨레오 ➔ 씨카이저"
     },
     {
       "no": "365",
@@ -11231,7 +11553,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 격투, 바위"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "대굴레오 ➔ 씨레오 ➔ 씨카이저"
     },
     {
       "no": "366",
@@ -11242,7 +11565,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "진주몽 ➔ 헌테일"
     },
     {
       "no": "367",
@@ -11253,7 +11577,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "진주몽 ➔ 헌테일"
     },
     {
       "no": "368",
@@ -11264,7 +11589,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "진주몽 ➔ 분홍장이"
     },
     {
       "no": "369",
@@ -11298,7 +11624,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아공이 ➔ 쉘곤 ➔ 보만다"
     },
     {
       "no": "372",
@@ -11309,7 +11636,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아공이 ➔ 쉘곤 ➔ 보만다"
     },
     {
       "no": "373",
@@ -11322,7 +11650,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "바위, 드래곤, 페어리"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "아공이 ➔ 쉘곤 ➔ 보만다"
     },
     {
       "no": "374",
@@ -11334,7 +11663,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "메탕 ➔ 메탕구 ➔ 메타그로스"
     },
     {
       "no": "375",
@@ -11346,7 +11676,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "메탕 ➔ 메탕구 ➔ 메타그로스"
     },
     {
       "no": "376",
@@ -11358,7 +11689,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "3세대 포켓몬"
+      "generation": "3세대 포켓몬",
+      "evolution": "메탕 ➔ 메탕구 ➔ 메타그로스"
     },
     {
       "no": "377",
@@ -11484,7 +11816,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "모부기 ➔ 수풀부기 ➔ 토대부기"
     },
     {
       "no": "388",
@@ -11495,7 +11828,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "모부기 ➔ 수풀부기 ➔ 토대부기"
     },
     {
       "no": "389",
@@ -11508,7 +11842,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "불꽃, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "모부기 ➔ 수풀부기 ➔ 토대부기"
     },
     {
       "no": "390",
@@ -11519,7 +11854,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "불꽃숭이 ➔ 파이숭이 ➔ 초염몽"
     },
     {
       "no": "391",
@@ -11531,7 +11867,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 비행, 에스퍼"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "불꽃숭이 ➔ 파이숭이 ➔ 초염몽"
     },
     {
       "no": "392",
@@ -11543,7 +11880,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 비행, 에스퍼"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "불꽃숭이 ➔ 파이숭이 ➔ 초염몽"
     },
     {
       "no": "393",
@@ -11554,7 +11892,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "팽도리 ➔ 팽태자 ➔ 엠페르트"
     },
     {
       "no": "394",
@@ -11565,7 +11904,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "팽도리 ➔ 팽태자 ➔ 엠페르트"
     },
     {
       "no": "395",
@@ -11577,7 +11917,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "팽도리 ➔ 팽태자 ➔ 엠페르트"
     },
     {
       "no": "396",
@@ -11589,7 +11930,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "찌르꼬 ➔ 찌르버드 ➔ 찌르호크"
     },
     {
       "no": "397",
@@ -11601,7 +11943,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "찌르꼬 ➔ 찌르버드 ➔ 찌르호크"
     },
     {
       "no": "398",
@@ -11613,7 +11956,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "찌르꼬 ➔ 찌르버드 ➔ 찌르호크"
     },
     {
       "no": "399",
@@ -11624,7 +11968,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "비버니 ➔ 비버통"
     },
     {
       "no": "400",
@@ -11636,7 +11981,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "비버니 ➔ 비버통"
     },
     {
       "no": "401",
@@ -11647,7 +11993,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "귀뚤뚜기 ➔ 귀뚤톡크"
     },
     {
       "no": "402",
@@ -11658,7 +12005,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "귀뚤뚜기 ➔ 귀뚤톡크"
     },
     {
       "no": "403",
@@ -11669,7 +12017,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬링크 ➔ 럭시오 ➔ 렌트라"
     },
     {
       "no": "404",
@@ -11680,7 +12029,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬링크 ➔ 럭시오 ➔ 렌트라"
     },
     {
       "no": "405",
@@ -11691,7 +12041,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬링크 ➔ 럭시오 ➔ 렌트라"
     },
     {
       "no": "406",
@@ -11703,7 +12054,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬몽울 ➔ 로젤리아 ➔ 로즈레이드"
     },
     {
       "no": "407",
@@ -11715,7 +12067,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬몽울 ➔ 로젤리아 ➔ 로즈레이드"
     },
     {
       "no": "408",
@@ -11726,7 +12079,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "두개도스 ➔ 램펄드"
     },
     {
       "no": "409",
@@ -11737,7 +12091,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "두개도스 ➔ 램펄드"
     },
     {
       "no": "410",
@@ -11750,7 +12105,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "방패톱스 ➔ 바리톱스"
     },
     {
       "no": "411",
@@ -11763,7 +12119,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "방패톱스 ➔ 바리톱스"
     },
     {
       "no": "412",
@@ -11799,7 +12156,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "도롱충이 ➔ 나메일"
     },
     {
       "no": "415",
@@ -11812,7 +12170,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "브이젤 ➔ 플로젤"
     },
     {
       "no": "416",
@@ -11825,7 +12184,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼴깍몬 ➔ 꿀꺽몬"
     },
     {
       "no": "417",
@@ -11847,7 +12207,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "브이젤 ➔ 플로젤"
     },
     {
       "no": "419",
@@ -11858,7 +12219,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "브이젤 ➔ 플로젤"
     },
     {
       "no": "420",
@@ -11869,7 +12231,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "체리버 ➔ 체리꼬"
     },
     {
       "no": "421",
@@ -11880,7 +12243,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "체리버 ➔ 체리꼬"
     },
     {
       "no": "422",
@@ -11891,7 +12255,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "깝질무 ➔ 트리토돈"
     },
     {
       "no": "423",
@@ -11903,7 +12268,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "깝질무 ➔ 트리토돈"
     },
     {
       "no": "424",
@@ -11914,7 +12280,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "에이팜 ➔ 겟핸보숭"
     },
     {
       "no": "425",
@@ -11938,7 +12305,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 고스트, 악"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "흔들풍손 ➔ 둥실라이드"
     },
     {
       "no": "427",
@@ -11949,7 +12317,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "이어롤 ➔ 이어롭"
     },
     {
       "no": "428",
@@ -11960,7 +12329,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "이어롤 ➔ 이어롭"
     },
     {
       "no": "429",
@@ -11971,7 +12341,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "무우마 ➔ 무우마직"
     },
     {
       "no": "430",
@@ -11983,7 +12354,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "바위, 전기, 얼음, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "니로우 ➔ 돈크로우"
     },
     {
       "no": "431",
@@ -11994,7 +12366,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "나옹마 ➔ 몬냥이"
     },
     {
       "no": "432",
@@ -12005,7 +12378,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "나옹마 ➔ 몬냥이"
     },
     {
       "no": "433",
@@ -12016,7 +12390,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "랑딸랑 ➔ 치렁"
     },
     {
       "no": "434",
@@ -12028,7 +12403,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "스컹뿡 ➔ 스컹탱크"
     },
     {
       "no": "435",
@@ -12040,7 +12416,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "스컹뿡 ➔ 스컹탱크"
     },
     {
       "no": "436",
@@ -12052,7 +12429,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "동미러 ➔ 동탁군"
     },
     {
       "no": "437",
@@ -12064,7 +12442,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "동미러 ➔ 동탁군"
     },
     {
       "no": "438",
@@ -12075,7 +12454,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꼬지지 ➔ 꼬지모"
     },
     {
       "no": "439",
@@ -12098,7 +12478,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "핑복 ➔ 럭키 ➔ 해피너스"
     },
     {
       "no": "441",
@@ -12135,7 +12516,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "드래곤, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "딥상어동 ➔ 한바이트 ➔ 한카리아스"
     },
     {
       "no": "444",
@@ -12148,7 +12530,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "드래곤, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "딥상어동 ➔ 한바이트 ➔ 한카리아스"
     },
     {
       "no": "445",
@@ -12161,7 +12544,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "드래곤, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "딥상어동 ➔ 한바이트 ➔ 한카리아스"
     },
     {
       "no": "446",
@@ -12172,7 +12556,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "먹고자 ➔ 잠만보"
     },
     {
       "no": "447",
@@ -12183,7 +12568,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "리오르 ➔ 루카리오"
     },
     {
       "no": "448",
@@ -12196,7 +12582,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투, 땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "리오르 ➔ 루카리오"
     },
     {
       "no": "449",
@@ -12207,7 +12594,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "히포포타스 ➔ 하마돈"
     },
     {
       "no": "450",
@@ -12218,7 +12606,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "히포포타스 ➔ 하마돈"
     },
     {
       "no": "451",
@@ -12230,7 +12619,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "스콜피 ➔ 드래피온"
     },
     {
       "no": "452",
@@ -12242,7 +12632,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "스콜피 ➔ 드래피온"
     },
     {
       "no": "453",
@@ -12255,7 +12646,8 @@ const pokemonData = {
         "4배": "에스퍼",
         "2배": "땅, 비행"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "삐딱구리 ➔ 독개굴"
     },
     {
       "no": "454",
@@ -12268,7 +12660,8 @@ const pokemonData = {
         "4배": "에스퍼",
         "2배": "땅, 비행"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "삐딱구리 ➔ 독개굴"
     },
     {
       "no": "455",
@@ -12290,7 +12683,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "형광어 ➔ 네오라이트"
     },
     {
       "no": "457",
@@ -12301,7 +12695,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "형광어 ➔ 네오라이트"
     },
     {
       "no": "458",
@@ -12314,7 +12709,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "타만타 ➔ 만타인"
     },
     {
       "no": "459",
@@ -12327,7 +12723,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투, 독, 바위, 벌레, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "눈쓰개 ➔ 눈설왕"
     },
     {
       "no": "460",
@@ -12340,7 +12737,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투, 독, 바위, 벌레, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "눈쓰개 ➔ 눈설왕"
     },
     {
       "no": "461",
@@ -12353,7 +12751,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "바위, 벌레, 불꽃, 강철, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "포푸니 ➔ 포푸니라"
     },
     {
       "no": "462",
@@ -12366,7 +12765,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "불꽃, 격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "코일 ➔ 레어코일 ➔ 자포코일"
     },
     {
       "no": "463",
@@ -12377,7 +12777,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "내루미 ➔ 내룸벨트"
     },
     {
       "no": "464",
@@ -12390,7 +12791,8 @@ const pokemonData = {
         "4배": "물, 풀",
         "2배": "격투, 땅, 얼음, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "뿔카노 ➔ 코뿌리 ➔ 거대코뿌리"
     },
     {
       "no": "465",
@@ -12401,7 +12803,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "덩쿠리 ➔ 덩쿠림보"
     },
     {
       "no": "466",
@@ -12412,7 +12815,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "에레키드 ➔ 에레브 ➔ 에레키블"
     },
     {
       "no": "467",
@@ -12423,7 +12827,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "마그비 ➔ 마그마 ➔ 마그마번"
     },
     {
       "no": "468",
@@ -12435,7 +12840,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 바위, 강철, 전기, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "토게피 ➔ 토게틱 ➔ 토게키스"
     },
     {
       "no": "469",
@@ -12448,7 +12854,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "왕자리 ➔ 메가자리"
     },
     {
       "no": "470",
@@ -12459,7 +12866,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "이브이 ➔ 리피아"
     },
     {
       "no": "471",
@@ -12470,7 +12878,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "이브이 ➔ 글레이시아"
     },
     {
       "no": "472",
@@ -12483,7 +12892,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "물"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "글라이거 ➔ 글라이온"
     },
     {
       "no": "473",
@@ -12495,7 +12905,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃, 물, 풀, 격투, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "꾸꾸리 ➔ 메꾸리 ➔ 맘모꾸리"
     },
     {
       "no": "474",
@@ -12506,7 +12917,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "폴리곤 ➔ 폴리곤2 ➔ 폴리곤Z"
     },
     {
       "no": "475",
@@ -12519,7 +12931,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "고스트, 페어리"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 엘레이드"
     },
     {
       "no": "476",
@@ -12532,7 +12945,8 @@ const pokemonData = {
         "4배": "격투, 땅",
         "2배": "물"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "코코파스 ➔ 대코파스"
     },
     {
       "no": "477",
@@ -12543,7 +12957,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "해골몽 ➔ 미라몽 ➔ 야느와르몽"
     },
     {
       "no": "478",
@@ -12555,7 +12970,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 고스트, 악, 바위, 강철"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "눈꼬마 ➔ 눈여아"
     },
     {
       "no": "479",
@@ -12683,7 +13099,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "피오네 ➔ 마나피"
     },
     {
       "no": "490",
@@ -12694,7 +13111,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "4세대 포켓몬"
+      "generation": "4세대 포켓몬",
+      "evolution": "피오네 ➔ 마나피"
     },
     {
       "no": "491",
@@ -12750,7 +13168,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "주리비얀 ➔ 샤비 ➔ 샤로다"
     },
     {
       "no": "496",
@@ -12761,7 +13180,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "주리비얀 ➔ 샤비 ➔ 샤로다"
     },
     {
       "no": "497",
@@ -12772,7 +13192,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "주리비얀 ➔ 샤비 ➔ 샤로다"
     },
     {
       "no": "498",
@@ -12783,7 +13204,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "뚜꾸리 ➔ 차오꿀 ➔ 염무왕"
     },
     {
       "no": "499",
@@ -12795,7 +13217,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 비행, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "뚜꾸리 ➔ 차오꿀 ➔ 염무왕"
     },
     {
       "no": "500",
@@ -12807,7 +13230,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 비행, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "뚜꾸리 ➔ 차오꿀 ➔ 염무왕"
     },
     {
       "no": "501",
@@ -12818,7 +13242,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
     },
     {
       "no": "502",
@@ -12829,7 +13254,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
     },
     {
       "no": "503",
@@ -12840,7 +13266,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
     },
     {
       "no": "504",
@@ -12851,7 +13278,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "보르쥐 ➔ 보르그"
     },
     {
       "no": "505",
@@ -12862,7 +13290,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "보르쥐 ➔ 보르그"
     },
     {
       "no": "506",
@@ -12873,7 +13302,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "요테리 ➔ 하데리어 ➔ 바랜드"
     },
     {
       "no": "507",
@@ -12884,7 +13314,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "요테리 ➔ 하데리어 ➔ 바랜드"
     },
     {
       "no": "508",
@@ -12895,7 +13326,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "요테리 ➔ 하데리어 ➔ 바랜드"
     },
     {
       "no": "509",
@@ -12906,7 +13338,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "쌔비냥 ➔ 레파르다스"
     },
     {
       "no": "510",
@@ -12917,7 +13350,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "쌔비냥 ➔ 레파르다스"
     },
     {
       "no": "511",
@@ -12928,7 +13362,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "야나프 ➔ 야나키"
     },
     {
       "no": "512",
@@ -12939,7 +13374,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "야나프 ➔ 야나키"
     },
     {
       "no": "513",
@@ -12950,7 +13386,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "바오프 ➔ 바오키"
     },
     {
       "no": "514",
@@ -12961,7 +13398,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "바오프 ➔ 바오키"
     },
     {
       "no": "515",
@@ -12972,7 +13410,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "앗차프 ➔ 앗차키"
     },
     {
       "no": "516",
@@ -12983,7 +13422,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "앗차프 ➔ 앗차키"
     },
     {
       "no": "517",
@@ -12994,7 +13434,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "몽나 ➔ 몽얌나"
     },
     {
       "no": "518",
@@ -13005,7 +13446,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "몽나 ➔ 몽얌나"
     },
     {
       "no": "519",
@@ -13017,7 +13459,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "콩둘기 ➔ 유토브 ➔ 켄호로우"
     },
     {
       "no": "520",
@@ -13029,7 +13472,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "콩둘기 ➔ 유토브 ➔ 켄호로우"
     },
     {
       "no": "521",
@@ -13041,7 +13485,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "콩둘기 ➔ 유토브 ➔ 켄호로우"
     },
     {
       "no": "522",
@@ -13052,7 +13497,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "줄뮤마 ➔ 제브라이카"
     },
     {
       "no": "523",
@@ -13063,7 +13509,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "줄뮤마 ➔ 제브라이카"
     },
     {
       "no": "524",
@@ -13074,7 +13521,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "단굴 ➔ 암트르 ➔ 기가이어스"
     },
     {
       "no": "525",
@@ -13085,7 +13533,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "단굴 ➔ 암트르 ➔ 기가이어스"
     },
     {
       "no": "526",
@@ -13120,7 +13569,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "또르박쥐 ➔ 맘박쥐"
     },
     {
       "no": "529",
@@ -13131,7 +13581,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "두더류 ➔ 몰드류"
     },
     {
       "no": "530",
@@ -13143,7 +13594,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 물, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "두더류 ➔ 몰드류"
     },
     {
       "no": "531",
@@ -13165,7 +13617,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "으랏차 ➔ 토쇠골 ➔ 노보청"
     },
     {
       "no": "533",
@@ -13176,7 +13629,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "으랏차 ➔ 토쇠골 ➔ 노보청"
     },
     {
       "no": "534",
@@ -13187,7 +13641,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "으랏차 ➔ 토쇠골 ➔ 노보청"
     },
     {
       "no": "535",
@@ -13198,7 +13653,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "동챙이 ➔ 두까비 ➔ 두빅굴"
     },
     {
       "no": "536",
@@ -13210,7 +13666,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "동챙이 ➔ 두까비 ➔ 두빅굴"
     },
     {
       "no": "537",
@@ -13222,7 +13679,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "동챙이 ➔ 두까비 ➔ 두빅굴"
     },
     {
       "no": "538",
@@ -13257,7 +13715,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "독, 바위, 얼음"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "두르보 ➔ 두르쿤 ➔ 모아머"
     },
     {
       "no": "541",
@@ -13270,7 +13729,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "독, 바위, 얼음"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "두르보 ➔ 두르쿤 ➔ 모아머"
     },
     {
       "no": "542",
@@ -13283,7 +13743,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "독, 바위, 얼음"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "두르보 ➔ 두르쿤 ➔ 모아머"
     },
     {
       "no": "543",
@@ -13295,7 +13756,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "마디네 ➔ 휠구 ➔ 펜드라"
     },
     {
       "no": "544",
@@ -13307,7 +13769,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "마디네 ➔ 휠구 ➔ 펜드라"
     },
     {
       "no": "545",
@@ -13319,7 +13782,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "마디네 ➔ 휠구 ➔ 펜드라"
     },
     {
       "no": "546",
@@ -13332,7 +13796,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "불꽃, 얼음, 비행, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "소미안 ➔ 엘풍"
     },
     {
       "no": "547",
@@ -13345,7 +13810,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "불꽃, 얼음, 비행, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "소미안 ➔ 엘풍"
     },
     {
       "no": "548",
@@ -13356,7 +13822,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "치릴리 ➔ 드레디어"
     },
     {
       "no": "549",
@@ -13367,7 +13834,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "치릴리 ➔ 드레디어"
     },
     {
       "no": "550",
@@ -13378,7 +13846,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "배쓰나이 ➔ 대쓰여너"
     },
     {
       "no": "551",
@@ -13402,7 +13871,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깜눈크 ➔ 악비르 ➔ 악비아르"
     },
     {
       "no": "553",
@@ -13414,7 +13884,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깜눈크 ➔ 악비르 ➔ 악비아르"
     },
     {
       "no": "554",
@@ -13425,7 +13896,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "달막화 ➔ 불비달마"
     },
     {
       "no": "555",
@@ -13436,7 +13908,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "달막화 ➔ 불비달마"
     },
     {
       "no": "556",
@@ -13459,7 +13932,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "돌살이 ➔ 암팰리스"
     },
     {
       "no": "558",
@@ -13471,7 +13945,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "돌살이 ➔ 암팰리스"
     },
     {
       "no": "559",
@@ -13484,7 +13959,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "격투, 비행"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "곤율랭 ➔ 곤율거니"
     },
     {
       "no": "560",
@@ -13497,7 +13973,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "격투, 비행"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "곤율랭 ➔ 곤율거니"
     },
     {
       "no": "561",
@@ -13520,7 +13997,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "데스마스 ➔ 데스니칸"
     },
     {
       "no": "563",
@@ -13531,7 +14009,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "데스마스 ➔ 데스니칸"
     },
     {
       "no": "564",
@@ -13544,7 +14023,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "프로토가 ➔ 늑골라"
     },
     {
       "no": "565",
@@ -13557,7 +14037,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "프로토가 ➔ 늑골라"
     },
     {
       "no": "566",
@@ -13569,7 +14050,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 전기, 얼음, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "아켄 ➔ 아케오스"
     },
     {
       "no": "567",
@@ -13581,7 +14063,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 전기, 얼음, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "아켄 ➔ 아케오스"
     },
     {
       "no": "568",
@@ -13592,7 +14075,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깨봉이 ➔ 더스트나"
     },
     {
       "no": "569",
@@ -13603,7 +14087,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깨봉이 ➔ 더스트나"
     },
     {
       "no": "570",
@@ -13614,7 +14099,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "조로아 ➔ 조로아크"
     },
     {
       "no": "571",
@@ -13625,7 +14111,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "조로아 ➔ 조로아크"
     },
     {
       "no": "572",
@@ -13636,7 +14123,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "치라미 ➔ 치라치노"
     },
     {
       "no": "573",
@@ -13647,7 +14135,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "치라미 ➔ 치라치노"
     },
     {
       "no": "574",
@@ -13658,7 +14147,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "고디탱 ➔ 고디보미 ➔ 고디모아젤"
     },
     {
       "no": "575",
@@ -13669,7 +14159,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "고디탱 ➔ 고디보미 ➔ 고디모아젤"
     },
     {
       "no": "576",
@@ -13680,7 +14171,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "고디탱 ➔ 고디보미 ➔ 고디모아젤"
     },
     {
       "no": "577",
@@ -13691,7 +14183,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "유니란 ➔ 듀란 ➔ 란쿨루스"
     },
     {
       "no": "578",
@@ -13702,7 +14195,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "유니란 ➔ 듀란 ➔ 란쿨루스"
     },
     {
       "no": "579",
@@ -13713,7 +14207,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "유니란 ➔ 듀란 ➔ 란쿨루스"
     },
     {
       "no": "580",
@@ -13726,7 +14221,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "꼬지보리 ➔ 스완나"
     },
     {
       "no": "581",
@@ -13739,7 +14235,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "꼬지보리 ➔ 스완나"
     },
     {
       "no": "582",
@@ -13750,7 +14247,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "바닐프티 ➔ 바닐리치 ➔ 배바닐라"
     },
     {
       "no": "583",
@@ -13761,7 +14259,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "바닐프티 ➔ 바닐리치 ➔ 배바닐라"
     },
     {
       "no": "584",
@@ -13772,7 +14271,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "바닐프티 ➔ 바닐리치 ➔ 배바닐라"
     },
     {
       "no": "585",
@@ -13784,7 +14284,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "사철록 ➔ 바라철록"
     },
     {
       "no": "586",
@@ -13796,7 +14297,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "사철록 ➔ 바라철록"
     },
     {
       "no": "587",
@@ -13819,7 +14321,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "딱정곤 ➔ 슈바르고"
     },
     {
       "no": "589",
@@ -13831,7 +14334,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "딱정곤 ➔ 슈바르고"
     },
     {
       "no": "590",
@@ -13843,7 +14347,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깜놀버슬 ➔ 뽀록나"
     },
     {
       "no": "591",
@@ -13855,7 +14360,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "깜놀버슬 ➔ 뽀록나"
     },
     {
       "no": "592",
@@ -13867,7 +14373,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "탱그릴 ➔ 탱탱겔"
     },
     {
       "no": "593",
@@ -13879,7 +14386,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "탱그릴 ➔ 탱탱겔"
     },
     {
       "no": "594",
@@ -13902,7 +14410,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "파쪼옥 ➔ 전툴라"
     },
     {
       "no": "596",
@@ -13914,7 +14423,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "파쪼옥 ➔ 전툴라"
     },
     {
       "no": "597",
@@ -13927,7 +14437,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "철시드 ➔ 너트령"
     },
     {
       "no": "598",
@@ -13940,7 +14451,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "철시드 ➔ 너트령"
     },
     {
       "no": "599",
@@ -13951,7 +14463,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "기어르 ➔ 기기어르 ➔ 기기기어르"
     },
     {
       "no": "600",
@@ -13962,7 +14475,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "기어르 ➔ 기기어르 ➔ 기기기어르"
     },
     {
       "no": "601",
@@ -13973,7 +14487,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "기어르 ➔ 기기어르 ➔ 기기기어르"
     },
     {
       "no": "602",
@@ -13984,7 +14499,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "저리어 ➔ 저리릴 ➔ 저리더프"
     },
     {
       "no": "603",
@@ -13995,7 +14511,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "저리어 ➔ 저리릴 ➔ 저리더프"
     },
     {
       "no": "604",
@@ -14006,7 +14523,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅 (특성 부유 시 없음)"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "저리어 ➔ 저리릴 ➔ 저리더프"
     },
     {
       "no": "605",
@@ -14017,7 +14535,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "리그레 ➔ 벰크"
     },
     {
       "no": "606",
@@ -14028,7 +14547,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "리그레 ➔ 벰크"
     },
     {
       "no": "607",
@@ -14040,7 +14560,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "불켜미 ➔ 램프라 ➔ 샹델라"
     },
     {
       "no": "608",
@@ -14052,7 +14573,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "불켜미 ➔ 램프라 ➔ 샹델라"
     },
     {
       "no": "609",
@@ -14064,7 +14586,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "불켜미 ➔ 램프라 ➔ 샹델라"
     },
     {
       "no": "610",
@@ -14075,7 +14598,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "터검니 ➔ 액슨도 ➔ 액스라이즈"
     },
     {
       "no": "611",
@@ -14086,7 +14610,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "터검니 ➔ 액슨도 ➔ 액스라이즈"
     },
     {
       "no": "612",
@@ -14097,7 +14622,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "터검니 ➔ 액슨도 ➔ 액스라이즈"
     },
     {
       "no": "613",
@@ -14108,7 +14634,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "코고미 ➔ 툰베어"
     },
     {
       "no": "614",
@@ -14119,7 +14646,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "코고미 ➔ 툰베어"
     },
     {
       "no": "615",
@@ -14152,7 +14680,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "쪼마리 ➔ 어지리더"
     },
     {
       "no": "618",
@@ -14175,7 +14704,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "비조푸 ➔ 비조도"
     },
     {
       "no": "620",
@@ -14186,7 +14716,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "비조푸 ➔ 비조도"
     },
     {
       "no": "621",
@@ -14209,7 +14740,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "골비람 ➔ 골루그"
     },
     {
       "no": "623",
@@ -14221,7 +14753,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "골비람 ➔ 골루그"
     },
     {
       "no": "624",
@@ -14234,7 +14767,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "불꽃, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "자망칼 ➔ 절각참 ➔ 대도각참"
     },
     {
       "no": "625",
@@ -14247,7 +14781,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "불꽃, 땅"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "자망칼 ➔ 절각참 ➔ 대도각참"
     },
     {
       "no": "626",
@@ -14270,7 +14805,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "수리둥보 ➔ 워글"
     },
     {
       "no": "628",
@@ -14282,7 +14818,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "수리둥보 ➔ 워글"
     },
     {
       "no": "629",
@@ -14294,7 +14831,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "벌차이 ➔ 버랜지나"
     },
     {
       "no": "630",
@@ -14306,7 +14844,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 페어리"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "벌차이 ➔ 버랜지나"
     },
     {
       "no": "631",
@@ -14342,7 +14881,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "격투, 벌레, 얼음, 드래곤"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "모노두 ➔ 디헤드 ➔ 삼삼드래"
     },
     {
       "no": "634",
@@ -14355,7 +14895,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "격투, 벌레, 얼음, 드래곤"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "모노두 ➔ 디헤드 ➔ 삼삼드래"
     },
     {
       "no": "635",
@@ -14368,7 +14909,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "격투, 벌레, 얼음, 드래곤"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "모노두 ➔ 디헤드 ➔ 삼삼드래"
     },
     {
       "no": "636",
@@ -14381,7 +14923,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "물, 비행"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "활화르바 ➔ 불카모스"
     },
     {
       "no": "637",
@@ -14394,7 +14937,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "물, 비행"
       },
-      "generation": "5세대 포켓몬"
+      "generation": "5세대 포켓몬",
+      "evolution": "활화르바 ➔ 불카모스"
     },
     {
       "no": "638",
@@ -14550,7 +15094,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "도치마론 ➔ 도치보구 ➔ 브리가론"
     },
     {
       "no": "651",
@@ -14561,7 +15106,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "도치마론 ➔ 도치보구 ➔ 브리가론"
     },
     {
       "no": "652",
@@ -14574,7 +15120,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "불꽃, 얼음, 독, 에스퍼, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "도치마론 ➔ 도치보구 ➔ 브리가론"
     },
     {
       "no": "653",
@@ -14585,7 +15132,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "푸호꼬 ➔ 테르나 ➔ 마폭시"
     },
     {
       "no": "654",
@@ -14596,7 +15144,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "푸호꼬 ➔ 테르나 ➔ 마폭시"
     },
     {
       "no": "655",
@@ -14608,7 +15157,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "푸호꼬 ➔ 테르나 ➔ 마폭시"
     },
     {
       "no": "656",
@@ -14619,7 +15169,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "개구마르 ➔ 개굴반장 ➔ 개굴닌자"
     },
     {
       "no": "657",
@@ -14630,7 +15181,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "개구마르 ➔ 개굴반장 ➔ 개굴닌자"
     },
     {
       "no": "658",
@@ -14642,7 +15194,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 격투, 벌레, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "개구마르 ➔ 개굴반장 ➔ 개굴닌자"
     },
     {
       "no": "659",
@@ -14653,7 +15206,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "파르빗 ➔ 파르토"
     },
     {
       "no": "660",
@@ -14677,7 +15231,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "화살꼬빈 ➔ 불화살빈 ➔ 파이어로"
     },
     {
       "no": "662",
@@ -14690,7 +15245,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "물, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "화살꼬빈 ➔ 불화살빈 ➔ 파이어로"
     },
     {
       "no": "663",
@@ -14703,7 +15259,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "물, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "화살꼬빈 ➔ 불화살빈 ➔ 파이어로"
     },
     {
       "no": "664",
@@ -14714,7 +15271,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "분이벌레 ➔ 분떠도리 ➔ 비비용"
     },
     {
       "no": "665",
@@ -14738,7 +15296,8 @@ const pokemonData = {
         "4배": "바위",
         "2배": "불꽃, 전기, 비행, 얼음"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "분이벌레 ➔ 분떠도리 ➔ 비비용"
     },
     {
       "no": "667",
@@ -14750,7 +15309,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 격투, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "레오꼬 ➔ 화염레오"
     },
     {
       "no": "668",
@@ -14762,7 +15322,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 격투, 바위"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "레오꼬 ➔ 화염레오"
     },
     {
       "no": "669",
@@ -14773,7 +15334,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "플라베베 ➔ 플라엣테 ➔ 플라제스"
     },
     {
       "no": "670",
@@ -14784,7 +15346,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "플라베베 ➔ 플라엣테 ➔ 플라제스"
     },
     {
       "no": "671",
@@ -14795,7 +15358,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "플라베베 ➔ 플라엣테 ➔ 플라제스"
     },
     {
       "no": "672",
@@ -14806,7 +15370,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "메이클 ➔ 고고트"
     },
     {
       "no": "673",
@@ -14817,7 +15382,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "메이클 ➔ 고고트"
     },
     {
       "no": "674",
@@ -14828,7 +15394,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "판짱 ➔ 부란다"
     },
     {
       "no": "675",
@@ -14841,7 +15408,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "비행, 격투, 벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "판짱 ➔ 부란다"
     },
     {
       "no": "676",
@@ -14863,7 +15431,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "냐스퍼 ➔ 냐오닉스"
     },
     {
       "no": "678",
@@ -14874,7 +15443,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "냐스퍼 ➔ 냐오닉스"
     },
     {
       "no": "679",
@@ -14886,7 +15456,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "680",
@@ -14898,7 +15469,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
     },
     {
       "no": "681",
@@ -14910,7 +15482,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "682",
@@ -14921,7 +15494,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "슈쁘 ➔ 프레프티르"
     },
     {
       "no": "683",
@@ -14932,7 +15506,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "슈쁘 ➔ 프레프티르"
     },
     {
       "no": "684",
@@ -14943,7 +15518,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "나룸퍼프 ➔ 나루림"
     },
     {
       "no": "685",
@@ -14954,7 +15530,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "나룸퍼프 ➔ 나루림"
     },
     {
       "no": "686",
@@ -14966,7 +15543,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "오케이징 ➔ 칼라마네로"
     },
     {
       "no": "687",
@@ -14978,7 +15556,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "벌레"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "오케이징 ➔ 칼라마네로"
     },
     {
       "no": "688",
@@ -15004,7 +15583,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "격투, 땅, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "거북손손 ➔ 거북손데스"
     },
     {
       "no": "690",
@@ -15016,7 +15596,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 땅, 에스퍼"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "침바루 ➔ 장침바루"
     },
     {
       "no": "691",
@@ -15028,7 +15609,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 땅, 에스퍼, 드래곤"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "수레기 ➔ 드래캄"
     },
     {
       "no": "692",
@@ -15050,7 +15632,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "완철포 ➔ 블로스터"
     },
     {
       "no": "694",
@@ -15063,7 +15646,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "땅"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "목도리키텔 ➔ 일레도리자드"
     },
     {
       "no": "695",
@@ -15076,7 +15660,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "땅"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "목도리키텔 ➔ 일레도리자드"
     },
     {
       "no": "696",
@@ -15088,7 +15673,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 강철, 얼음, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "티고라스 ➔ 견고라스"
     },
     {
       "no": "697",
@@ -15100,7 +15686,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 강철, 얼음, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "티고라스 ➔ 견고라스"
     },
     {
       "no": "698",
@@ -15113,7 +15700,8 @@ const pokemonData = {
         "4배": "격투, 땅, 강철, 바위",
         "2배": "물, 풀"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "아마루스 ➔ 아마루르가"
     },
     {
       "no": "699",
@@ -15137,7 +15725,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "이브이 ➔ 님피아"
     },
     {
       "no": "701",
@@ -15184,7 +15773,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "705",
@@ -15195,7 +15785,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "706",
@@ -15206,7 +15797,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "707",
@@ -15230,7 +15822,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "나목령 ➔ 대로트"
     },
     {
       "no": "709",
@@ -15242,7 +15835,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "나목령 ➔ 대로트"
     },
     {
       "no": "710",
@@ -15254,7 +15848,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "호바귀 ➔ 펌킨인"
     },
     {
       "no": "711",
@@ -15266,7 +15861,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "호바귀 ➔ 펌킨인"
     },
     {
       "no": "712",
@@ -15277,7 +15873,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "꽁어름 ➔ 크레베이스"
     },
     {
       "no": "713",
@@ -15288,7 +15885,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "꽁어름 ➔ 크레베이스"
     },
     {
       "no": "714",
@@ -15300,7 +15898,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 바위, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "음뱃 ➔ 음번"
     },
     {
       "no": "715",
@@ -15312,7 +15911,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 바위, 드래곤, 페어리"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "음뱃 ➔ 음번"
     },
     {
       "no": "716",
@@ -15397,7 +15997,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "불꽃, 독, 비행, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "나몰빼미 ➔ 빼미스로우 ➔ 모크나이퍼"
     },
     {
       "no": "723",
@@ -15410,7 +16011,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "불꽃, 독, 비행, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "나몰빼미 ➔ 빼미스로우 ➔ 모크나이퍼"
     },
     {
       "no": "724",
@@ -15422,7 +16024,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "나몰빼미 ➔ 빼미스로우 ➔ 모크나이퍼"
     },
     {
       "no": "725",
@@ -15433,7 +16036,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "냐오불 ➔ 냐오히트 ➔ 어흥염"
     },
     {
       "no": "726",
@@ -15444,7 +16048,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "냐오불 ➔ 냐오히트 ➔ 어흥염"
     },
     {
       "no": "727",
@@ -15456,7 +16061,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 격투, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "냐오불 ➔ 냐오히트 ➔ 어흥염"
     },
     {
       "no": "728",
@@ -15467,7 +16073,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "누리공 ➔ 키요공 ➔ 누리레느"
     },
     {
       "no": "729",
@@ -15478,7 +16085,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "누리공 ➔ 키요공 ➔ 누리레느"
     },
     {
       "no": "730",
@@ -15490,7 +16098,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 풀, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "누리공 ➔ 키요공 ➔ 누리레느"
     },
     {
       "no": "731",
@@ -15502,7 +16111,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "콕코구리 ➔ 크라파 ➔ 왕큰부리"
     },
     {
       "no": "732",
@@ -15514,7 +16124,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "콕코구리 ➔ 크라파 ➔ 왕큰부리"
     },
     {
       "no": "733",
@@ -15526,7 +16137,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "콕코구리 ➔ 크라파 ➔ 왕큰부리"
     },
     {
       "no": "734",
@@ -15537,7 +16149,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "영구스 ➔ 형사구스"
     },
     {
       "no": "735",
@@ -15548,7 +16161,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "영구스 ➔ 형사구스"
     },
     {
       "no": "736",
@@ -15559,7 +16173,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "턱지충이 ➔ 전지충이 ➔ 투구뿌논"
     },
     {
       "no": "737",
@@ -15571,7 +16186,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "턱지충이 ➔ 전지충이 ➔ 투구뿌논"
     },
     {
       "no": "738",
@@ -15583,7 +16199,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "턱지충이 ➔ 전지충이 ➔ 투구뿌논"
     },
     {
       "no": "739",
@@ -15594,7 +16211,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "오기지게 ➔ 모단단게"
     },
     {
       "no": "740",
@@ -15606,7 +16224,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 비행, 에스퍼, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "오기지게 ➔ 모단단게"
     },
     {
       "no": "741",
@@ -15667,7 +16286,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 강철, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "에블리 ➔ 에리본"
     },
     {
       "no": "743",
@@ -15679,7 +16299,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 강철, 바위"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "에블리 ➔ 에리본"
     },
     {
       "no": "744",
@@ -15690,7 +16311,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "암멍이 ➔ 루가루암"
     },
     {
       "no": "745",
@@ -15701,7 +16323,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "암멍이 ➔ 루가루암"
     },
     {
       "no": "746",
@@ -15724,7 +16347,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 전기, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "시마사리 ➔ 더시마사리"
     },
     {
       "no": "748",
@@ -15736,7 +16360,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 전기, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "시마사리 ➔ 더시마사리"
     },
     {
       "no": "749",
@@ -15747,7 +16372,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "머드나기 ➔ 만마드"
     },
     {
       "no": "750",
@@ -15758,7 +16384,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "머드나기 ➔ 만마드"
     },
     {
       "no": "751",
@@ -15770,7 +16397,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 바위, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "물거미 ➔ 깨비물거미"
     },
     {
       "no": "752",
@@ -15782,7 +16410,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 바위, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "물거미 ➔ 깨비물거미"
     },
     {
       "no": "753",
@@ -15793,7 +16422,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "짜랑랑 ➔ 라란티스"
     },
     {
       "no": "754",
@@ -15804,7 +16434,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "짜랑랑 ➔ 라란티스"
     },
     {
       "no": "755",
@@ -15817,7 +16448,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "불꽃, 얼음, 비행, 강철"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "자마슈 ➔ 마셰이드"
     },
     {
       "no": "756",
@@ -15830,7 +16462,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "불꽃, 얼음, 비행, 강철"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "자마슈 ➔ 마셰이드"
     },
     {
       "no": "757",
@@ -15843,7 +16476,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "물, 바위, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "야도뇽 ➔ 염뉴트"
     },
     {
       "no": "758",
@@ -15856,7 +16490,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "물, 바위, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "야도뇽 ➔ 염뉴트"
     },
     {
       "no": "759",
@@ -15868,7 +16503,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 격투, 에스퍼, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "포곰곰 ➔ 이븐곰"
     },
     {
       "no": "760",
@@ -15880,7 +16516,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 격투, 에스퍼, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "포곰곰 ➔ 이븐곰"
     },
     {
       "no": "761",
@@ -15891,7 +16528,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "달콤아 ➔ 달무리나 ➔ 달코퀸"
     },
     {
       "no": "762",
@@ -15902,7 +16540,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "달콤아 ➔ 달무리나 ➔ 달코퀸"
     },
     {
       "no": "763",
@@ -15913,7 +16552,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "달콤아 ➔ 달무리나 ➔ 달코퀸"
     },
     {
       "no": "764",
@@ -15959,7 +16599,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 바위, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "꼬시레 ➔ 갑주무사"
     },
     {
       "no": "768",
@@ -15971,7 +16612,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 바위, 전기"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "꼬시레 ➔ 갑주무사"
     },
     {
       "no": "769",
@@ -15983,7 +16625,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "모래꿍 ➔ 모래성이당"
     },
     {
       "no": "770",
@@ -15995,7 +16638,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "모래꿍 ➔ 모래성이당"
     },
     {
       "no": "771",
@@ -16017,7 +16661,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "타입:널 ➔ 실버디"
     },
     {
       "no": "773",
@@ -16028,7 +16673,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "타입:널 ➔ 실버디"
     },
     {
       "no": "774",
@@ -16136,7 +16782,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "짜랑꼬 ➔ 짜랑고우 ➔ 짜랑고우거"
     },
     {
       "no": "783",
@@ -16148,7 +16795,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 얼음, 드래곤, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "짜랑꼬 ➔ 짜랑고우 ➔ 짜랑고우거"
     },
     {
       "no": "784",
@@ -16160,7 +16808,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 얼음, 드래곤, 페어리"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "짜랑꼬 ➔ 짜랑고우 ➔ 짜랑고우거"
     },
     {
       "no": "785",
@@ -16220,7 +16869,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "790",
@@ -16231,7 +16881,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "791",
@@ -16244,7 +16895,8 @@ const pokemonData = {
         "4배": "불꽃, 땅",
         "2배": "고스트, 악"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "792",
@@ -16256,7 +16908,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "고스트, 악"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 루나아라"
     },
     {
       "no": "793",
@@ -16392,7 +17045,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "베베놈 ➔ 아고용"
     },
     {
       "no": "804",
@@ -16405,7 +17059,8 @@ const pokemonData = {
         "4배": "얼음, 땅",
         "2배": "바위, 드래곤, 에스퍼"
       },
-      "generation": "7세대 포켓몬"
+      "generation": "7세대 포켓몬",
+      "evolution": "베베놈 ➔ 아고용"
     },
     {
       "no": "805",
@@ -16476,7 +17131,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "흥나숭 ➔ 채키몽 ➔ 고릴타"
     },
     {
       "no": "811",
@@ -16489,7 +17145,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "흥나숭 ➔ 채키몽 ➔ 고릴타"
     },
     {
       "no": "812",
@@ -16502,7 +17159,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "흥나숭 ➔ 채키몽 ➔ 고릴타"
     },
     {
       "no": "813",
@@ -16515,7 +17173,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 땅, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "염버니 ➔ 래비풋 ➔ 에이스번"
     },
     {
       "no": "814",
@@ -16528,7 +17187,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 땅, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "염버니 ➔ 래비풋 ➔ 에이스번"
     },
     {
       "no": "815",
@@ -16541,7 +17201,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 땅, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "염버니 ➔ 래비풋 ➔ 에이스번"
     },
     {
       "no": "816",
@@ -16554,7 +17215,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "울머기 ➔ 누겔레온 ➔ 인텔리레온"
     },
     {
       "no": "817",
@@ -16567,7 +17229,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "울머기 ➔ 누겔레온 ➔ 인텔리레온"
     },
     {
       "no": "818",
@@ -16580,7 +17243,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "울머기 ➔ 누겔레온 ➔ 인텔리레온"
     },
     {
       "no": "819",
@@ -16593,7 +17257,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "탐리스 ➔ 요씽리스"
     },
     {
       "no": "820",
@@ -16606,7 +17271,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "탐리스 ➔ 요씽리스"
     },
     {
       "no": "821",
@@ -16632,7 +17298,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "파라꼬 ➔ 파크로우 ➔ 아머까오"
     },
     {
       "no": "823",
@@ -16645,7 +17312,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "파라꼬 ➔ 파크로우 ➔ 아머까오"
     },
     {
       "no": "824",
@@ -16658,7 +17326,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "두루지벌레 ➔ 레돔벌레 ➔ 이올브"
     },
     {
       "no": "825",
@@ -16671,7 +17340,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 비행, 바위, 벌레, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "두루지벌레 ➔ 레돔벌레 ➔ 이올브"
     },
     {
       "no": "826",
@@ -16684,7 +17354,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 비행, 바위, 벌레, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "두루지벌레 ➔ 레돔벌레 ➔ 이올브"
     },
     {
       "no": "827",
@@ -16710,7 +17381,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "훔처우 ➔ 폭슬라이"
     },
     {
       "no": "829",
@@ -16723,7 +17395,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "꼬모카 ➔ 백솜모카"
     },
     {
       "no": "830",
@@ -16736,7 +17409,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "꼬모카 ➔ 백솜모카"
     },
     {
       "no": "831",
@@ -16749,7 +17423,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "우르 ➔ 배우르"
     },
     {
       "no": "832",
@@ -16762,7 +17437,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "우르 ➔ 배우르"
     },
     {
       "no": "833",
@@ -16775,7 +17451,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "깨물부기 ➔ 갈가부기"
     },
     {
       "no": "834",
@@ -16788,7 +17465,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "전기, 격투, 땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "깨물부기 ➔ 갈가부기"
     },
     {
       "no": "835",
@@ -16801,7 +17479,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "멍파치 ➔ 펄스멍"
     },
     {
       "no": "836",
@@ -16814,7 +17493,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "멍파치 ➔ 펄스멍"
     },
     {
       "no": "837",
@@ -16827,7 +17507,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
     },
     {
       "no": "838",
@@ -16840,7 +17521,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
     },
     {
       "no": "839",
@@ -16853,7 +17535,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
     },
     {
       "no": "840",
@@ -16866,7 +17549,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "과사삭벌레 ➔ 과미르 ➔ 과미드라"
     },
     {
       "no": "841",
@@ -16892,7 +17576,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "과사삭벌레 ➔ 단지래플"
     },
     {
       "no": "843",
@@ -16905,7 +17590,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 풀, 얼음"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "모래뱀 ➔ 사다이사"
     },
     {
       "no": "844",
@@ -16918,7 +17604,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 풀, 얼음"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "모래뱀 ➔ 사다이사"
     },
     {
       "no": "845",
@@ -16957,7 +17644,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "찌로꼬치 ➔ 꼬치조"
     },
     {
       "no": "848",
@@ -16983,7 +17671,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "에스퍼"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "일레즌 ➔ 스트린더"
     },
     {
       "no": "850",
@@ -17022,7 +17711,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "때때무노 ➔ 케오퍼스"
     },
     {
       "no": "853",
@@ -17035,7 +17725,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "때때무노 ➔ 케오퍼스"
     },
     {
       "no": "854",
@@ -17061,7 +17752,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "데인차 ➔ 포트데스"
     },
     {
       "no": "856",
@@ -17074,7 +17766,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "몸지브림 ➔ 손지브림 ➔ 브리무음"
     },
     {
       "no": "857",
@@ -17087,7 +17780,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "몸지브림 ➔ 손지브림 ➔ 브리무음"
     },
     {
       "no": "858",
@@ -17100,7 +17794,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "독, 고스트, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "몸지브림 ➔ 손지브림 ➔ 브리무음"
     },
     {
       "no": "859",
@@ -17139,7 +17834,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "독, 강철, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "메롱꿍 ➔ 쏘겨모 ➔ 오롱털"
     },
     {
       "no": "862",
@@ -17152,7 +17848,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "벌레, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "지그제구리 ➔ 직구리 ➔ 가로막구리"
     },
     {
       "no": "863",
@@ -17165,7 +17862,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "나옹 ➔ 나이킹"
     },
     {
       "no": "864",
@@ -17178,7 +17876,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "파오리 ➔ 창파나이트"
     },
     {
       "no": "865",
@@ -17191,7 +17890,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 벌레, 바위, 고스트, 악, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "흉내내 ➔ 마임맨 ➔ 마임꽁꽁"
     },
     {
       "no": "866",
@@ -17204,7 +17904,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "데스마스 ➔ 데스판"
     },
     {
       "no": "867",
@@ -17217,7 +17918,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "코산호 ➔ 산호르곤"
     },
     {
       "no": "868",
@@ -17243,7 +17945,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "독, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "마빌크 ➔ 마휘핑"
     },
     {
       "no": "870",
@@ -17282,7 +17985,8 @@ const pokemonData = {
         "4배": "불꽃, 바위",
         "2배": "비행, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "누니머기 ➔ 모스노우"
     },
     {
       "no": "873",
@@ -17295,7 +17999,8 @@ const pokemonData = {
         "4배": "불꽃, 바위",
         "2배": "비행, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "누니머기 ➔ 모스노우"
     },
     {
       "no": "874",
@@ -17360,7 +18065,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "끼리동 ➔ 대왕끼리동"
     },
     {
       "no": "879",
@@ -17373,7 +18079,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "끼리동 ➔ 대왕끼리동"
     },
     {
       "no": "880",
@@ -17438,7 +18145,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "격투, 땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "두랄루돈 ➔ 브리두라스"
     },
     {
       "no": "885",
@@ -17451,7 +18159,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "얼음, 드래곤, 페어리, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "드라꼰 ➔ 드래런치 ➔ 드래펄트"
     },
     {
       "no": "886",
@@ -17464,7 +18173,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "얼음, 드래곤, 페어리, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "드라꼰 ➔ 드래런치 ➔ 드래펄트"
     },
     {
       "no": "887",
@@ -17477,7 +18187,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "얼음, 드래곤, 페어리, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "드라꼰 ➔ 드래런치 ➔ 드래펄트"
     },
     {
       "no": "888",
@@ -17529,7 +18240,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "치고마 ➔ 우라오스"
     },
     {
       "no": "892",
@@ -17646,7 +18358,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "벌레, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "노라키 ➔ 신비록"
     },
     {
       "no": "900",
@@ -17659,7 +18372,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 바위, 강철"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "스라크 ➔ 사마자르"
     },
     {
       "no": "901",
@@ -17672,7 +18386,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "물, 풀, 얼음, 격투"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "깜지곰 ➔ 링곰 ➔ 다투곰"
     },
     {
       "no": "902",
@@ -17685,7 +18400,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "풀, 전기, 고스트, 악"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "배쓰나이 ➔ 대쓰여너"
     },
     {
       "no": "903",
@@ -17711,7 +18427,8 @@ const pokemonData = {
         "4배": "-",
         "2배": "땅"
       },
-      "generation": "8세대 포켓몬"
+      "generation": "8세대 포켓몬",
+      "evolution": "침바루 ➔ 장침바루"
     },
     {
       "no": "905",
@@ -17735,7 +18452,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "나오하 ➔ 나로테 ➔ 마스카나"
     },
     {
       "no": "907",
@@ -17746,7 +18464,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "나오하 ➔ 나로테 ➔ 마스카나"
     },
     {
       "no": "908",
@@ -17759,7 +18478,8 @@ const pokemonData = {
         "4배": "벌레",
         "2배": "불꽃, 얼음, 격투, 독, 비행, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "나오하 ➔ 나로테 ➔ 마스카나"
     },
     {
       "no": "909",
@@ -17770,7 +18490,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "뜨아거 ➔ 악뜨거 ➔ 라우드본"
     },
     {
       "no": "909",
@@ -17781,7 +18502,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
     },
     {
       "no": "910",
@@ -17801,7 +18523,8 @@ const pokemonData = {
         "불꽃"
       ],
       "weaknesses": {},
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "뜨아거 ➔ 악뜨거 ➔ 라우드본"
     },
     {
       "no": "911",
@@ -17813,7 +18536,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "풀, 전기, 비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
     },
     {
       "no": "911",
@@ -17822,7 +18546,8 @@ const pokemonData = {
         "불꽃"
       ],
       "weaknesses": {},
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "뜨아거 ➔ 악뜨거 ➔ 라우드본"
     },
     {
       "no": "912",
@@ -17833,7 +18558,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
     },
     {
       "no": "913",
@@ -17845,7 +18571,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
     },
     {
       "no": "914",
@@ -17868,7 +18595,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "콘팡 ➔ 도나리"
     },
     {
       "no": "916",
@@ -17880,7 +18608,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
     },
     {
       "no": "917",
@@ -17892,7 +18621,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레, 격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
     },
     {
       "no": "918",
@@ -17927,7 +18657,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위, 격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "레오꼬 ➔ 화염레오"
     },
     {
       "no": "921",
@@ -17940,7 +18671,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "목도리키텔 ➔ 일레도리자드"
     },
     {
       "no": "922",
@@ -17964,7 +18696,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "흔들풍손 ➔ 둥실라이드"
     },
     {
       "no": "924",
@@ -18003,7 +18736,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꼬지보리 ➔ 스완나"
     },
     {
       "no": "927",
@@ -18014,7 +18748,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "베베솔트 ➔ 스태솔트 ➔ 콜로솔트"
     },
     {
       "no": "928",
@@ -18026,7 +18761,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "929",
@@ -18076,7 +18812,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 독, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "캡싸이 ➔ 스코빌런"
     },
     {
       "no": "933",
@@ -18088,7 +18825,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꼬리선 ➔ 다꼬리"
     },
     {
       "no": "934",
@@ -18100,7 +18838,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꼬리선 ➔ 다꼬리"
     },
     {
       "no": "935",
@@ -18113,7 +18852,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
     },
     {
       "no": "936",
@@ -18126,7 +18866,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위, 강철"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
     },
     {
       "no": "937",
@@ -18226,7 +18967,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "945",
@@ -18237,7 +18979,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "946",
@@ -18248,7 +18991,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 드래곤, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": "947",
@@ -18259,7 +19003,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "노고치 ➔ 노고고치"
     },
     {
       "no": "948",
@@ -18270,7 +19015,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "노고치 ➔ 노고고치"
     },
     {
       "no": "949",
@@ -18281,7 +19027,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "데스마스 ➔ 데스니칸"
     },
     {
       "no": "950",
@@ -18292,7 +19039,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "데스마스 ➔ 데스니칸"
     },
     {
       "no": "951",
@@ -18305,7 +19053,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
     },
     {
       "no": "952",
@@ -18317,7 +19066,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "카르본 ➔ 파라블레이즈"
     },
     {
       "no": "953",
@@ -18356,7 +19106,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
     },
     {
       "no": "956",
@@ -18401,7 +19152,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 고스트, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "망키 ➔ 성원숭 ➔ 저승갓숭"
     },
     {
       "no": "960",
@@ -18413,7 +19165,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "모으령 ➔ 타부자고"
     },
     {
       "no": "961",
@@ -18426,7 +19179,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "비행, 에스퍼, 강철"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
     },
     {
       "no": "962",
@@ -18449,7 +19203,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 아르코"
     },
     {
       "no": "964",
@@ -18462,7 +19217,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "타만타 ➔ 만타인"
     },
     {
       "no": "965",
@@ -18475,7 +19231,8 @@ const pokemonData = {
         "4배": "불꽃, 비행",
         "2배": "얼음, 독, 벌레, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "파라스 ➔ 파라섹트"
     },
     {
       "no": "966",
@@ -18486,7 +19243,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "마자 ➔ 마자용"
     },
     {
       "no": "967",
@@ -18510,7 +19268,8 @@ const pokemonData = {
         "4배": "독",
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
     },
     {
       "no": "969",
@@ -18522,7 +19281,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "두랄루돈 ➔ 브리두라스"
     },
     {
       "no": "970",
@@ -18534,7 +19294,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "들눈해 ➔ 육파리"
     },
     {
       "no": "971",
@@ -18546,7 +19307,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 고스트, 드래곤, 악, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "드라꼰 ➔ 드래런치 ➔ 드래펄트"
     },
     {
       "no": "972",
@@ -18570,7 +19332,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "치고마 ➔ 우라오스"
     },
     {
       "no": "974",
@@ -18583,7 +19346,8 @@ const pokemonData = {
         "4배": "페어리",
         "2배": "비행, 격투, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "치고마 ➔ 우라오스"
     },
     {
       "no": "975",
@@ -18678,7 +19442,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "983",
@@ -18689,7 +19454,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악, 고스트"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "984",
@@ -18702,7 +19468,8 @@ const pokemonData = {
         "4배": "불꽃, 땅",
         "2배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
     },
     {
       "no": "985",
@@ -18714,7 +19481,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "코스모그 ➔ 코스모움 ➔ 루나아라"
     },
     {
       "no": "986",
@@ -18841,7 +19609,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꼬지보리 ➔ 스완나"
     },
     {
       "no": "996",
@@ -18853,7 +19622,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "997",
@@ -18865,7 +19635,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "모으령 ➔ 타부자고"
     },
     {
       "no": "998",
@@ -19056,7 +19827,8 @@ const pokemonData = {
         "4배": "전기",
         "2배": "바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꼬지보리 ➔ 스완나"
     },
     {
       "no": "1013",
@@ -19068,7 +19840,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "1014",
@@ -19080,7 +19853,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "모으령 ➔ 타부자고"
     },
     {
       "no": "1015",
@@ -19232,7 +20006,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "벌레, 페어리"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "꼬렛 ➔ 레트라"
     },
     {
       "no": 10092,
@@ -19245,7 +20020,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "벌레, 페어리"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "꼬렛 ➔ 레트라"
     },
     {
       "no": 10100,
@@ -19257,7 +20033,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 벌레, 고스트, 악"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "피츄 ➔ 피카츄 ➔ 라이츄"
     },
     {
       "no": 10101,
@@ -19270,7 +20047,8 @@ const pokemonData = {
         "4배": "격투, 불꽃",
         "2배": "땅"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "모래두지 ➔ 고지"
     },
     {
       "no": 10102,
@@ -19283,7 +20061,8 @@ const pokemonData = {
         "4배": "격투, 불꽃",
         "2배": "땅"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "모래두지 ➔ 고지"
     },
     {
       "no": 10103,
@@ -19294,7 +20073,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 바위, 강철, 불꽃"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "식스테일 ➔ 나인테일"
     },
     {
       "no": 10104,
@@ -19307,7 +20087,8 @@ const pokemonData = {
         "4배": "강철",
         "2배": "독, 바위, 불꽃"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "식스테일 ➔ 나인테일"
     },
     {
       "no": 10105,
@@ -19319,7 +20100,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 불꽃, 물"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "디그다 ➔ 닥트리오"
     },
     {
       "no": 10106,
@@ -19331,7 +20113,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 불꽃, 물"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "디그다 ➔ 닥트리오"
     },
     {
       "no": 10107,
@@ -19342,7 +20125,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "나옹 ➔ 페르시온"
     },
     {
       "no": 10108,
@@ -19353,7 +20137,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "나옹 ➔ 페르시온"
     },
     {
       "no": 10109,
@@ -19366,7 +20151,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "격투, 물, 풀"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": 10110,
@@ -19379,7 +20165,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "격투, 물, 풀"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": 10111,
@@ -19392,7 +20179,8 @@ const pokemonData = {
         "4배": "땅",
         "2배": "격투, 물, 풀"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "꼬마돌 ➔ 데구리 ➔ 딱구리"
     },
     {
       "no": 10112,
@@ -19404,7 +20192,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "질퍽이 ➔ 질뻐기"
     },
     {
       "no": 10113,
@@ -19416,7 +20205,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "질퍽이 ➔ 질뻐기"
     },
     {
       "no": 10114,
@@ -19429,7 +20219,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "아라리 ➔ 나시"
     },
     {
       "no": 10115,
@@ -19441,7 +20232,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 바위, 고스트, 물, 악"
       },
-      "generation": "알로라폼"
+      "generation": "알로라폼",
+      "evolution": "탕구리 ➔ 텅구리"
     },
     {
       "no": 10161,
@@ -19452,7 +20244,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅, 불꽃"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "나옹 ➔ 페르시온"
     },
     {
       "no": 10162,
@@ -19463,7 +20256,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "포니타 ➔ 날쌩마"
     },
     {
       "no": 10163,
@@ -19475,7 +20269,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "포니타 ➔ 날쌩마"
     },
     {
       "no": 10164,
@@ -19486,7 +20281,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "야돈 ➔ 야도란"
     },
     {
       "no": 10165,
@@ -19498,7 +20294,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "야돈 ➔ 야도란"
     },
     {
       "no": 10166,
@@ -19509,7 +20306,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 페어리"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "파오리 ➔ 창파나이트"
     },
     {
       "no": 10167,
@@ -19521,7 +20319,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 강철, 에스퍼"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "또가스 ➔ 또도가스"
     },
     {
       "no": 10168,
@@ -19533,7 +20332,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "바위, 벌레, 고스트, 강철, 불꽃, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "흉내내 ➔ 마임맨 ➔ 마임꽁꽁"
     },
     {
       "no": 10169,
@@ -19581,7 +20381,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "야돈 ➔ 야도킹"
     },
     {
       "no": 10173,
@@ -19592,7 +20393,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "코산호 ➔ 산호르곤"
     },
     {
       "no": 10174,
@@ -19605,7 +20407,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "벌레, 페어리"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "지그제구리 ➔ 직구리 ➔ 가로막구리"
     },
     {
       "no": 10175,
@@ -19618,7 +20421,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "벌레, 페어리"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "지그제구리 ➔ 직구리 ➔ 가로막구리"
     },
     {
       "no": 10177,
@@ -19629,7 +20433,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 바위, 강철, 불꽃"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "달막화 ➔ 불비달마"
     },
     {
       "no": 10178,
@@ -19640,7 +20445,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 바위, 강철, 불꽃"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "달막화 ➔ 불비달마"
     },
     {
       "no": 10179,
@@ -19652,7 +20458,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 고스트, 악"
       },
-      "generation": "가라르폼"
+      "generation": "가라르폼",
+      "evolution": "데스마스 ➔ 데스니칸"
     },
     {
       "no": 10180,
@@ -19677,7 +20484,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "가디 ➔ 윈디"
     },
     {
       "no": 10230,
@@ -19690,7 +20498,8 @@ const pokemonData = {
         "4배": "물, 땅",
         "2배": "격투, 바위"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "가디 ➔ 윈디"
     },
     {
       "no": 10231,
@@ -19702,7 +20511,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 벌레, 불꽃, 얼음"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "찌리리공 ➔ 붐볼"
     },
     {
       "no": 10232,
@@ -19714,7 +20524,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 벌레, 불꽃, 얼음"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "찌리리공 ➔ 붐볼"
     },
     {
       "no": 10233,
@@ -19726,7 +20537,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 바위, 고스트, 물, 악"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "브케인 ➔ 마그케인 ➔ 블레이범"
     },
     {
       "no": 10234,
@@ -19738,7 +20550,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "침바루 ➔ 장침바루"
     },
     {
       "no": 10235,
@@ -19751,7 +20564,8 @@ const pokemonData = {
         "4배": "에스퍼",
         "2배": "비행, 땅"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "포푸니 ➔ 포푸니라"
     },
     {
       "no": 10236,
@@ -19763,7 +20577,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 풀, 전기, 페어리"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
     },
     {
       "no": 10237,
@@ -19776,7 +20591,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "독, 불꽃, 에스퍼, 얼음, 페어리"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "치릴리 ➔ 드레디어"
     },
     {
       "no": 10238,
@@ -19788,7 +20604,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "악"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "조로아 ➔ 조로아크"
     },
     {
       "no": 10239,
@@ -19800,7 +20617,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "악"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "조로아 ➔ 조로아크"
     },
     {
       "no": 10240,
@@ -19812,7 +20630,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "바위, 고스트, 전기, 얼음, 악"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "수리둥보 ➔ 워글"
     },
     {
       "no": 10241,
@@ -19824,7 +20643,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": 10242,
@@ -19836,7 +20656,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
     },
     {
       "no": 10243,
@@ -19849,7 +20670,8 @@ const pokemonData = {
         "4배": "격투, 강철",
         "2배": "땅, 바위, 물, 풀"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "꽁어름 ➔ 크레베이스"
     },
     {
       "no": 10244,
@@ -19862,7 +20684,8 @@ const pokemonData = {
         "4배": "비행",
         "2배": "독, 불꽃, 에스퍼, 얼음, 페어리"
       },
-      "generation": "히스이폼"
+      "generation": "히스이폼",
+      "evolution": "나몰빼미 ➔ 빼미스로우 ➔ 모크나이퍼"
     },
     {
       "no": 10250,
@@ -19909,7 +20732,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 물, 얼음, 에스퍼"
       },
-      "generation": "팔데아폼"
+      "generation": "팔데아폼",
+      "evolution": "우파 ➔ 누오"
     },
     {
       "no": 10033,
@@ -19921,7 +20745,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 비행, 에스퍼"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "이상해씨 ➔ 이상해풀 ➔ 이상해꽃"
     },
     {
       "no": 10034,
@@ -19957,7 +20782,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "꼬부기 ➔ 어니부기 ➔ 거북왕"
     },
     {
       "no": 10090,
@@ -19969,7 +20795,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 에스퍼, 바위"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "뿔충이 ➔ 딱충이 ➔ 독침붕"
     },
     {
       "no": 10073,
@@ -19981,7 +20808,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 바위"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "구구 ➔ 피죤 ➔ 피죤투"
     },
     {
       "no": 10037,
@@ -19992,7 +20820,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "캐이시 ➔ 윤겔라 ➔ 후딘"
     },
     {
       "no": 10071,
@@ -20004,7 +20833,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 벌레, 고스트, 악"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "야돈 ➔ 야도란"
     },
     {
       "no": 10038,
@@ -20016,7 +20846,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼, 고스트, 악"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "고오스 ➔ 고우스트 ➔ 팬텀"
     },
     {
       "no": 10039,
@@ -20052,7 +20883,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 격투, 벌레, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "잉어킹 ➔ 갸라도스"
     },
     {
       "no": 10042,
@@ -20099,7 +20931,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 땅, 드래곤, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "메리프 ➔ 보송송 ➔ 전룡"
     },
     {
       "no": 10072,
@@ -20111,7 +20944,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 물, 격투, 땅"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "롱스톤 ➔ 강철톤"
     },
     {
       "no": 10046,
@@ -20123,7 +20957,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "불꽃"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "스라크 ➔ 핫삼"
     },
     {
       "no": 10047,
@@ -20148,7 +20983,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 격투, 땅, 바위"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "델빌 ➔ 헬가"
     },
     {
       "no": 10049,
@@ -20161,7 +20997,8 @@ const pokemonData = {
         "4배": "격투",
         "2배": "물, 풀, 땅, 벌레, 강철, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "애버라스 ➔ 데기라스 ➔ 마기라스"
     },
     {
       "no": 10065,
@@ -20174,7 +21011,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "나무지기 ➔ 나무돌이 ➔ 나무킹"
     },
     {
       "no": 10050,
@@ -20186,7 +21024,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 비행, 에스퍼"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "아차모 ➔ 영치코 ➔ 번치코"
     },
     {
       "no": 10064,
@@ -20198,7 +21037,8 @@ const pokemonData = {
       "weaknesses": {
         "4배": "풀"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "물짱이 ➔ 늪짱이 ➔ 대짱이"
     },
     {
       "no": 10051,
@@ -20210,7 +21050,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 가디안"
     },
     {
       "no": 10066,
@@ -20245,7 +21086,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "가보리 ➔ 갱도라 ➔ 보스로라"
     },
     {
       "no": 10054,
@@ -20257,7 +21099,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 고스트, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "요가랑 ➔ 요가램"
     },
     {
       "no": 10055,
@@ -20268,7 +21111,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "썬더라이 ➔ 썬더볼트"
     },
     {
       "no": 10070,
@@ -20280,7 +21124,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 격투, 벌레, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "샤프니아 ➔ 샤크니아"
     },
     {
       "no": 10087,
@@ -20293,7 +21138,8 @@ const pokemonData = {
         "4배": "물",
         "2배": "땅"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "둔타 ➔ 폭타"
     },
     {
       "no": 10067,
@@ -20305,7 +21151,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 독, 강철, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "파비코 ➔ 파비코리"
     },
     {
       "no": 10056,
@@ -20316,7 +21163,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "어둠대신 ➔ 다크펫"
     },
     {
       "no": 10057,
@@ -20338,7 +21186,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "눈꼬마 ➔ 얼음귀신"
     },
     {
       "no": 10089,
@@ -20351,7 +21200,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "바위, 드래곤, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "아공이 ➔ 쉘곤 ➔ 보만다"
     },
     {
       "no": 10076,
@@ -20363,7 +21213,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "메탕 ➔ 메탕구 ➔ 메타그로스"
     },
     {
       "no": 10062,
@@ -20412,7 +21263,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 비행, 에스퍼, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "이어롤 ➔ 이어롭"
     },
     {
       "no": 10058,
@@ -20425,7 +21277,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "드래곤, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "딥상어동 ➔ 한바이트 ➔ 한카리아스"
     },
     {
       "no": 10059,
@@ -20437,7 +21290,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "리오르 ➔ 루카리오"
     },
     {
       "no": 10060,
@@ -20450,7 +21304,8 @@ const pokemonData = {
         "4배": "불꽃",
         "2배": "격투, 독, 비행, 벌레, 바위, 강철"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "눈쓰개 ➔ 눈설왕"
     },
     {
       "no": 10068,
@@ -20462,7 +21317,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 고스트, 페어리"
       },
-      "generation": "메가진화"
+      "generation": "메가진화",
+      "evolution": "랄토스 ➔ 킬리아 ➔ 엘레이드"
     },
     {
       "no": 10069,

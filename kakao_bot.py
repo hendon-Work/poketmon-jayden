@@ -36,12 +36,13 @@ def search_pokemon_raw(query):
         if query in str(p.get('name', '')):
             types_str = ", ".join(p.get('types', []))
             weak4 = p.get('weaknesses', {}).get('4배', '-') if p.get('weaknesses', {}).get('4배') else '-'
-            weak2 = p.get('weaknesses', {}).get('2배', '-') if p.get('weaknesses', {}).get('2배') else '-'
+            evo_info = f"\n🧬 진화: {p['evolution']}" if 'evolution' in p else ""
+            
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
                 "short_desc": f"🔸 타입: {types_str}\n💥 4배: {weak4} | ⚡ 2배: {weak2}",
-                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배: {weak4} / ⚡ 2배: {weak2}"
+                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배: {weak4} / ⚡ 2배: {weak2}{evo_info}"
             })
 
     # 2. 티어 검색
