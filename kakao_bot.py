@@ -136,39 +136,48 @@ def kakao_pokemon_bot():
                     }
                 })
 
-        # 2. 텍스트 내용 잘림(Truncation)을 막기 위한 TextCard 출력 (최대 400자 지원)
-        text_lines = []
+        # 2. 텍스트 카드를 슬라이드 내용별로 명확하게 분리 (최대 400자 지원)
+        text_cards = []
+        
+        # 2-1. 첫번째 슬라이드: 진화 트리 정보 및 약점 4배/2배 (+ 초보자 추천)
+        pokedex_lines = []
         if result_data["pokedex_matches"]:
-            has_evo = False
             for p in result_data["pokedex_matches"][:5]:
                 if p.get('full_desc'):
-                    text_lines.append(p['full_desc'])
-                    has_evo = True
-            if has_evo:
-                text_lines.append("────────────────")
-            
-        for match in result_data["tier_matches"][:2]:
-            text_lines.append(f"🏆 [{match['type']} 타입 티어]")
-            text_lines.extend(match["results"][:3])
-            text_lines.append("")
-            
+                    pokedex_lines.append(p['full_desc'])
+                    
         if result_data["beginner_matches"]:
-            text_lines.append(f"🔰 [초보자 추천]")
-            text_lines.extend(result_data["beginner_matches"][:2])
-        text_cards = []
-        final_description = "\n".join(text_lines).strip()
-        
-        if final_description:
-            # 카카오톡 TextCard 글자 제한 대비
-            if len(final_description) > 400:
-                final_description = final_description[:395] + "..."
-                
+            if pokedex_lines:
+                pokedex_lines.append("────────────────")
+            pokedex_lines.append(f"🔰 [초보자 추천]")
+            pokedex_lines.extend(result_data["beginner_matches"][:2])
+            
+        pokedex_desc = "\n".join(pokedex_lines).strip()
+        if pokedex_desc:
+            if len(pokedex_desc) > 400:
+                pokedex_desc = pokedex_desc[:395] + "..."
             text_cards.append({
                 "title": f"🔍 '{user_utterance}' 레이드 & 팁",
-                "description": final_description
+                "description": pokedex_desc
             })
 
-        # 3. 레이드 카운터도 같은 텍스트 카드 슬라이드로 병합
+        # 2-2. 두번째 슬라이드: 타입 티어 정보
+        tier_lines = []
+        for match in result_data["tier_matches"][:2]:
+            tier_lines.append(f"🏆 [{match['type']} 타입 티어]")
+            tier_lines.extend(match["results"][:3])
+            tier_lines.append("")
+            
+        tier_desc = "\n".join(tier_lines).strip()
+        if tier_desc:
+            if len(tier_desc) > 400:
+                tier_desc = tier_desc[:395] + "..."
+            text_cards.append({
+                "title": f"� 타입 추천 딜러 (티어표)",
+                "description": tier_desc
+            })
+
+        # 2-3. 세번째 슬라이드: 레이드 카운터 정보
         if result_data["raid_matches"]:
             for match in result_data["raid_matches"][:10]:
                 lines = []
