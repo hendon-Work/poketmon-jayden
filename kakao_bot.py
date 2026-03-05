@@ -40,7 +40,8 @@ def search_pokemon_raw(query):
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
-                "desc": f"🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}"
+                "short_desc": f"🔸 타입: {types_str}\n💥 4배: {weak4} | ⚡ 2배: {weak2}",
+                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배: {weak4} / ⚡ 2배: {weak2}"
             })
 
     # 2. 티어 검색
@@ -104,7 +105,7 @@ def kakao_pokemon_bot():
             for p in result_data["pokedex_matches"][:5]: # 최대 5개의 폼 출력
                 items.append({
                     "title": f"📖 No.{p['no']} {p['name']}",
-                    "description": p['desc'], 
+                    "description": p['short_desc'], 
                     "thumbnail": {
                         "imageUrl": get_thumbnail_url(p["no"]),
                         "fixedRatio": True,
@@ -125,6 +126,10 @@ def kakao_pokemon_bot():
 
         # 2. 텍스트 내용 잘림(Truncation)을 막기 위한 TextCard 출력 (최대 400자 지원)
         text_lines = []
+        if result_data["pokedex_matches"]:
+            for p in result_data["pokedex_matches"][:5]:
+                text_lines.append(p['full_desc'])
+            text_lines.append("────────────────")
             
         for match in result_data["tier_matches"][:2]:
             text_lines.append(f"🏆 [{match['type']} 타입 티어]")
