@@ -52,14 +52,14 @@ def search_pokemon_raw(query):
         if query in type_group['Type']:
             results = []
             for p in type_group['Pokémon']:
-                 results.append(f"[{p['Grade']} 티어] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+                 results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
             result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
         else:
             matching = [p for p in type_group['Pokémon'] if query in p['Name']]
             if matching:
                  results = []
                  for p in matching:
-                     results.append(f"[{p['Grade']} 티어] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+                     results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
                  result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
 
     # 3. 초보자 추천 검색
