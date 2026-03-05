@@ -89,43 +89,42 @@ def kakao_pokemon_bot():
         outputs = []
         
         # 대표 포켓몬 번호 찾기 (썸네일용)
-        query_pokemon_no = None
-        query_pokemon_name = user_utterance
-        if result_data["pokedex_matches"]:
-            query_pokemon_no = result_data["pokedex_matches"][0].get("no")
-            query_pokemon_name = result_data["pokedex_matches"][0].get("name")
-
-        def get_thumbnail_url(no=None):
-            target_no = no or query_pokemon_no
-            if target_no:
+        def get_thumbnail_url(no):
+            if no:
                 try:
-                    num = int(str(target_no).split('-')[0].strip()) # 773-1 같은 폼 대응은 기본 773번 이미지로
+                    num = int(str(no).split('-')[0].strip()) # 773-1 같은 폼 대응은 기본 773번 이미지로
                     return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
                 except Exception:
                     pass
             return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
-        # 도감 정보를 매칭한 경우 1. 이미지 원본 비율 보존을 위한 BasicCard 출력
-        if query_pokemon_no:
-            outputs.append({
-                "basicCard": {
-                    "title": f"📖 No.{query_pokemon_no} {query_pokemon_name}",
-                    "description": "", 
+        # 도감 정보를 매칭한 경우 1. 이미지 원본 비율 보존을 위한 BasicCard 또는 Carousel 출력
+        if result_data["pokedex_matches"]:
+            items = []
+            for p in result_data["pokedex_matches"][:5]: # 최대 5개의 폼 출력
+                items.append({
+                    "title": f"📖 No.{p['no']} {p['name']}",
+                    "description": p['desc'], 
                     "thumbnail": {
-                        "imageUrl": get_thumbnail_url(),
+                        "imageUrl": get_thumbnail_url(p["no"]),
                         "fixedRatio": True,
                         "width": 500,
                         "height": 500
                     }
-                }
-            })
+                })
+            
+            if len(items) == 1:
+                outputs.append({"basicCard": items[0]})
+            else:
+                outputs.append({
+                    "carousel": {
+                        "type": "basicCard",
+                        "items": items
+                    }
+                })
 
         # 2. 텍스트 내용 잘림(Truncation)을 막기 위한 TextCard 출력 (최대 400자 지원)
         text_lines = []
-        if result_data["pokedex_matches"]:
-            p = result_data["pokedex_matches"][0]
-            text_lines.append(p['desc'])
-            text_lines.append("────────────────")
             
         for match in result_data["tier_matches"][:2]:
             text_lines.append(f"🏆 [{match['type']} 타입 티어]")
@@ -138,16 +137,17 @@ def kakao_pokemon_bot():
             
         final_description = "\n".join(text_lines).strip()
         
-        # 카카오톡 TextCard 글자 제한 대비
-        if len(final_description) > 400:
-            final_description = final_description[:395] + "..."
-            
-        outputs.append({
-            "textCard": {
-                "title": f"🔍 '{user_utterance}' 상세 정보",
-                "description": final_description
-            }
-        })
+        if final_description:
+            # 카카오톡 TextCard 글자 제한 대비
+            if len(final_description) > 400:
+                final_description = final_description[:395] + "..."
+                
+            outputs.append({
+                "textCard": {
+                    "title": f"🔍 '{user_utterance}' 레이드 & 팁",
+                    "description": final_description
+                }
+            })
 
         response = {
             "version": "2.0",
