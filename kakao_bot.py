@@ -42,8 +42,8 @@ def search_pokemon_raw(query):
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
-                "short_desc": f"🔸 타입: {types_str}\n💥 4배 약점: {weak4} | ⚡ 2배 약점: {weak2}",
-                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배 약점: {weak4} / ⚡ 2배 약점: {weak2}{evo_info}"
+                "short_desc": f"🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}",
+                "full_desc": f"[{p['name']}]\n🔸 타입: {types_str}\n💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}{evo_info}"
             })
 
     # 2. 티어 검색
