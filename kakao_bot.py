@@ -28,7 +28,8 @@ def search_pokemon_raw(query):
     result_data = {
         "pokedex_matches": [],
         "tier_matches": [],
-        "beginner_matches": []
+        "beginner_matches": [],
+        "raid_matches": []
     }
     
     # 1. 도감 검색
@@ -68,7 +69,16 @@ def search_pokemon_raw(query):
                 f"🌱 {p['name']} (진화전: {p['from']})\n✨ 추천 기술: {p['moves']}"
             )
             
-    is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"]
+    # 4. 레이드 카운터 검색
+    raid_counters = data.get('raid_counters', {})
+    for boss, counters in raid_counters.items():
+        if query in boss:
+            result_data["raid_matches"].append({
+                "boss": boss,
+                "counters": counters
+            })
+            
+    is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"] and not result_data["raid_matches"]
     if is_empty:
         # 검색 결과가 없을 때의 응답 메시지를 자유롭게 변경할 수 있습니다.
         return {"error": f"앗! '{query}'(이)라는 포켓몬은 아직 도감에 없거나, 이름을 잘못 입력하신 것 같아요. 🥲 다시 한번 정확히 입력해 주세요!"}
@@ -145,6 +155,13 @@ def kakao_pokemon_bot():
         if result_data["beginner_matches"]:
             text_lines.append(f"🔰 [초보자 추천]")
             text_lines.extend(result_data["beginner_matches"][:2])
+            text_lines.append("")
+            
+        for match in result_data["raid_matches"]:
+            text_lines.append(f"⚔️ [{match['boss']} 레이드 카운터]")
+            for i, counter in enumerate(match['counters'][:5]):
+                text_lines.append(f"{i+1}. {counter['pokemon']} ({counter['fast_move']} / {counter['charge_move']})")
+            text_lines.append("")
             
         final_description = "\n".join(text_lines).strip()
         
