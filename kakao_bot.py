@@ -173,7 +173,7 @@ def kakao_pokemon_bot():
                     if len(tier_desc) > 390:
                         tier_desc = tier_desc[:385] + "..."
                     text_cards.append({
-                        "title": f"📊 {match['type']} 타입 티어 ({page+1}~{page+len(chunk)}위)",
+                        "title": f"📊 {match['type']} 타입 티어",
                         "description": tier_desc
                     })
 
