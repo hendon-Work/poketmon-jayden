@@ -184,7 +184,7 @@ def kakao_pokemon_bot():
                     chunk = counters[page:page+6]
                     lines = []
                     for i, counter in enumerate(chunk):
-                        lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
+                        lines.append(f"{page+i+1}. {counter['pokemon']} ({counter['fast_move']}/{counter['charge_move']})")
                     
                     desc = "\n".join(lines).strip()
                     if len(desc) > 390: 
