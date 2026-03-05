@@ -52,14 +52,14 @@ def search_pokemon_raw(query):
         if query in type_group['Type']:
             results = []
             for p in type_group['Pokémon']:
-                 results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+                 results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']} (DPS: {p['DPS']})")
             result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
         else:
             matching = [p for p in type_group['Pokémon'] if query in p['Name']]
             if matching:
                  results = []
                  for p in matching:
-                     results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']}\n📊 DPS: {p['DPS']} | TDO: {p['TDO']}")
+                     results.append(f"[{p['Grade']}] {p['Name']}\n⚔️ {p['Moves']} (DPS: {p['DPS']})")
                  result_data["tier_matches"].append({"type": type_group['Type'], "results": results})
 
     # 3. 초보자 추천 검색
@@ -161,21 +161,19 @@ def kakao_pokemon_bot():
                 "description": pokedex_desc
             })
 
-        # 2-2. 두번째 슬라이드: 타입 티어 정보
-        tier_lines = []
-        for match in result_data["tier_matches"][:2]:
-            tier_lines.append(f"🏆 [{match['type']} 타입 티어]")
-            tier_lines.extend(match["results"][:3])
-            tier_lines.append("")
+        # 2-2. 두번째 슬라이드: 타입 티어 정보 (타입별로 각각의 슬라이드 카드로 분리하여 잘림 방지)
+        for match in result_data["tier_matches"][:3]: # 최대 3개의 타입까지 슬라이드로 추가
+            tier_lines = []
+            tier_lines.extend(match["results"][:4]) # 한 타입당 4위까지 보여줌
             
-        tier_desc = "\n".join(tier_lines).strip()
-        if tier_desc:
-            if len(tier_desc) > 400:
-                tier_desc = tier_desc[:395] + "..."
-            text_cards.append({
-                "title": f"📊 티어 정보 및 기술추천",
-                "description": tier_desc
-            })
+            tier_desc = "\n\n".join(tier_lines).strip() # 줄간격 띄우기
+            if tier_desc:
+                if len(tier_desc) > 390:
+                    tier_desc = tier_desc[:385] + "..."
+                text_cards.append({
+                    "title": f"📊 {match['type']} 타입 티어 및 기술추천",
+                    "description": tier_desc
+                })
 
         # 2-3. 세번째 슬라이드: 레이드 카운터 정보
         if result_data["raid_matches"]:
