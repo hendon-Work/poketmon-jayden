@@ -175,21 +175,25 @@ def kakao_pokemon_bot():
                     "description": tier_desc
                 })
 
-        # 2-3. 세번째 슬라이드: 레이드 카운터 정보
+        # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (6위씩 분리하여 여러 슬라이드로)
         if result_data["raid_matches"]:
-            for match in result_data["raid_matches"][:10]:
-                lines = []
-                for i, counter in enumerate(match['counters'][:5]):
-                    lines.append(f"{i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
-                
-                desc = "\n".join(lines).strip()
-                if len(desc) > 400: 
-                    desc = desc[:395] + "..."
-                
-                text_cards.append({
-                    "title": f"⚔️ [{match['boss']}] 카운터",
-                    "description": desc
-                })
+            for match in result_data["raid_matches"][:2]: # 보스가 2개 이상일 때 대비
+                counters = match['counters']
+                # 최대 18위까지(3슬라이드) 노출. 한 슬라이드당 최대 6위.
+                for page in range(0, min(len(counters), 18), 6):
+                    chunk = counters[page:page+6]
+                    lines = []
+                    for i, counter in enumerate(chunk):
+                        lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
+                    
+                    desc = "\n".join(lines).strip()
+                    if len(desc) > 390: 
+                        desc = desc[:385] + "..."
+                    
+                    text_cards.append({
+                        "title": f"⚔️ [{match['boss']}] 카운터 ({page+1}~{page+len(chunk)}위)",
+                        "description": desc
+                    })
             
         if text_cards:
             if len(text_cards) == 1:
