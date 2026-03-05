@@ -175,18 +175,18 @@ def kakao_pokemon_bot():
                     "description": tier_desc
                 })
 
-        # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (6위씩 분리하여 여러 슬라이드로)
+        # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (3위씩 분리하여 여러 슬라이드로)
         if result_data["raid_matches"]:
             for match in result_data["raid_matches"][:2]: # 보스가 2개 이상일 때 대비
                 counters = match['counters']
-                # 최대 18위까지(3슬라이드) 노출. 한 슬라이드당 최대 6위.
-                for page in range(0, min(len(counters), 18), 6):
-                    chunk = counters[page:page+6]
+                # 최대 15위까지(5슬라이드) 노출. 한 슬라이드당 최대 3위.
+                for page in range(0, min(len(counters), 15), 3):
+                    chunk = counters[page:page+3]
                     lines = []
                     for i, counter in enumerate(chunk):
-                        lines.append(f"{page+i+1}. {counter['pokemon']} ({counter['fast_move']}/{counter['charge_move']})")
+                        lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
                     
-                    desc = "\n".join(lines).strip()
+                    desc = "\n\n".join(lines).strip() # 줄간격을 무조건 주어 가독성 향상
                     if len(desc) > 390: 
                         desc = desc[:385] + "..."
                     
