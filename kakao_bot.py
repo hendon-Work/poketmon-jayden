@@ -161,19 +161,21 @@ def kakao_pokemon_bot():
                 "description": pokedex_desc
             })
 
-        # 2-2. 두번째 슬라이드: 타입 티어 정보 (타입별로 각각의 슬라이드 카드로 분리하여 잘림 방지)
+        # 2-2. 두번째 슬라이드: 타입 티어 정보 (타입별, 랭킹별로 슬라이드 카드로 분리하여 잘림 방지)
         for match in result_data["tier_matches"][:3]: # 최대 3개의 타입까지 슬라이드로 추가
-            tier_lines = []
-            tier_lines.extend(match["results"][:4]) # 한 타입당 4위까지 보여줌
-            
-            tier_desc = "\n\n".join(tier_lines).strip() # 줄간격 띄우기
-            if tier_desc:
-                if len(tier_desc) > 390:
-                    tier_desc = tier_desc[:385] + "..."
-                text_cards.append({
-                    "title": f"📊 {match['type']} 타입 티어 및 기술추천",
-                    "description": tier_desc
-                })
+            tier_results = match["results"]
+            # 최대 9위까지(3슬라이드) 노출. 한 슬라이드당 최대 3위.
+            for page in range(0, min(len(tier_results), 9), 3):
+                chunk = tier_results[page:page+3]
+                tier_desc = "\n\n".join(chunk).strip() # 줄간격 띄우기
+                
+                if tier_desc:
+                    if len(tier_desc) > 390:
+                        tier_desc = tier_desc[:385] + "..."
+                    text_cards.append({
+                        "title": f"📊 {match['type']} 타입 티어 ({page+1}~{page+len(chunk)}위)",
+                        "description": tier_desc
+                    })
 
         # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (3위씩 분리하여 여러 슬라이드로)
         if result_data["raid_matches"]:
