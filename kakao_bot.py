@@ -157,7 +157,7 @@ def kakao_pokemon_bot():
             if len(pokedex_desc) > 400:
                 pokedex_desc = pokedex_desc[:395] + "..."
             text_cards.append({
-                "title": f"🔍 '{user_utterance}' 레이드 & 팁",
+                "title": f"� '{user_utterance}' 포켓몬 정보",
                 "description": pokedex_desc
             })
 
@@ -173,7 +173,7 @@ def kakao_pokemon_bot():
             if len(tier_desc) > 400:
                 tier_desc = tier_desc[:395] + "..."
             text_cards.append({
-                "title": f"� 타입 추천 딜러 (티어표)",
+                "title": f"📊 티어 정보 및 기술추천",
                 "description": tier_desc
             })
 
