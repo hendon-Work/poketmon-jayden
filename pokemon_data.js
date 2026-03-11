@@ -15111,7 +15111,7 @@ const pokemonData = {
     },
     {
       "no": "652",
-      "name": "브리그론",
+      "name": "브리가론",
       "types": [
         "풀",
         "격투"
@@ -15219,7 +15219,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 격투"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "파르빗 ➔ 파르토"
     },
     {
       "no": "661",
@@ -15340,7 +15341,7 @@ const pokemonData = {
     },
     {
       "no": "670",
-      "name": "플라엣제",
+      "name": "플라엣테",
       "types": [
         "페어리"
       ],
@@ -15471,7 +15472,7 @@ const pokemonData = {
         "2배": "불꽃, 땅, 고스트, 악"
       },
       "generation": "6세대 포켓몬",
-      "evolution": "수댕이 ➔ 쌍검자비 ➔ 대검귀"
+      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
     },
     {
       "no": "681",
@@ -15512,7 +15513,7 @@ const pokemonData = {
     },
     {
       "no": "684",
-      "name": "나룸 puff",
+      "name": "나룸퍼프",
       "types": [
         "페어리"
       ],
@@ -15573,7 +15574,8 @@ const pokemonData = {
         "4배": "풀",
         "2배": "격투, 땅, 전기"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "거북손손 ➔ 거북손데스"
     },
     {
       "no": "689",
@@ -15600,7 +15602,7 @@ const pokemonData = {
         "2배": "땅, 전기, 에스퍼"
       },
       "generation": "6세대 포켓몬",
-      "evolution": "침바루 ➔ 장침바루"
+      "evolution": "수레기 ➔ 드래캄"
     },
     {
       "no": "691",
@@ -15715,7 +15717,8 @@ const pokemonData = {
         "4배": "격투, 강철",
         "2배": "불꽃, 땅, 바위, 물"
       },
-      "generation": "6세대 포켓몬"
+      "generation": "6세대 포켓몬",
+      "evolution": "아마루스 ➔ 아마루르가"
     },
     {
       "no": "700",
@@ -15868,7 +15871,7 @@ const pokemonData = {
     },
     {
       "no": "712",
-      "name": "꽁어음",
+      "name": "꽁어름",
       "types": [
         "얼음"
       ],
@@ -18519,7 +18522,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "뜨아거 ➔ 악뜨거 ➔ 라우드본"
     },
     {
       "no": "910",
@@ -18542,7 +18546,7 @@ const pokemonData = {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
+      "evolution": "뜨아거 ➔ 악뜨거 ➔ 라우드본"
     },
     {
       "no": "911",
@@ -18564,7 +18568,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
+      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
     },
     {
       "no": "913",
@@ -18576,7 +18580,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
+      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
     },
     {
       "no": "914",
@@ -18588,7 +18592,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 풀, 비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "꾸왁스 ➔ 아꾸왁 ➔ 웨이니발"
     },
     {
       "no": "915",
@@ -18600,7 +18605,7 @@ const pokemonData = {
         "2배": "격투"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "콘팡 ➔ 도나리"
+      "evolution": "맛보돈 ➔ 퍼퓨돈"
     },
     {
       "no": "916",
@@ -18612,7 +18617,7 @@ const pokemonData = {
         "2배": "격투"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
+      "evolution": "맛보돈 ➔ 퍼퓨돈"
     },
     {
       "no": "917",
@@ -18624,7 +18629,7 @@ const pokemonData = {
         "2배": "불꽃, 비행, 바위"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
+      "evolution": "타랜툴라 ➔ 트래피더"
     },
     {
       "no": "918",
@@ -18635,7 +18640,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "타랜툴라 ➔ 트래피더"
     },
     {
       "no": "919",
@@ -18646,7 +18652,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "콩알뚜기 ➔ 엑스레그"
     },
     {
       "no": "920",
@@ -18659,7 +18666,7 @@ const pokemonData = {
         "2배": "불꽃, 비행, 벌레, 바위, 페어리"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "레오꼬 ➔ 화염레오"
+      "evolution": "콩알뚜기 ➔ 엑스레그"
     },
     {
       "no": "921",
@@ -18671,7 +18678,7 @@ const pokemonData = {
         "2배": "땅"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "목도리키텔 ➔ 일레도리자드"
+      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
     },
     {
       "no": "922",
@@ -18683,7 +18690,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
     },
     {
       "no": "923",
@@ -18696,7 +18704,7 @@ const pokemonData = {
         "2배": "땅, 에스퍼, 페어리"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "흔들풍손 ➔ 둥실라이드"
+      "evolution": "빠모 ➔ 빠모트 ➔ 빠르모트"
     },
     {
       "no": "924",
@@ -18707,7 +18715,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "두리쥐 ➔ 파밀리쥐"
     },
     {
       "no": "925",
@@ -18718,7 +18727,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "두리쥐 ➔ 파밀리쥐"
     },
     {
       "no": "926",
@@ -18730,7 +18740,7 @@ const pokemonData = {
         "2배": "독, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "꼬지보리 ➔ 스완나"
+      "evolution": "쫀도기 ➔ 바우첼"
     },
     {
       "no": "927",
@@ -18742,7 +18752,7 @@ const pokemonData = {
         "2배": "독, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "베베솔트 ➔ 스태솔트 ➔ 콜로솔트"
+      "evolution": "쫀도기 ➔ 바우첼"
     },
     {
       "no": "928",
@@ -18755,7 +18765,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 격투, 독, 비행, 벌레"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
+      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
     },
     {
       "no": "929",
@@ -18767,7 +18777,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 격투, 독, 비행, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
     },
     {
       "no": "930",
@@ -18779,7 +18790,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 얼음, 격투, 독, 비행, 벌레"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "미니브 ➔ 올리뇨 ➔ 올리르바"
     },
     {
       "no": "931",
@@ -18803,7 +18815,7 @@ const pokemonData = {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "캡싸이 ➔ 스코빌런"
+      "evolution": "베베솔트 ➔ 스태솔트 ➔ 콜로솔트"
     },
     {
       "no": "933",
@@ -18815,7 +18827,7 @@ const pokemonData = {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "꼬리선 ➔ 다꼬리"
+      "evolution": "베베솔트 ➔ 스태솔트 ➔ 콜로솔트"
     },
     {
       "no": "934",
@@ -18827,7 +18839,7 @@ const pokemonData = {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "꼬리선 ➔ 다꼬리"
+      "evolution": "베베솔트 ➔ 스태솔트 ➔ 콜로솔트"
     },
     {
       "no": "935",
@@ -18839,7 +18851,7 @@ const pokemonData = {
         "2배": "물, 땅, 바위"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
+      "evolution": "카르본 ➔ 카디나르마"
     },
     {
       "no": "936",
@@ -18852,7 +18864,7 @@ const pokemonData = {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "탄동 ➔ 탄차곤 ➔ 석탄산"
+      "evolution": "카르본 ➔ 카디나르마"
     },
     {
       "no": "937",
@@ -18864,7 +18876,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 땅, 바위, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "카르본 ➔ 파라블레이즈"
     },
     {
       "no": "938",
@@ -18875,7 +18888,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "빈나두 ➔ 찌리배리"
     },
     {
       "no": "939",
@@ -18886,7 +18900,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "빈나두 ➔ 찌리배리"
     },
     {
       "no": "940",
@@ -18898,7 +18913,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "찌리비 ➔ 찌리비크"
     },
     {
       "no": "941",
@@ -18910,7 +18926,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "얼음, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "찌리비 ➔ 찌리비크"
     },
     {
       "no": "942",
@@ -18921,7 +18938,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "오라티프 ➔ 마피티프"
     },
     {
       "no": "943",
@@ -18932,7 +18950,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 벌레, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "오라티프 ➔ 마피티프"
     },
     {
       "no": "944",
@@ -18945,7 +18964,7 @@ const pokemonData = {
         "2배": "땅, 에스퍼"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
+      "evolution": "땃쭈르 ➔ 태깅구르"
     },
     {
       "no": "945",
@@ -18958,7 +18977,7 @@ const pokemonData = {
         "2배": "땅, 에스퍼"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
+      "evolution": "땃쭈르 ➔ 태깅구르"
     },
     {
       "no": "946",
@@ -18971,7 +18990,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "미끄메라 ➔ 미끄네일 ➔ 미끄래곤"
+      "evolution": "그푸리 ➔ 공푸리"
     },
     {
       "no": "947",
@@ -18984,7 +19003,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "노고치 ➔ 노고고치"
+      "evolution": "그푸리 ➔ 공푸리"
     },
     {
       "no": "948",
@@ -18998,7 +19017,7 @@ const pokemonData = {
         "2배": "불꽃, 비행, 벌레"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "노고치 ➔ 노고고치"
+      "evolution": "들눈해 ➔ 육파리"
     },
     {
       "no": "949",
@@ -19012,7 +19031,7 @@ const pokemonData = {
         "2배": "불꽃, 비행, 벌레"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "데스마스 ➔ 데스니칸"
+      "evolution": "들눈해 ➔ 육파리"
     },
     {
       "no": "950",
@@ -19023,8 +19042,7 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 격투, 땅, 강철"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "데스마스 ➔ 데스니칸"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "951",
@@ -19036,7 +19054,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 독, 비행, 벌레"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
+      "evolution": "캡싸이 ➔ 스코빌런"
     },
     {
       "no": "952",
@@ -19049,7 +19067,7 @@ const pokemonData = {
         "2배": "독, 비행, 바위"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "카르본 ➔ 파라블레이즈"
+      "evolution": "캡싸이 ➔ 스코빌런"
     },
     {
       "no": "953",
@@ -19060,7 +19078,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 바위"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "구르데 ➔ 베라카스"
     },
     {
       "no": "954",
@@ -19072,7 +19091,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 비행, 벌레, 바위, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "구르데 ➔ 베라카스"
     },
     {
       "no": "955",
@@ -19084,7 +19104,7 @@ const pokemonData = {
         "2배": "벌레, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
+      "evolution": "하느라기 ➔ 클레스퍼트라"
     },
     {
       "no": "956",
@@ -19095,7 +19115,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "하느라기 ➔ 클레스퍼트라"
     },
     {
       "no": "957",
@@ -19107,7 +19128,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
     },
     {
       "no": "958",
@@ -19119,7 +19141,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
     },
     {
       "no": "959",
@@ -19132,7 +19155,7 @@ const pokemonData = {
         "2배": "불꽃, 땅"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "망키 ➔ 성원숭 ➔ 저승갓숭"
+      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
     },
     {
       "no": "960",
@@ -19144,7 +19167,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "모으령 ➔ 타부자고"
+      "evolution": "바다그다 ➔ 바닥트리오"
     },
     {
       "no": "961",
@@ -19156,7 +19179,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "어리짱 ➔ 벼리짱 ➔ 두드리짱"
+      "evolution": "바다그다 ➔ 바닥트리오"
     },
     {
       "no": "962",
@@ -19180,7 +19203,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "뚜벅쵸 ➔ 냄새꼬 ➔ 아르코"
+      "evolution": "맨돌핀 ➔ 돌핀맨"
     },
     {
       "no": "964",
@@ -19192,7 +19215,7 @@ const pokemonData = {
         "2배": "전기, 풀"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "타만타 ➔ 만타인"
+      "evolution": "맨돌핀 ➔ 돌핀맨"
     },
     {
       "no": "965",
@@ -19206,7 +19229,7 @@ const pokemonData = {
         "2배": "불꽃"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "파라스 ➔ 파라섹트"
+      "evolution": "부르롱 ➔ 부르르룸"
     },
     {
       "no": "966",
@@ -19220,7 +19243,7 @@ const pokemonData = {
         "2배": "불꽃"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "마자 ➔ 마자용"
+      "evolution": "부르롱 ➔ 부르르룸"
     },
     {
       "no": "967",
@@ -19243,8 +19266,7 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 땅"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "969",
@@ -19258,7 +19280,7 @@ const pokemonData = {
         "2배": "물, 에스퍼, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "두랄루돈 ➔ 브리두라스"
+      "evolution": "초롱순 ➔ 킬라플로르"
     },
     {
       "no": "970",
@@ -19272,7 +19294,7 @@ const pokemonData = {
         "2배": "물, 에스퍼, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "들눈해 ➔ 육파리"
+      "evolution": "초롱순 ➔ 킬라플로르"
     },
     {
       "no": "971",
@@ -19284,7 +19306,7 @@ const pokemonData = {
         "2배": "고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "드라꼰 ➔ 드래런치 ➔ 드래펄트"
+      "evolution": "망망이 ➔ 묘두기"
     },
     {
       "no": "972",
@@ -19295,7 +19317,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "망망이 ➔ 묘두기"
     },
     {
       "no": "973",
@@ -19307,8 +19330,7 @@ const pokemonData = {
       "weaknesses": {
         "2배": "전기, 얼음, 비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "치고마 ➔ 우라오스"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "974",
@@ -19320,7 +19342,7 @@ const pokemonData = {
         "2배": "불꽃, 격투, 바위, 강철"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "치고마 ➔ 우라오스"
+      "evolution": "터벅고래 ➔ 우락고래"
     },
     {
       "no": "975",
@@ -19331,7 +19353,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 격투, 바위, 강철"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "터벅고래 ➔ 우락고래"
     },
     {
       "no": "976",
@@ -19378,7 +19401,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "비행, 에스퍼, 고스트, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "망키 ➔ 성원숭 ➔ 저승갓숭"
     },
     {
       "no": "980",
@@ -19390,7 +19414,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 얼음, 땅, 에스퍼"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "우파 ➔ 토오"
     },
     {
       "no": "981",
@@ -19402,7 +19427,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "벌레, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "키링키 ➔ 키키링"
     },
     {
       "no": "982",
@@ -19414,7 +19440,7 @@ const pokemonData = {
         "2배": "격투"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
+      "evolution": "노고치 ➔ 노고고치"
     },
     {
       "no": "983",
@@ -19428,7 +19454,7 @@ const pokemonData = {
         "2배": "불꽃, 땅"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
+      "evolution": "자망칼 ➔ 절각참 ➔ 대도각참"
     },
     {
       "no": "984",
@@ -19440,8 +19466,7 @@ const pokemonData = {
       "weaknesses": {
         "2배": "물, 풀, 얼음, 비행, 에스퍼, 페어리"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "코스모그 ➔ 코스모움 ➔ 솔가레오"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "985",
@@ -19453,8 +19478,7 @@ const pokemonData = {
       "weaknesses": {
         "2배": "독, 고스트, 강철"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "코스모그 ➔ 코스모움 ➔ 루나아라"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "986",
@@ -19578,8 +19602,7 @@ const pokemonData = {
         "4배": "땅",
         "2배": "물, 풀, 격투"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "꼬지보리 ➔ 스완나"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "996",
@@ -19592,7 +19615,7 @@ const pokemonData = {
         "2배": "격투, 바위, 드래곤, 강철, 페어리"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
+      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
     },
     {
       "no": "997",
@@ -19605,7 +19628,7 @@ const pokemonData = {
         "2배": "격투, 바위, 드래곤, 강철, 페어리"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "모으령 ➔ 타부자고"
+      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
     },
     {
       "no": "998",
@@ -19617,7 +19640,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 바위, 드래곤, 강철, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "드니차 ➔ 드니꽁 ➔ 드닐레이브"
     },
     {
       "no": "999",
@@ -19628,7 +19652,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "모으령 ➔ 타부자고"
     },
     {
       "no": "1000",
@@ -19640,7 +19665,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "불꽃, 땅, 고스트, 악"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "모으령 ➔ 타부자고"
     },
     {
       "no": "1001",
@@ -19778,7 +19804,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "과사삭벌레 ➔ 과미르 ➔ 과미드라"
     },
     {
       "no": "1012",
@@ -19791,7 +19818,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "꼬지보리 ➔ 스완나"
+      "evolution": "차데스 ➔ 그우린차"
     },
     {
       "no": "1013",
@@ -19804,7 +19831,7 @@ const pokemonData = {
         "2배": "불꽃, 얼음, 비행, 고스트, 악"
       },
       "generation": "9세대 포켓몬",
-      "evolution": "단칼빙 ➔ 쌍검킬 ➔ 킬가르도"
+      "evolution": "차데스 ➔ 그우린차"
     },
     {
       "no": "1014",
@@ -19817,8 +19844,7 @@ const pokemonData = {
         "4배": "에스퍼",
         "2배": "땅, 비행"
       },
-      "generation": "9세대 포켓몬",
-      "evolution": "모으령 ➔ 타부자고"
+      "generation": "9세대 포켓몬"
     },
     {
       "no": "1015",
@@ -19865,7 +19891,8 @@ const pokemonData = {
       "weaknesses": {
         "2배": "격투, 땅"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "두랄루돈 ➔ 브리두라스"
     },
     {
       "no": "1019",
@@ -19878,7 +19905,8 @@ const pokemonData = {
         "4배": "얼음",
         "2배": "독, 비행, 벌레, 드래곤, 페어리"
       },
-      "generation": "9세대 포켓몬"
+      "generation": "9세대 포켓몬",
+      "evolution": "과사삭벌레 ➔ 과미르 ➔ 과미드라"
     },
     {
       "no": "1020",

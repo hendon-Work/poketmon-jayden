@@ -84,6 +84,11 @@ def update_evolutions():
             if (idx + 1) % 50 == 0:
                 print(f"Chains progress: {idx + 1}/{len(chain_urls)}")
                 
+    # Ensure old/stale evolutions are removed before assigning
+    for p in all_pokemon:
+        if 'evolution' in p:
+            del p['evolution']
+
     updated_count = 0
     for p in all_pokemon:
         p_name = p['name']
