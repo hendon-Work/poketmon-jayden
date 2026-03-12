@@ -509,17 +509,17 @@ def return_league_recommendations(league_name, tier_name=None):
         return return_simple_text(msg)
 
     items = []
-    # 3명씩 끊어서 카드 생성 (최대 30위까지)
+    # 3명씩 끊어서 카드 생성 (최대 30마리까지)
     for page in range(0, min(len(league_data), 30), 3):
         chunk = league_data[page:page+3]
         lines = []
         for i, p in enumerate(chunk):
             title_prefix = "🥇" if "S" in (tier_name or "") else "🥈" if "A" in (tier_name or "") else "🥉" if "B" in (tier_name or "") else "🔸"
-            lines.append(f"{page+i+1}. {title_prefix} {p['name']}\n  - 기술: {p['moves']}")
+            lines.append(f"{title_prefix} {p['name']}\n  - 기술: {p['moves']}")
         
         desc = "\n\n".join(lines).strip()
         items.append({
-            "title": f"📊 {tier_name or league_name} 추천 ({page+1}~{page+len(chunk)}위)",
+            "title": f"📊 {tier_name or league_name} 추천 포켓몬",
             "description": desc
         })
 
