@@ -245,7 +245,13 @@ def kakao_pokemon_bot():
         response = {
             "version": "2.0",
             "template": {
-                "outputs": outputs
+                "outputs": outputs,
+                "quickReplies": [
+                    {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                    {"label": "🔍 다시 검색", "action": "message", "messageText": "포켓몬 검색"},
+                    {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"},
+                    {"label": "⚔️ 레이드 카운터", "action": "message", "messageText": "레이드 추천"}
+                ]
             }
         }
         return jsonify(response)
@@ -397,6 +403,7 @@ def return_league_menu():
                 }
             ],
             "quickReplies": [
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"},
                 {"label": "🔴 슈퍼리그 (CP 1500)", "action": "message", "messageText": "슈퍼리그 추천"},
                 {"label": "🟡 하이퍼리그 (CP 2500)", "action": "message", "messageText": "하이퍼리그 추천"},
                 {"label": "🔵 마스터리그 (제한 없음)", "action": "message", "messageText": "마스터리그 추천"}
