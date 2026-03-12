@@ -509,24 +509,18 @@ def return_league_recommendations(league_name, tier_name=None):
         return return_simple_text(msg)
 
     items = []
-    # 썸네일 URL 생성을 위해 내부 로직 활용
-    def get_thumb(no):
-        try:
-            num = int(str(no).split('-')[0].strip())
-            return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
-        except (ValueError, AttributeError, IndexError):
-            return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
-
-    # 최대 10개 (카카오 Carousel 제한)
-    for p in league_data[:10]:
-        title_prefix = "🥇" if "S" in (tier_name or "") else "🥈" if "A" in (tier_name or "") else "🥉" if "B" in (tier_name or "") else "🔸"
+    # 3명씩 끊어서 카드 생성 (최대 30위까지)
+    for page in range(0, min(len(league_data), 30), 3):
+        chunk = league_data[page:page+3]
+        lines = []
+        for i, p in enumerate(chunk):
+            title_prefix = "🥇" if "S" in (tier_name or "") else "🥈" if "A" in (tier_name or "") else "🥉" if "B" in (tier_name or "") else "🔸"
+            lines.append(f"{page+i+1}. {title_prefix} {p['name']}\n  - 기술: {p['moves']}")
+        
+        desc = "\n\n".join(lines).strip()
         items.append({
-            "title": f"{title_prefix} {p['name']}",
-            "description": f"⚔️ 추천 기술: {p['moves']}\n📝 {p.get('desc', '최신 메타 추천 포켓몬')}",
-            "thumbnail": {
-                "imageUrl": get_thumb(p['no']),
-                "fixedRatio": True
-            }
+            "title": f"📊 {tier_name or league_name} 추천 ({page+1}~{page+len(chunk)}위)",
+            "description": desc
         })
 
     title_text = f"🏆 [{league_name}]"
@@ -544,7 +538,7 @@ def return_league_recommendations(league_name, tier_name=None):
                 },
                 {
                     "carousel": {
-                        "type": "basicCard",
+                        "type": "textCard",
                         "items": items
                     }
                 }
