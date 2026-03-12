@@ -377,7 +377,21 @@ def return_raid_details(boss_name):
     
     thumb_url = get_thumbnail_url(boss_no)
 
-    text_cards = []
+    # 1. 상단: 보스 이미지 단독 카드
+    outputs = [
+        {
+            "basicCard": {
+                "title": f"⚔️ [{boss_name}] 레이드 보스",
+                "thumbnail": {
+                    "imageUrl": thumb_url,
+                    "fixedRatio": True
+                }
+            }
+        }
+    ]
+
+    # 2. 하단: 카운터 정보 카루셀 (텍스트 카드 방식)
+    counter_items = []
     # 3명씩 끊어서 카드 생성 (최대 15위까지)
     for page in range(0, min(len(counters), 15), 3):
         chunk = counters[page:page+3]
@@ -386,26 +400,23 @@ def return_raid_details(boss_name):
             lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
         
         desc = "\n\n".join(lines).strip()
-        text_cards.append({
-            "title": f"⚔️ [{boss_name}] 카운터 ({page+1}~{page+len(chunk)}위)",
-            "description": desc,
-            "thumbnail": {
-                "imageUrl": thumb_url,
-                "fixedRatio": True
+        counter_items.append({
+            "title": f"📊 카운터 포켓몬 ({page+1}~{page+len(chunk)}위)",
+            "description": desc
+        })
+
+    if counter_items:
+        outputs.append({
+            "carousel": {
+                "type": "textCard",
+                "items": counter_items
             }
         })
 
     return jsonify({
         "version": "2.0",
         "template": {
-            "outputs": [
-                {
-                    "carousel": {
-                        "type": "basicCard",
-                        "items": text_cards
-                    }
-                }
-            ],
+            "outputs": outputs,
             "quickReplies": [
                 {"label": "🏠 홈", "action": "message", "messageText": "시작"},
                 {"label": "📖 도감 정보", "action": "message", "messageText": f"{boss_name} 정보"},
