@@ -91,13 +91,20 @@ def kakao_pokemon_bot():
         req = request.get_json(force=True, silent=True) or {}
         user_utterance = req.get('userRequest', {}).get('utterance', '').strip()
         
-        if not user_utterance:
-            return return_simple_text("포켓몬 이름이나 타입을 검색해주세요.")
+        if not user_utterance or user_utterance in ["시작", "메뉴", "도움말"]:
+            return return_main_menu()
             
+        # 배틀리그 관련 처리
+        if "리그" in user_utterance:
+            if any(l in user_utterance for l in ["슈퍼", "하이퍼", "마스터"]):
+                league_name = next(l for l in ["슈퍼리그", "하이퍼리그", "마스터리그"] if l[:2] in user_utterance)
+                return return_league_recommendations(league_name)
+            return return_league_menu()
+
         result_data = search_pokemon_raw(user_utterance)
         
         if "error" in result_data:
-            return return_simple_text(result_data["error"])
+            return return_simple_text(result_data["error"], include_menu=True)
             
         outputs = []
         
@@ -234,8 +241,8 @@ def kakao_pokemon_bot():
     except Exception as e:
         return return_simple_text(f"서버 처리 중 에러가 발생했습니다: {str(e)}")
 
-def return_simple_text(text):
-    return jsonify({
+def return_simple_text(text, include_menu=False):
+    res = {
         "version": "2.0",
         "template": {
             "outputs": [
@@ -244,6 +251,92 @@ def return_simple_text(text):
                         "text": text[:995] + "..." if len(text) > 1000 else text
                     }
                 }
+            ]
+        }
+    }
+    if include_menu:
+        res["template"]["quickReplies"] = [
+            {"label": "🔍 포켓몬 검색", "action": "message", "messageText": "포켓몬 검색 방법 알려줘"},
+            {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"}
+        ]
+    return jsonify(res)
+
+def return_main_menu():
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": "안녕하세요! 포켓몬 마스터 도우미입니다. ⚡",
+                        "description": "원하시는 메뉴를 선택하거나 포켓몬 이름을 입력해 주세요.",
+                        "thumbnail": {
+                            "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+                        }
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "🔍 포켓몬 명칭 검색", "action": "message", "messageText": "포켓몬 검색"},
+                {"label": "🏆 배틀리그 별 추천", "action": "message", "messageText": "배틀리그 추천"}
+            ]
+        }
+    })
+
+def return_league_menu():
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "simpleText": {
+                        "text": "어떤 리그의 추천 포켓몬을 확인하시겠어요? 아래에서 리그를 선택해 주세요! 🏟️"
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "🔴 슈퍼리그 (CP 1500)", "action": "message", "messageText": "슈퍼리그 추천"},
+                {"label": "🟡 하이퍼리그 (CP 2500)", "action": "message", "messageText": "하이퍼리그 추천"},
+                {"label": "🔵 마스터리그 (제한 없음)", "action": "message", "messageText": "마스터리그 추천"}
+            ]
+        }
+    })
+
+def return_league_recommendations(league_name):
+    league_data = data.get('battle_league_data', {}).get(league_name, [])
+    if not league_data:
+        return return_simple_text(f"죄송합니다. {league_name} 데이터가 준비되지 않았습니다.")
+
+    items = []
+    # 썸네일 URL 생성을 위해 기존 함수 내부 로직 활용 또는 함수 호출
+    def get_thumb(no):
+        num = int(str(no).split('-')[0].strip())
+        return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
+
+    for p in league_data[:10]: # 최대 10개
+        items.append({
+            "title": f"🥇 {p['name']}",
+            "description": f"⚔️ 추천 기술: {p['moves']}\n📝 {p['desc']}",
+            "thumbnail": {
+                "imageUrl": get_thumb(p['no']),
+                "fixedRatio": True
+            }
+        })
+
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "carousel": {
+                        "type": "basicCard",
+                        "items": items
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "🏟️ 다른 리그 보기", "action": "message", "messageText": "배틀리그 추천"},
+                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
             ]
         }
     })
