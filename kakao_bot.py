@@ -94,6 +94,10 @@ def kakao_pokemon_bot():
         if not user_utterance or user_utterance in ["시작", "메뉴", "도움말"]:
             return return_main_menu()
             
+        # 포켓몬 검색 방법 안내 (버튼 클릭 시)
+        if user_utterance == "포켓몬 검색":
+            return return_search_guide()
+
         # 배틀리그 관련 처리
         if "리그" in user_utterance:
             if any(l in user_utterance for l in ["슈퍼", "하이퍼", "마스터"]):
@@ -248,6 +252,30 @@ def kakao_pokemon_bot():
             
     except Exception as e:
         return return_simple_text(f"서버 처리 중 에러가 발생했습니다: {str(e)}")
+
+def return_search_guide():
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": "🔍 포켓몬 검색 방법 안내",
+                        "description": "찾고 싶은 포켓몬의 이름을 직접 입력해 주세요!\n\n예시:\n📍 '피카츄' (이름 검색)\n📍 '얼음' (타입별 티어 검색)\n📍 '그림자 맘모꾸리' (그림자 포켓몬)",
+                        "thumbnail": {
+                            "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+                        }
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "🔴 리자몽 검색", "action": "message", "messageText": "리자몽"},
+                {"label": "⚪ 뮤츠 검색", "action": "message", "messageText": "뮤츠"},
+                {"label": "🔵 드래곤 타입", "action": "message", "messageText": "드래곤"},
+                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
+            ]
+        }
+    })
 
 def return_simple_text(text, include_menu=False):
     res = {
