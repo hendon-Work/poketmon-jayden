@@ -269,10 +269,10 @@ def return_search_guide():
                 }
             ],
             "quickReplies": [
-                {"label": "🔴 리자몽 검색", "action": "message", "messageText": "리자몽"},
-                {"label": "⚪ 뮤츠 검색", "action": "message", "messageText": "뮤츠"},
-                {"label": "🔵 드래곤 타입", "action": "message", "messageText": "드래곤"},
-                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "🔴 리자몽", "action": "message", "messageText": "리자몽"},
+                {"label": "⚪ 뮤츠", "action": "message", "messageText": "뮤츠"},
+                {"label": "🔵 드래곤", "action": "message", "messageText": "드래곤"}
             ]
         }
     })
@@ -292,7 +292,8 @@ def return_simple_text(text, include_menu=False):
     }
     if include_menu:
         res["template"]["quickReplies"] = [
-            {"label": "🔍 포켓몬 검색", "action": "message", "messageText": "포켓몬 검색 방법 알려줘"},
+            {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+            {"label": "🔍 포켓몬 검색", "action": "message", "messageText": "포켓몬 검색"},
             {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"},
             {"label": "⚔️ 레이드 카운터", "action": "message", "messageText": "레이드 메뉴"}
         ]
@@ -341,7 +342,9 @@ def return_raid_menu():
                     }
                 }
             ],
-            "quickReplies": quick_replies + [{"label": "🏠 메인으로", "action": "message", "messageText": "시작"}]
+            "quickReplies": [
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"}
+            ] + quick_replies
         }
     })
 
@@ -376,8 +379,8 @@ def return_raid_details(boss_name):
                 }
             ],
             "quickReplies": [
-                {"label": "⚔️ 다른 보스 보기", "action": "message", "messageText": "레이드 추천"},
-                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "⚔️ 다른 보스 보기", "action": "message", "messageText": "레이드 추천"}
             ]
         }
     })
@@ -434,8 +437,8 @@ def return_league_recommendations(league_name):
                 }
             ],
             "quickReplies": [
-                {"label": "🏟️ 다른 리그 보기", "action": "message", "messageText": "배틀리그 추천"},
-                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "🏟️ 다른 리그 보기", "action": "message", "messageText": "배틀리그 추천"}
             ]
         }
     })
