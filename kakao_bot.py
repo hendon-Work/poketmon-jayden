@@ -78,7 +78,22 @@ def search_pokemon_raw(query):
                 "counters": counters
             })
             
-    is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"] and not result_data["raid_matches"]
+    # 5. 배틀리그 검색
+    battle_league_data = data.get('battle_league_data', {})
+    result_data["league_matches"] = []
+    for league, tiers in battle_league_data.items():
+        if isinstance(tiers, dict):
+            for tier_name, p_list in tiers.items():
+                for p in p_list:
+                    if query in p['name']:
+                        result_data["league_matches"].append({
+                            "league": league,
+                            "tier": tier_name,
+                            "name": p['name'],
+                            "moves": p['moves']
+                        })
+
+    is_empty = not result_data["tier_matches"] and not result_data["beginner_matches"] and not result_data["pokedex_matches"] and not result_data["raid_matches"] and not result_data["league_matches"]
     if is_empty:
         # 검색 결과가 없을 때의 응답 메시지를 자유롭게 변경할 수 있습니다.
         return {"error": f"앗! '{query}'(이)라는 포켓몬은 아직 도감에 없거나, 이름을 잘못 입력하신 것 같아요. 🥲 다시 한번 정확히 입력해 주세요!"}
@@ -221,18 +236,17 @@ def kakao_pokemon_bot():
             # 최대 9위까지(3슬라이드) 노출. 한 슬라이드당 최대 3위.
             for page in range(0, min(len(tier_results), 9), 3):
                 chunk = tier_results[page:page+3]
-                tier_desc = "\n\n".join(chunk).strip() # 줄간격 띄우기
+                tier_desc = "\n\n".join(chunk).strip()
                 
                 if tier_desc:
-                    if len(tier_desc) > 390:
-                        tier_desc = tier_desc[:385] + "..."
+                    if len(tier_desc) > 390: tier_desc = tier_desc[:385] + "..."
                     text_cards.append({
                         "title": f"📊 {match['type']} 타입 티어",
                         "description": tier_desc
                     })
 
         # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (3위씩 분리하여 여러 슬라이드로)
-        if result_data["raid_matches"]:
+        if result_data.get("raid_matches"):
             for match in result_data["raid_matches"][:2]: # 보스가 2개 이상일 때 대비
                 counters = match['counters']
                 # 최대 15위까지(5슬라이드) 노출. 한 슬라이드당 최대 3위.
@@ -242,14 +256,29 @@ def kakao_pokemon_bot():
                     for i, counter in enumerate(chunk):
                         lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
                     
-                    desc = "\n\n".join(lines).strip() # 줄간격을 무조건 주어 가독성 향상
-                    if len(desc) > 390: 
-                        desc = desc[:385] + "..."
+                    desc = "\n\n".join(lines).strip()
+                    if len(desc) > 390: desc = desc[:385] + "..."
                     
                     text_cards.append({
                         "title": f"⚔️ [{match['boss']}] 카운터 ({page+1}~{page+len(chunk)}위)",
                         "description": desc
                     })
+
+        # 2-4. 네번째 슬라이드: 배틀리그 추천 정보
+        if result_data.get("league_matches"):
+            league_lines = []
+            # 같은 포켓몬이 여러 리그에 있을 수 있으므로 구분하여 노출
+            for match in result_data["league_matches"][:5]: # 최대 5개 매칭 출력
+                icon = "🥇" if "S" in match['tier'] else "🥈" if "A" in match['tier'] else "🥉" if "B" in match['tier'] else "🔸"
+                league_lines.append(f"🏆 [{match['league']}] {icon} {match['tier']}\n{match['name']} / {match['moves']}")
+            
+            league_desc = "\n\n".join(league_lines).strip()
+            if league_desc:
+                if len(league_desc) > 390: league_desc = league_desc[:385] + "..."
+                text_cards.append({
+                    "title": f"🏆 '{user_utterance}' 배틀리그 추천",
+                    "description": league_desc
+                })
             
         if text_cards:
             if len(text_cards) == 1:
@@ -298,7 +327,6 @@ def return_search_guide():
                 {"label": "🏠 홈", "action": "message", "messageText": "시작"},
                 {"label": "🔴 리자몽", "action": "message", "messageText": "리자몽"},
                 {"label": "⚪ 뮤츠", "action": "message", "messageText": "뮤츠"},
-                {"label": "🔵 드래곤", "action": "message", "messageText": "드래곤"}
             ]
         }
     })
