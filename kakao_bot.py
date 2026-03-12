@@ -116,7 +116,18 @@ def kakao_pokemon_bot():
         if "리그" in user_utterance:
             if any(l in user_utterance for l in ["슈퍼", "하이퍼", "마스터"]):
                 league_name = next(l for l in ["슈퍼리그", "하이퍼리그", "마스터리그"] if l[:2] in user_utterance)
-                return return_league_recommendations(league_name)
+                
+                # 티어 정보가 발화에 포함된 경우 (예: "슈퍼리그 S+ 티어 추천")
+                target_tier = None
+                for t in ["S~S+", "A~A+", "B~B+", "S+", "S", "A+", "A", "B+", "B"]:
+                    if t in user_utterance:
+                        target_tier = t if "~" in t else f"{t[0]}~{t[0]}+ 티어"
+                        break
+                
+                if target_tier:
+                    return return_league_recommendations(league_name, target_tier)
+                else:
+                    return return_tier_menu(league_name)
             return return_league_menu()
             
         # 레이드 관련 처리
@@ -276,7 +287,7 @@ def return_search_guide():
                 {
                     "basicCard": {
                         "title": "🔍 포켓몬 검색 방법 안내",
-                        "description": "찾고 싶은 포켓몬의 이름을 직접 입력해 주세요!\n\n예시:\n📍 '피카츄' (이름 검색)\n📍 '얼음' (타입별 티어 검색)\n📍 '그림자 맘모꾸리' (그림자 포켓몬)",
+                        "description": "찾고 싶은 포켓몬의 이름을 직접 입력해 주세요!\n\n예시:\n📍 '피카츄' (이름 검색)\n📍 '그림자 맘모꾸리' (그림자 포켓몬)",
                         "thumbnail": {
                             "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
                         }
@@ -445,31 +456,92 @@ def return_league_menu():
         }
     })
 
-def return_league_recommendations(league_name):
-    league_data = data.get('battle_league_data', {}).get(league_name, [])
+def return_tier_menu(league_name):
+    # 데이터에서 해당 리그의 티어 목록을 가져옴
+    league_data = data.get('battle_league_data', {}).get(league_name, {})
+    tiers = list(league_data.keys()) if isinstance(league_data, dict) else []
+    
+    if not tiers:
+        return return_league_recommendations(league_name) # 기존 데이터 형식이면 바로 노출
+
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "simpleText": {
+                        "text": f"[{league_name}] 어떤 티어의 추천 포켓몬을 확인하시겠어요? 🏆\n(시트 기준으로 매일 업데이트됩니다!)"
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "🥇 S~S+ 티어", "action": "message", "messageText": f"{league_name} S~S+ 티어 추천"},
+                {"label": "🥈 A~A+ 티어", "action": "message", "messageText": f"{league_name} A~A+ 티어 추천"},
+                {"label": "🥉 B~B+ 티어", "action": "message", "messageText": f"{league_name} B~B+ 티어 추천"},
+                {"label": "🏟️ 리그 다시 선택", "action": "message", "messageText": "배틀리그 추천"}
+            ]
+        }
+    })
+
+def return_league_recommendations(league_name, tier_name=None):
+    league_content = data.get('battle_league_data', {}).get(league_name, [])
+    
+    # 새로운 구조(dict)인 경우 티어 필터링
+    if isinstance(league_content, dict):
+        if tier_name:
+            # "S+" 입력 시 "S~S+ 티어" 키 매칭 처리
+            matched_key = next((k for k in league_content.keys() if tier_name in k), None)
+            league_data = league_content.get(matched_key or tier_name, [])
+        else:
+            # 티어가 지정되지 않았으면 모든 티어 합치기
+            league_data = []
+            for t_data in league_content.values():
+                league_data.extend(t_data)
+    else:
+        # 기존 리스트 구조인 경우
+        league_data = league_content
+
     if not league_data:
-        return return_simple_text(f"죄송합니다. {league_name} 데이터가 준비되지 않았습니다.")
+        msg = f"죄송합니다. {league_name}"
+        if tier_name: msg += f" {tier_name}"
+        msg += " 데이터가 준비되지 않았습니다."
+        return return_simple_text(msg)
 
     items = []
-    # 썸네일 URL 생성을 위해 기존 함수 내부 로직 활용 또는 함수 호출
+    # 썸네일 URL 생성을 위해 내부 로직 활용
     def get_thumb(no):
-        num = int(str(no).split('-')[0].strip())
-        return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
+        try:
+            num = int(str(no).split('-')[0].strip())
+            return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
+        except (ValueError, AttributeError, IndexError):
+            return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
-    for p in league_data[:10]: # 최대 10개
+    # 최대 10개 (카카오 Carousel 제한)
+    for p in league_data[:10]:
+        title_prefix = "🥇" if "S" in (tier_name or "") else "🥈" if "A" in (tier_name or "") else "🥉" if "B" in (tier_name or "") else "🔸"
         items.append({
-            "title": f"🥇 {p['name']}",
-            "description": f"⚔️ 추천 기술: {p['moves']}\n📝 {p['desc']}",
+            "title": f"{title_prefix} {p['name']}",
+            "description": f"⚔️ 추천 기술: {p['moves']}\n📝 {p.get('desc', '최신 메타 추천 포켓몬')}",
             "thumbnail": {
                 "imageUrl": get_thumb(p['no']),
                 "fixedRatio": True
             }
         })
 
+    title_text = f"🏆 [{league_name}]"
+    if tier_name: title_text += f" {tier_name}"
+    title_text += " 추천"
+
     return jsonify({
         "version": "2.0",
         "template": {
             "outputs": [
+                {
+                    "simpleText": {
+                        "text": f"{title_text} 결과입니다. 최신 메타를 반영하여 공략해 보세요! ⚡"
+                    }
+                },
                 {
                     "carousel": {
                         "type": "basicCard",
@@ -479,6 +551,7 @@ def return_league_recommendations(league_name):
             ],
             "quickReplies": [
                 {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "🏆 다른 티어 보기", "action": "message", "messageText": f"{league_name} 추천"},
                 {"label": "🏟️ 다른 리그 보기", "action": "message", "messageText": "배틀리그 추천"}
             ]
         }
