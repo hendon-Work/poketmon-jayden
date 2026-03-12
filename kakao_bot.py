@@ -38,13 +38,13 @@ def search_pokemon_raw(query):
             types_str = ", ".join(p.get('types', []))
             weak4 = p.get('weaknesses', {}).get('4배', '-') if p.get('weaknesses', {}).get('4배') else '-'
             weak2 = p.get('weaknesses', {}).get('2배', '-') if p.get('weaknesses', {}).get('2배') else '-'
-            evo_info = f"\n🧬 진화: {p['evolution']}" if 'evolution' in p else ""
             
             result_data["pokedex_matches"].append({
                 "no": p['no'],
                 "name": p['name'],
                 "short_desc": f"🔸 타입: {types_str}",
-                "full_desc": f"[{p['name']}]\n💥 4배 약점: {weak4} / ⚡ 2배 약점: {weak2}{evo_info}"
+                "weaknesses": f"💥 4배 약점: {weak4}\n⚡ 2배 약점: {weak2}",
+                "evolution": p.get('evolution', '')
             })
 
     # 2. 티어 검색
@@ -139,26 +139,41 @@ def kakao_pokemon_bot():
         # 2. 텍스트 카드를 슬라이드 내용별로 명확하게 분리 (최대 400자 지원)
         text_cards = []
         
-        # 2-1. 첫번째 슬라이드: 진화 트리 정보 및 약점 4배/2배 (+ 초보자 추천)
-        pokedex_lines = []
+        # 2-1. 첫번째 슬라이드: 검색된 포켓몬들의 약점 정보
         if result_data["pokedex_matches"]:
-            for p in result_data["pokedex_matches"][:5]:
-                if p.get('full_desc'):
-                    pokedex_lines.append(p['full_desc'])
-                    
-        if result_data["beginner_matches"]:
-            if pokedex_lines:
-                pokedex_lines.append("────────────────")
-            pokedex_lines.append(f"🔰 [초보자 추천]")
-            pokedex_lines.extend(result_data["beginner_matches"][:2])
+            info_lines = []
+            evo_lines = []
             
-        pokedex_desc = "\n".join(pokedex_lines).strip()
-        if pokedex_desc:
-            if len(pokedex_desc) > 400:
-                pokedex_desc = pokedex_desc[:395] + "..."
+            for p in result_data["pokedex_matches"][:3]: # 최대 3개 폼까지 상세 노출
+                info_lines.append(f"[{p['name']}]\n{p['weaknesses']}")
+                if p['evolution'] and p['evolution'] not in evo_lines:
+                    evo_lines.append(p['evolution'])
+            
+            # 정보 카드 추가
+            info_desc = "\n\n".join(info_lines).strip()
+            if info_desc:
+                if len(info_desc) > 400: info_desc = info_desc[:395] + "..."
+                text_cards.append({
+                    "title": f"🔍 '{user_utterance}' 약점 정보",
+                    "description": info_desc
+                })
+            
+            # 진화 카드 추가 (별도 분리)
+            if evo_lines:
+                evo_desc = "\n\n".join([f"🧬 {e}" for e in evo_lines]).strip()
+                if len(evo_desc) > 400: evo_desc = evo_desc[:395] + "..."
+                text_cards.append({
+                    "title": f"🧬 '{user_utterance}' 진화 트리",
+                    "description": evo_desc
+                })
+
+        # 초보자 추천 카드는 별도로 유지 또는 통합
+        if result_data["beginner_matches"]:
+            beg_desc = "\n".join(result_data["beginner_matches"][:3]).strip()
+            if len(beg_desc) > 400: beg_desc = beg_desc[:395] + "..."
             text_cards.append({
-                "title": f"� '{user_utterance}' 포켓몬 정보",
-                "description": pokedex_desc
+                "title": f"🔰 [초보자 추천] {user_utterance}",
+                "description": beg_desc
             })
 
         # 2-2. 두번째 슬라이드: 타입 티어 정보 (타입별, 랭킹별로 슬라이드 카드로 분리하여 잘림 방지)
