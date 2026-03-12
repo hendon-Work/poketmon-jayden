@@ -100,6 +100,14 @@ def kakao_pokemon_bot():
                 league_name = next(l for l in ["슈퍼리그", "하이퍼리그", "마스터리그"] if l[:2] in user_utterance)
                 return return_league_recommendations(league_name)
             return return_league_menu()
+            
+        # 레이드 관련 처리
+        if "레이드" in user_utterance:
+            raid_bosses = data.get('raid_counters', {}).keys()
+            for boss in raid_bosses:
+                if boss in user_utterance:
+                    return return_raid_details(boss)
+            return return_raid_menu()
 
         result_data = search_pokemon_raw(user_utterance)
         
@@ -257,7 +265,8 @@ def return_simple_text(text, include_menu=False):
     if include_menu:
         res["template"]["quickReplies"] = [
             {"label": "🔍 포켓몬 검색", "action": "message", "messageText": "포켓몬 검색 방법 알려줘"},
-            {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"}
+            {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"},
+            {"label": "⚔️ 레이드 카운터", "action": "message", "messageText": "레이드 메뉴"}
         ]
     return jsonify(res)
 
@@ -277,8 +286,70 @@ def return_main_menu():
                 }
             ],
             "quickReplies": [
-                {"label": "🔍 포켓몬 명칭 검색", "action": "message", "messageText": "포켓몬 검색"},
-                {"label": "🏆 배틀리그 별 추천", "action": "message", "messageText": "배틀리그 추천"}
+                {"label": "🔍 포켓몬 검색", "action": "message", "messageText": "포켓몬 검색"},
+                {"label": "🏆 배틀리그 추천", "action": "message", "messageText": "배틀리그 추천"},
+                {"label": "⚔️ 레이드 카운터", "action": "message", "messageText": "레이드 추천"}
+            ]
+        }
+    })
+
+def return_raid_menu():
+    raid_bosses = list(data.get('raid_counters', {}).keys())
+    if not raid_bosses:
+        return return_simple_text("현재 등록된 레이드 정보가 없습니다.")
+    
+    # 최근 10개 보스만 노출 (카카오 퀵리플라이 제한 10개)
+    quick_replies = []
+    for boss in raid_bosses[:10]:
+        quick_replies.append({"label": f"⚔️ {boss}", "action": "message", "messageText": f"{boss} 레이드"})
+
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "simpleText": {
+                        "text": "현재 진행 중인 주요 레이드 보스 목록입니다. 보스를 선택하면 카운터 정보를 알려드려요! ⚔️"
+                    }
+                }
+            ],
+            "quickReplies": quick_replies + [{"label": "🏠 메인으로", "action": "message", "messageText": "시작"}]
+        }
+    })
+
+def return_raid_details(boss_name):
+    counters = data.get('raid_counters', {}).get(boss_name, [])
+    if not counters:
+        return return_simple_text(f"'{boss_name}' 레이드 정보가 없습니다.")
+
+    text_cards = []
+    # 3명씩 끊어서 카드 생성 (최대 15위까지)
+    for page in range(0, min(len(counters), 15), 3):
+        chunk = counters[page:page+3]
+        lines = []
+        for i, counter in enumerate(chunk):
+            lines.append(f"{page+i+1}. {counter['pokemon']}\n  - {counter['fast_move']} / {counter['charge_move']}")
+        
+        desc = "\n\n".join(lines).strip()
+        text_cards.append({
+            "title": f"⚔️ [{boss_name}] 카운터 ({page+1}~{page+len(chunk)}위)",
+            "description": desc
+        })
+
+    return jsonify({
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "carousel": {
+                        "type": "textCard",
+                        "items": text_cards
+                    }
+                }
+            ],
+            "quickReplies": [
+                {"label": "⚔️ 다른 보스 보기", "action": "message", "messageText": "레이드 추천"},
+                {"label": "🏠 메인으로", "action": "message", "messageText": "시작"}
             ]
         }
     })
