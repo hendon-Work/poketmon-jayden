@@ -270,7 +270,7 @@ def kakao_pokemon_bot():
             # 같은 포켓몬이 여러 리그에 있을 수 있으므로 구분하여 노출
             for match in result_data["league_matches"][:5]: # 최대 5개 매칭 출력
                 icon = "🥇" if "S" in match['tier'] else "🥈" if "A" in match['tier'] else "🥉" if "B" in match['tier'] else "🔸"
-                league_lines.append(f"🏆 [{match['league']}] {icon} {match['tier']}\n{match['name']} / {match['moves']}")
+                league_lines.append(f"🏆 [{match['league']}] {icon} {match['tier']}\n{match['moves']}")
             
             league_desc = "\n\n".join(league_lines).strip()
             if league_desc:
