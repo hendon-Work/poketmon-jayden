@@ -85,6 +85,16 @@ def search_pokemon_raw(query):
         
     return result_data
 
+# 대표 포켓몬 번호 찾기 (썸네일용)
+def get_thumbnail_url(no):
+    if no:
+        try:
+            num = int(str(no).split('-')[0].strip()) # 773-1 같은 폼 대응은 기본 773번 이미지로
+            return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
+        except Exception:
+            pass
+    return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+
 @app.route('/api/pokemon', methods=['POST'])
 def kakao_pokemon_bot():
     try:
@@ -128,16 +138,6 @@ def kakao_pokemon_bot():
             return return_simple_text(result_data["error"], include_menu=True)
             
         outputs = []
-        
-        # 대표 포켓몬 번호 찾기 (썸네일용)
-        def get_thumbnail_url(no):
-            if no:
-                try:
-                    num = int(str(no).split('-')[0].strip()) # 773-1 같은 폼 대응은 기본 773번 이미지로
-                    return f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{num}.png"
-                except Exception:
-                    pass
-            return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
         # 도감 정보를 매칭한 경우 1. 이미지 원본 비율 보존을 위한 BasicCard 또는 Carousel 출력
         if result_data["pokedex_matches"]:
@@ -368,6 +368,15 @@ def return_raid_details(boss_name):
     if not counters:
         return return_simple_text(f"'{boss_name}' 레이드 정보가 없습니다.")
 
+    # 보스 이미지 찾기
+    boss_no = None
+    for p in data.get('all_pokemon', []):
+        if boss_name in p['name']:
+            boss_no = p['no']
+            break
+    
+    thumb_url = get_thumbnail_url(boss_no)
+
     text_cards = []
     # 3명씩 끊어서 카드 생성 (최대 15위까지)
     for page in range(0, min(len(counters), 15), 3):
@@ -379,7 +388,11 @@ def return_raid_details(boss_name):
         desc = "\n\n".join(lines).strip()
         text_cards.append({
             "title": f"⚔️ [{boss_name}] 카운터 ({page+1}~{page+len(chunk)}위)",
-            "description": desc
+            "description": desc,
+            "thumbnail": {
+                "imageUrl": thumb_url,
+                "fixedRatio": True
+            }
         })
 
     return jsonify({
@@ -388,7 +401,7 @@ def return_raid_details(boss_name):
             "outputs": [
                 {
                     "carousel": {
-                        "type": "textCard",
+                        "type": "basicCard",
                         "items": text_cards
                     }
                 }
