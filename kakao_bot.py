@@ -230,7 +230,23 @@ def kakao_pokemon_bot():
                 "description": beg_desc
             })
 
-        # 2-2. 두번째 슬라이드: 타입 티어 정보 (타입별, 랭킹별로 슬라이드 카드로 분리하여 잘림 방지)
+        # 2-4. 배틀리그 추천 정보 (타입 티어보다 앞으로 이동)
+        if result_data.get("league_matches"):
+            league_lines = []
+            # 같은 포켓몬이 여러 리그에 있을 수 있으므로 구분하여 노출
+            for match in result_data["league_matches"][:5]: # 최대 5개 매칭 출력
+                icon = "🥇" if "S" in match['tier'] else "🥈" if "A" in match['tier'] else "🥉" if "B" in match['tier'] else "🔸"
+                league_lines.append(f"🏆 [{match['league']}] {icon} {match['tier']}\n{match['moves']}")
+            
+            league_desc = "\n\n".join(league_lines).strip()
+            if league_desc:
+                if len(league_desc) > 390: league_desc = league_desc[:385] + "..."
+                text_cards.append({
+                    "title": f"🏆 '{user_utterance}' 배틀리그 추천",
+                    "description": league_desc
+                })
+
+        # 2-2. 타입 티어 정보 (타입별, 랭킹별로 슬라이드 카드로 분리하여 잘림 방지)
         for match in result_data["tier_matches"][:3]: # 최대 3개의 타입까지 슬라이드로 추가
             tier_results = match["results"]
             # 최대 9위까지(3슬라이드) 노출. 한 슬라이드당 최대 3위.
@@ -245,7 +261,7 @@ def kakao_pokemon_bot():
                         "description": tier_desc
                     })
 
-        # 2-3. 세번째 슬라이드: 레이드 카운터 정보 (3위씩 분리하여 여러 슬라이드로)
+        # 2-3. 레이드 카운터 정보 (3위씩 분리하여 여러 슬라이드로)
         if result_data.get("raid_matches"):
             for match in result_data["raid_matches"][:2]: # 보스가 2개 이상일 때 대비
                 counters = match['counters']
@@ -263,22 +279,6 @@ def kakao_pokemon_bot():
                         "title": f"⚔️ [{match['boss']}] 카운터 ({page+1}~{page+len(chunk)}위)",
                         "description": desc
                     })
-
-        # 2-4. 네번째 슬라이드: 배틀리그 추천 정보
-        if result_data.get("league_matches"):
-            league_lines = []
-            # 같은 포켓몬이 여러 리그에 있을 수 있으므로 구분하여 노출
-            for match in result_data["league_matches"][:5]: # 최대 5개 매칭 출력
-                icon = "🥇" if "S" in match['tier'] else "🥈" if "A" in match['tier'] else "🥉" if "B" in match['tier'] else "🔸"
-                league_lines.append(f"🏆 [{match['league']}] {icon} {match['tier']}\n{match['moves']}")
-            
-            league_desc = "\n\n".join(league_lines).strip()
-            if league_desc:
-                if len(league_desc) > 390: league_desc = league_desc[:385] + "..."
-                text_cards.append({
-                    "title": f"🏆 '{user_utterance}' 배틀리그 추천",
-                    "description": league_desc
-                })
             
         if text_cards:
             if len(text_cards) == 1:
