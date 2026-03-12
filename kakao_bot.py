@@ -98,6 +98,10 @@ def kakao_pokemon_bot():
         if user_utterance == "포켓몬 검색":
             return return_search_guide()
 
+        # 도감 정보 강제 검색 (레이드 보스인 경우에도 도감 정보를 보고 싶을 때)
+        is_force_pokedex = any(k in user_utterance for k in ["정보", "도감"])
+        clean_utterance = user_utterance.replace("정보", "").replace("도감", "").strip()
+
         # 배틀리그 관련 처리
         if "리그" in user_utterance:
             if any(l in user_utterance for l in ["슈퍼", "하이퍼", "마스터"]):
@@ -106,14 +110,19 @@ def kakao_pokemon_bot():
             return return_league_menu()
             
         # 레이드 관련 처리
-        if "레이드" in user_utterance:
-            raid_bosses = data.get('raid_counters', {}).keys()
+        raid_bosses = data.get('raid_counters', {}).keys()
+        is_raid_query = any(k in user_utterance for k in ["레이드", "카운터"])
+        
+        if not is_force_pokedex:
             for boss in raid_bosses:
-                if boss in user_utterance:
+                # 보스 이름이 정확히 일치하거나, 레이드/카운터 키워드가 포함된 경우
+                if boss == user_utterance or (is_raid_query and boss in user_utterance):
                     return return_raid_details(boss)
-            return return_raid_menu()
+            
+            if is_raid_query:
+                return return_raid_menu()
 
-        result_data = search_pokemon_raw(user_utterance)
+        result_data = search_pokemon_raw(clean_utterance if is_force_pokedex else user_utterance)
         
         if "error" in result_data:
             return return_simple_text(result_data["error"], include_menu=True)
@@ -386,6 +395,7 @@ def return_raid_details(boss_name):
             ],
             "quickReplies": [
                 {"label": "🏠 홈", "action": "message", "messageText": "시작"},
+                {"label": "📖 도감 정보", "action": "message", "messageText": f"{boss_name} 정보"},
                 {"label": "⚔️ 다른 보스 보기", "action": "message", "messageText": "레이드 추천"}
             ]
         }
