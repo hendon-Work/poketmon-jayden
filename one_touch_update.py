@@ -151,6 +151,53 @@ def process_raid_data(csv_content, existing_data):
     print(f"Raid Data: Updated counters for {len(raid_counters)} bosses.")
     return existing_data
 
+def process_battle_league_data(csv_content, league_name, existing_data):
+    if not csv_content:
+        return existing_data
+    
+    reader = csv.reader(io.StringIO(csv_content))
+    try:
+        header = next(reader)
+    except StopIteration:
+        return existing_data
+        
+    if 'battle_league_data' not in existing_data:
+        existing_data['battle_league_data'] = {}
+        
+    existing_data['battle_league_data'][league_name] = {}
+    league_dict = existing_data['battle_league_data'][league_name]
+    
+    for row in reader:
+        if not row or len(row) < 4:
+            continue
+            
+        tier = row[0].strip()
+        # 티어 명칭 정리 (JSON 형식에 맞게 공백 제거, B~ B+ -> B~B+ 등)
+        tier = tier.replace(" ~ ", "~").replace("B~ B+", "B~B+").replace("A~ A+", "A~A+").replace("S~ S+", "S~S+")
+        if not tier:
+            continue
+            
+        pokemon_name = row[1].strip()
+        # 포켓몬 이름 앞의 '()', 줄바꿈 등 불필요한 텍스트 제거
+        pokemon_name = re.sub(r'^\s*\(\)\s*\n*', '', pokemon_name)
+        pokemon_name = pokemon_name.replace('\n', ' ').strip()
+        
+        fast_move = row[2].strip()
+        charge_move = row[3].strip().replace("\n", " + ")
+        
+        moves = f"{fast_move} / {charge_move}"
+        
+        if tier not in league_dict:
+            league_dict[tier] = []
+            
+        league_dict[tier].append({
+            "name": pokemon_name,
+            "moves": moves
+        })
+        
+    print(f"Battle League Data: Updated {league_name}")
+    return existing_data
+
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     json_path = os.path.join(base_dir, 'pokemon_data.json')
@@ -159,13 +206,18 @@ def main():
     # URLs
     pokemon_url = "https://docs.google.com/spreadsheets/d/1IH8rDfDMATG-nnQ7B0HexoIR0B2J152muONxLi1KE9M/export?format=csv&gid=747431545"
     raid_url = "https://docs.google.com/spreadsheets/d/1gAdoMc5Aaqt_TCQJnMMEfdoMbKNYIeRAhu0HtUezM70/export?format=csv&gid=0"
+    league_urls = {
+        "슈퍼리그": "https://docs.google.com/spreadsheets/d/1eZPPE2xJL5VI8xC8YxGm6Bwp8OZ-J_zQ5oJfWBib9QA/export?format=csv&gid=0",
+        "하이퍼리그": "https://docs.google.com/spreadsheets/d/1eZPPE2xJL5VI8xC8YxGm6Bwp8OZ-J_zQ5oJfWBib9QA/export?format=csv&gid=1572168770",
+        "마스터리그": "https://docs.google.com/spreadsheets/d/1eZPPE2xJL5VI8xC8YxGm6Bwp8OZ-J_zQ5oJfWBib9QA/export?format=csv&gid=934578790"
+    }
     
     # Load existing data
     if os.path.exists(json_path):
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     else:
-        data = {"all_pokemon": [], "raid_counters": {}, "tier_data": [], "beginner_list": []}
+        data = {"all_pokemon": [], "raid_counters": {}, "tier_data": [], "beginner_list": [], "battle_league_data": {}}
         
     # Update Pokemon Info
     pokemon_csv = download_csv(pokemon_url)
@@ -174,6 +226,11 @@ def main():
     # Update Raid Info
     raid_csv = download_csv(raid_url)
     data = process_raid_data(raid_csv, data)
+    
+    # Update Battle League Info
+    for league_name, url in league_urls.items():
+        league_csv = download_csv(url)
+        data = process_battle_league_data(league_csv, league_name, data)
     
     # Save JSON
     with open(json_path, 'w', encoding='utf-8') as f:
