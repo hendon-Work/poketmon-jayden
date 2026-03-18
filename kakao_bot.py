@@ -110,6 +110,12 @@ def get_thumbnail_url(no):
             pass
     return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
 
+@app.route('/')
+@app.route('/ping')
+def ping():
+    """서버가 잠들지 않도록(Keep-alive) 주기적인 Ping을 받기 위한 라우트입니다."""
+    return "pong", 200
+
 @app.route('/api/pokemon', methods=['POST'])
 def kakao_pokemon_bot():
     try:
